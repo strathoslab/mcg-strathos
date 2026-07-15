@@ -1,0 +1,55 @@
+conflict_id,teatro,conflicto,vector,recurso,tipo_activo,ticker,nombre,justificacion
+1,Rusia–Ucrania,Rusia - Ucrania,Energético,Petróleo crudo,Commodity,BZ=F,Petróleo Brent,Referencia global afectada por sanciones a Rusia.
+1,Rusia–Ucrania,Rusia - Ucrania,Energético,Gas natural,Commodity,NG=F,Gas Natural,Referencia clave para el suministro europeo.
+1,Rusia–Ucrania,Rusia - Ucrania,Energético,GNL,Acción,LNG,Cheniere Energy,Alternativa de EE.UU. al gas por gasoducto ruso.
+1,Rusia–Ucrania,Rusia - Ucrania,Energético,Uranio,Acción,CCJ,Cameco,Búsqueda de alternativas occidentales al uranio ruso.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Trigo,Commodity,ZW=F,Futuros de Trigo,Interrupciones en el granero del mundo y rutas marítimas.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Maíz,Commodity,ZC=F,Futuros de Maíz,Caída de exportaciones desde el Mar Negro.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Fertilizantes,Acción,NTR,Nutrien,Reemplazo de la producción de potasio rusa y bielorrusa.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Procesamiento agrícola,Acción,ADM,Archer-Daniels-Midland,Afectación en la cadena global de granos.
+1,Rusia–Ucrania,Rusia - Ucrania,Minerales críticos,Paladio,Commodity,PA=F,Futuros de Paladio,Rusia concentra cerca del 40% de la producción mundial.
+1,Rusia–Ucrania,Rusia - Ucrania,Minerales críticos,Semiconductores,Acción,TSM,TSMC,Monitoreo por dependencia del gas neón ucraniano.
+1,Rusia–Ucrania,Rusia - Ucrania,Minerales críticos,Titanio y aleaciones,Acción,ATI,ATI Inc,Alternativa a la dependencia del titanio ruso (aeroespacial).
+1,Rusia–Ucrania,Rusia - Ucrania,Defensa y rearme,Armamento EE.UU.,Acción,LMT,Lockheed Martin,Aumento de demanda y envíos de misiles.
+1,Rusia–Ucrania,Rusia - Ucrania,Defensa y rearme,Armamento Europa,Acción,RHM.DE,Rheinmetall,Rearme alemán y provisión de blindados y munición pesada.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Energético,Petróleo crudo,Commodity,BZ=F,Petróleo Brent,Paso clave por el Estrecho de Ormuz (20% del crudo mundial).
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Energético,Petróleo crudo (WTI),Commodity,CL=F,Petróleo WTI,Referencia estadounidense sensible a la escalada regional.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Energético,GNL,Commodity,NG=F,Gas Natural,Riesgo de disrupción en envíos desde Medio Oriente (Qatar).
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Logística y comercio,Fletes marítimos,Acción,ZIM,Zim Integrated Shipping,Naviera israelí muy expuesta a bloqueos en el Mar Rojo.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Materiales críticos,Aluminio,Commodity,ALI=F,Futuros de Aluminio,"El Golfo Pérsico produce cerca del 10% mundial, intensivo en energía."
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Materiales críticos,Aluminio (alternativa),Acción,AA,Alcoa Corp,Alternativa occidental ante interrupciones en Medio Oriente.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Tecnología militar y drones,Acción,ESLT,Elbit Systems,Principal contratista de defensa israelí cotizado.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Defensa antiaérea,Acción,RTX,RTX Corp,Sistemas e interceptores clave para la defensa aliada.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Defensa antiaérea,Acción,LMT,Lockheed Martin,Sistemas e interceptores clave para la defensa aliada.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Ciberdefensa,Acción,CHKP,Check Point Software,Protección ante guerra híbrida y ciberataques a infraestructura.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Ciberdefensa,Acción,CYBR,CyberArk,Protección ante guerra híbrida y ciberataques a infraestructura.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Refugio financiero,Capital seguro,Commodity,GC=F,Futuros de Oro,Refugio histórico ante escalada regional a gran escala.
+31,Indo-Pacífico,China - Taiwán,Tecnología y microchips,Semiconductores avanzados,Acción,TSM,Taiwan Semiconductor,Produce más del 60% de los chips mundiales y el 90% de los avanzados.
+31,Indo-Pacífico,China - Taiwán,Tecnología y microchips,Equipamiento litográfico,Acción,ASML,ASML Holding,"Proveedor principal de maquinaria EUV, vulnerable a cuellos de botella."
+31,Indo-Pacífico,China - Taiwán,Tecnología y microchips,Dependencia tecnológica,Acción,NVDA,Nvidia,Cadena de valor dependiente casi exclusivamente de TSMC.
+31,Indo-Pacífico,China - Taiwán,Tecnología y microchips,Dependencia tecnológica,Acción,AAPL,Apple,Cadena de valor dependiente casi exclusivamente de TSMC.
+31,Indo-Pacífico,China - Taiwán,Minerales críticos,Tierras raras,ETF,REMX,VanEck Rare Earth ETF,China controla ~70% de la extracción y ~90% del procesamiento.
+31,Indo-Pacífico,China - Taiwán,Minerales críticos,Tierras raras (alternativa),Acción,MP,MP Materials,Productor occidental clave para reducir la dependencia china.
+31,Indo-Pacífico,China - Taiwán,Logística y comercio,Bloqueo del Estrecho,ETF,EWT,iShares MSCI Taiwan ETF,Termómetro de riesgo país y de bloqueo económico/naval a la isla.
+31,Indo-Pacífico,China - Taiwán,Logística y comercio,Cadenas de suministro chinas,ETF,FXI,iShares China Large-Cap,Impacto en gigantes chinos ante sanciones comerciales masivas.
+31,Indo-Pacífico,China - Taiwán,Defensa y rearme,Sistemas de misiles y naval,Acción,LMT,Lockheed Martin,Contratista de EE.UU. para defensa asimétrica de Taiwán.
+31,Indo-Pacífico,China - Taiwán,Defensa y rearme,Sistemas de misiles y naval,Acción,NOC,Northrop Grumman,Contratista de EE.UU. para defensa asimétrica de Taiwán.
+31,Indo-Pacífico,China - Taiwán,Refugio regional,Moneda de refugio,Divisa,JPY=X,Yen Japonés,Activo de refugio en Asia ante inestabilidad militar en el Indopacífico.
+40,Américas,Haití,Logística y textil,Manufactura de exportación,Acción,GIL,Gildan Activewear,Maquilas expuestas al cierre de puertos y la violencia de pandillas.
+40,Américas,Haití,Finanzas y remesas,Flujos de remesas,Acción,WU,Western Union,Impacto por parálisis bancaria y cierre de sucursales.
+41,Américas,México,Nearshoring,IED,ETF,EWW,iShares MSCI Mexico ETF,Termómetro del clima de negocios frente a la guerra de carteles.
+41,Américas,México,Logística comercial,Transporte ferroviario,Acción,CP,Canadian Pacific Kansas City,Exposición a bloqueos y seguridad en corredores del T-MEC.
+42,Américas,Colombia,Energético,Infraestructura petrolera,Acción,EC,Ecopetrol,Exposición a sabotaje de oleoductos por grupos armados.
+42,Américas,Colombia,Agrícola,Café,Commodity,KC=F,Futuros de Café (Arábica),Disrupción logística por control territorial en zonas productoras.
+43,Américas,Ecuador,Minería,Oro y cobre,Acción,LUG.TO,Lundin Gold,Principal mina de oro en Ecuador.
+43,Américas,Ecuador,Riesgo soberano,Deuda país,ETF,EMB,iShares J.P. Morgan EM Bond ETF,Riesgo por el costo fiscal del estado de excepción interno.
+44,Américas,Venezuela - Guyana,Energético,Petróleo offshore,Acción,XOM,ExxonMobil,Operador principal del Bloque Stabroek en aguas del Esequibo.
+44,Américas,Venezuela - Guyana,Energético,Petróleo offshore,Acción,HES,Hess Corporation,Socio en Guyana; cotización atada al riesgo de escaramuzas navales.
+22,África de Recursos Críticos,Níger,Combustible nuclear,Uranio,ETF,URA,Global X Uranium ETF,Exposición amplia al ciclo del uranio ante restricción del suministro nigerino.
+22,África de Recursos Críticos,Níger,Combustible nuclear,Uranio,Acción,CCJ,Cameco,Principal productor occidental; beneficiario directo de la sustitución de origen nigerino.
+17,África de Recursos Críticos,Rep. Dem. del Congo,Minerales críticos,Cobalto y cobre,Acción,GLNCY,Glencore ADR,Operador con producción de cobalto y cobre en Katanga; exposición directa al riesgo del este.
+17,África de Recursos Críticos,Rep. Dem. del Congo,Minerales críticos,Cobre,ETF,COPX,Global X Copper Miners ETF,Termómetro del sector cuprífero ante disrupción del cinturón de cobre congoleño.
+17,África de Recursos Críticos,Rep. Dem. del Congo,Cadena de baterías,Cobalto (cadena de valor),ETF,LIT,Global X Lithium & Battery Tech ETF,Proxy cotizable de la cadena de baterías que el cobalto congoleño alimenta.
+27,África de Recursos Críticos,Mozambique (Cabo Delgado),Energético,GNL,Acción,TTE,TotalEnergies,Operador del proyecto de Cabo Delgado; reanudación tras la fuerza mayor de 2021.
+27,África de Recursos Críticos,Mozambique (Cabo Delgado),Energético,GNL,Acción,E,Eni SpA (ADR),"Operador de Coral Sul FLNG, el activo de GNL ya en producción frente a Cabo Delgado."
+27,África de Recursos Críticos,Mozambique (Cabo Delgado),Energético,GNL,Acción,XOM,ExxonMobil,Socio en Rovuma LNG; decisión de inversión atada a la seguridad de la provincia.

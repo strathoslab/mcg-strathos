@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor de Conflictos Geopolíticos — Strathos Lab</title>
+<style>
+  :root{
+    --tinta:#1f2a33; --core:#26413c; --ocre:#7a6a3f;
+    --gris:#6b7480; --linea:#e2e5e2; --fondo:#fbfbfa; --panel:#ffffff;
+    --sube:#1f6f4a; --baja:#a33a2e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--fondo);color:var(--tinta);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    line-height:1.5;padding:32px 20px}
+  .wrap{max-width:1080px;margin:0 auto}
+  header{border-bottom:2px solid var(--tinta);padding-bottom:16px;margin-bottom:8px}
+  h1{font-size:24px;letter-spacing:-.01em}
+  .sub{color:var(--gris);font-size:14px;margin-top:4px}
+  .meta{font-size:12px;color:var(--gris);margin:12px 0 28px}
+  .encuadre{background:#f2f3f1;border-left:3px solid var(--core);
+    padding:12px 14px;font-size:13px;color:#2b333b;margin-bottom:28px}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.09em;
+    color:var(--core);margin:32px 0 12px;font-weight:700}
+  .senales{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+  .senal{background:var(--panel);border:1px solid var(--linea);
+    border-left:3px solid var(--ocre);border-radius:3px;padding:11px 13px}
+  .senal .tk{font-weight:700;font-size:14px}
+  .senal .nm{font-size:11px;color:var(--gris);margin-bottom:6px}
+  .senal .ct{font-size:11px;color:var(--gris);margin-top:5px}
+  .teatro{margin-top:34px}
+  .teatro > h3{font-size:17px;padding-bottom:7px;border-bottom:1px solid var(--tinta);margin-bottom:4px}
+  .conflicto{margin-top:18px}
+  .conflicto > h4{font-size:13px;color:var(--core);font-weight:700;margin-bottom:7px}
+  table{width:100%;border-collapse:collapse;background:var(--panel);
+    border:1px solid var(--linea);font-size:13px}
+  th{background:var(--tinta);color:#fff;text-align:left;padding:7px 9px;
+    font-size:10px;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+  td{padding:7px 9px;border-top:1px solid var(--linea);vertical-align:top}
+  tbody tr:nth-child(even){background:#fafbfa}
+  .tk{font-weight:700;white-space:nowrap}
+  .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .up{color:var(--sube);font-weight:600}
+  .dn{color:var(--baja);font-weight:600}
+  .just{color:var(--gris);font-size:11.5px}
+  .nd{color:#b0b6bb;font-style:italic}
+  .flag{display:inline-block;background:var(--ocre);color:#fff;font-size:9px;
+    padding:1px 5px;border-radius:2px;margin-left:5px;vertical-align:middle}
+  footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--linea);
+    font-size:11px;color:var(--gris)}
+  #err{background:#fdf3f2;border-left:3px solid var(--baja);padding:14px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Monitor de Conflictos Geopolíticos</h1>
+    <div class="sub">Strathos Lab · exposición de activos a conflictos activos</div>
+  </header>
+  <div class="meta" id="meta">Cargando datos...</div>
+  <div id="app"></div>
+  <footer id="pie"></footer>
+</div>
+
+<script>
+const pct = v => v === null || v === undefined
+  ? '<span class="nd">—</span>'
+  : `<span class="${v >= 0 ? 'up' : 'dn'}">${v >= 0 ? '+' : ''}${v.toFixed(2)}%</span>`;
+
+fetch('mcg_estado.json?v=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error('No se encontró mcg_estado.json'); return r.json(); })
+  .then(d => {
+    const m = d.meta;
+    document.getElementById('meta').innerHTML =
+      `Actualizado: <strong>${m.actualizado_utc}</strong> · ${m.vinculos} vínculos · ${m.tickers_ok} activos con datos` +
+      (m.tickers_sin_datos.length ? ` · <span class="dn">sin datos: ${m.tickers_sin_datos.join(', ')}</span>` : '');
+
+    let h = `<div class="encuadre"><strong>Encuadre.</strong> ${m.encuadre}</div>`;
+
+    if (d.senales.length) {
+      h += `<h2>Movimientos fuera de rango habitual</h2><div class="senales">`;
+      d.senales.forEach(s => {
+        h += `<div class="senal">
+          <div class="tk">${s.ticker} ${pct(s.var_1d_pct)}</div>
+          <div class="nm">${s.nombre}</div>
+          <div>30d: ${pct(s.var_30d_pct)} · z: ${s.z_score}</div>
+          <div class="ct">${s.conflicto}</div>
+        </div>`;
+      });
+      h += `</div>`;
+    }
+
+    d.teatros.forEach(t => {
+      h += `<div class="teatro"><h3>${t.teatro}</h3>`;
+      t.conflictos.forEach(c => {
+        h += `<div class="conflicto"><h4>${c.conflicto}</h4>
+          <table><thead><tr>
+            <th>Activo</th><th>Recurso</th>
+            <th class="num">Precio</th><th class="num">1d</th>
+            <th class="num">30d</th><th class="num">90d</th>
+            <th class="num">Vol 30d</th><th>Tesis de exposición</th>
+          </tr></thead><tbody>`;
+        c.activos.forEach(a => {
+          const x = a.datos;
+          if (!x) {
+            h += `<tr><td class="tk">${a.ticker}</td><td>${a.recurso}</td>
+              <td colspan="5" class="nd">sin datos de mercado</td>
+              <td class="just">${a.justificacion}</td></tr>`;
+            return;
+          }
+          const alerta = x.z_score_ultimo_dia !== null
+            && Math.abs(x.z_score_ultimo_dia) >= m.umbral_senal_sigma
+            ? '<span class="flag">señal</span>' : '';
+          h += `<tr>
+            <td class="tk">${a.ticker}${alerta}<div class="nm" style="font-weight:400;font-size:11px;color:var(--gris)">${a.nombre}</div></td>
+            <td>${a.recurso}</td>
+            <td class="num">${x.precio}</td>
+            <td class="num">${pct(x.var_1d_pct)}</td>
+            <td class="num">${pct(x.var_30d_pct)}</td>
+            <td class="num">${pct(x.var_90d_pct)}</td>
+            <td class="num">${x.volatilidad_30d_anualizada_pct ?? '—'}%</td>
+            <td class="just">${a.justificacion}</td>
+          </tr>`;
+        });
+        h += `</tbody></table></div>`;
+      });
+      h += `</div>`;
+    });
+
+    document.getElementById('app').innerHTML = h;
+    document.getElementById('pie').innerHTML =
+      `Fuente de precios: ${m.fuente_precios}. Umbral de señal: ${m.umbral_senal_sigma} desvíos. ` +
+      `Las señales indican movimientos estadísticamente inusuales, no relaciones causales con el conflicto. ` +
+      `© Strathos Lab.`;
+  })
+  .catch(e => {
+    document.getElementById('meta').innerHTML = '';
+    document.getElementById('app').innerHTML =
+      `<div id="err"><strong>Todavía no hay datos.</strong><br>
+      Esto es normal si el job aún no corrió. Andá a la pestaña <strong>Actions</strong>
+      del repositorio y ejecutá <em>MCG - Actualizar precios</em> con el botón
+      <em>Run workflow</em>. Cuando termine, recargá esta página.<br><br>
+      <span style="color:#6b7480;font-size:12px">Detalle técnico: ${e.message}</span></div>`;
+  });
+</script>
+</body>
+</html>
