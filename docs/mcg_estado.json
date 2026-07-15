@@ -1,0 +1,1320 @@
+{
+  "meta": {
+    "producto": "Monitor de Conflictos Geopolíticos (MCG)",
+    "organizacion": "Strathos Lab",
+    "actualizado_utc": "2026-07-15 18:53:48 UTC",
+    "fuente_precios": "Yahoo Finance vía yfinance",
+    "encuadre": "Monitor de exposición. Registra movimientos de activos mapeados a conflictos. No establece causalidad entre el conflicto y el movimiento de precio.",
+    "umbral_senal_sigma": 1.5,
+    "vinculos": 54,
+    "tickers_ok": 45,
+    "tickers_sin_datos": [
+      "CYBR",
+      "HES"
+    ]
+  },
+  "senales": [
+    {
+      "ticker": "ZC=F",
+      "nombre": "Futuros de Maíz",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "var_1d_pct": 8.18,
+      "var_30d_pct": 13.69,
+      "z_score": 3.79
+    },
+    {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "var_1d_pct": 7.37,
+      "var_30d_pct": 15.95,
+      "z_score": 3.66
+    },
+    {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "var_1d_pct": -3.63,
+      "var_30d_pct": 5.85,
+      "z_score": -1.99
+    },
+    {
+      "ticker": "AAPL",
+      "nombre": "Apple",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "var_1d_pct": 3.94,
+      "var_30d_pct": 12.41,
+      "z_score": 1.79
+    },
+    {
+      "ticker": "CHKP",
+      "nombre": "Check Point Software",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "var_1d_pct": -3.5,
+      "var_30d_pct": 6.59,
+      "z_score": -1.52
+    }
+  ],
+  "teatros": [
+    {
+      "teatro": "Américas",
+      "conflictos": [
+        {
+          "conflict_id": 40,
+          "conflicto": "Haití",
+          "activos": [
+            {
+              "ticker": "GIL",
+              "nombre": "Gildan Activewear",
+              "tipo_activo": "Acción",
+              "vector": "Logística y textil",
+              "recurso": "Manufactura de exportación",
+              "justificacion": "Maquilas expuestas al cierre de puertos y la violencia de pandillas.",
+              "datos": {
+                "precio": 52.47,
+                "var_1d_pct": 1.84,
+                "var_7d_pct": 3.08,
+                "var_30d_pct": -13.67,
+                "var_90d_pct": -9.67,
+                "volatilidad_30d_anualizada_pct": 64.74,
+                "z_score_ultimo_dia": 0.45,
+                "pos_rango_52s_pct": 17.0,
+                "minimo_52s": 48.49,
+                "maximo_52s": 71.94,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "WU",
+              "nombre": "Western Union",
+              "tipo_activo": "Acción",
+              "vector": "Finanzas y remesas",
+              "recurso": "Flujos de remesas",
+              "justificacion": "Impacto por parálisis bancaria y cierre de sucursales.",
+              "datos": {
+                "precio": 7.99,
+                "var_1d_pct": 1.46,
+                "var_7d_pct": 3.56,
+                "var_30d_pct": 9.32,
+                "var_90d_pct": -9.89,
+                "volatilidad_30d_anualizada_pct": 27.22,
+                "z_score_ultimo_dia": 0.85,
+                "pos_rango_52s_pct": 36.0,
+                "minimo_52s": 7.03,
+                "maximo_52s": 9.71,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        },
+        {
+          "conflict_id": 41,
+          "conflicto": "México",
+          "activos": [
+            {
+              "ticker": "EWW",
+              "nombre": "iShares MSCI Mexico ETF",
+              "tipo_activo": "ETF",
+              "vector": "Nearshoring",
+              "recurso": "IED",
+              "justificacion": "Termómetro del clima de negocios frente a la guerra de carteles.",
+              "datos": {
+                "precio": 75.62,
+                "var_1d_pct": 0.37,
+                "var_7d_pct": 1.22,
+                "var_30d_pct": -2.21,
+                "var_90d_pct": -2.56,
+                "volatilidad_30d_anualizada_pct": 22.35,
+                "z_score_ultimo_dia": 0.26,
+                "pos_rango_52s_pct": 80.7,
+                "minimo_52s": 57.08,
+                "maximo_52s": 80.05,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "CP",
+              "nombre": "Canadian Pacific Kansas City",
+              "tipo_activo": "Acción",
+              "vector": "Logística comercial",
+              "recurso": "Transporte ferroviario",
+              "justificacion": "Exposición a bloqueos y seguridad en corredores del T-MEC.",
+              "datos": {
+                "precio": 90.46,
+                "var_1d_pct": -0.97,
+                "var_7d_pct": 1.19,
+                "var_30d_pct": 0.64,
+                "var_90d_pct": 10.3,
+                "volatilidad_30d_anualizada_pct": 19.32,
+                "z_score_ultimo_dia": -0.8,
+                "pos_rango_52s_pct": 96.1,
+                "minimo_52s": 68.59,
+                "maximo_52s": 91.35,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        },
+        {
+          "conflict_id": 42,
+          "conflicto": "Colombia",
+          "activos": [
+            {
+              "ticker": "EC",
+              "nombre": "Ecopetrol",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "Infraestructura petrolera",
+              "justificacion": "Exposición a sabotaje de oleoductos por grupos armados.",
+              "datos": {
+                "precio": 16.09,
+                "var_1d_pct": -0.43,
+                "var_7d_pct": 6.35,
+                "var_30d_pct": -2.96,
+                "var_90d_pct": 25.01,
+                "volatilidad_30d_anualizada_pct": 42.22,
+                "z_score_ultimo_dia": -0.16,
+                "pos_rango_52s_pct": 94.4,
+                "minimo_52s": 7.9,
+                "maximo_52s": 16.58,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "KC=F",
+              "nombre": "Futuros de Café (Arábica)",
+              "tipo_activo": "Commodity",
+              "vector": "Agrícola",
+              "recurso": "Café",
+              "justificacion": "Disrupción logística por control territorial en zonas productoras.",
+              "datos": {
+                "precio": 324.5,
+                "var_1d_pct": -3.77,
+                "var_7d_pct": 0.08,
+                "var_30d_pct": 26.17,
+                "var_90d_pct": 7.22,
+                "volatilidad_30d_anualizada_pct": 71.06,
+                "z_score_ultimo_dia": -0.84,
+                "pos_rango_52s_pct": 42.6,
+                "minimo_52s": 244.4,
+                "maximo_52s": 432.35,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        },
+        {
+          "conflict_id": 43,
+          "conflicto": "Ecuador",
+          "activos": [
+            {
+              "ticker": "LUG.TO",
+              "nombre": "Lundin Gold",
+              "tipo_activo": "Acción",
+              "vector": "Minería",
+              "recurso": "Oro y cobre",
+              "justificacion": "Principal mina de oro en Ecuador.",
+              "datos": {
+                "precio": 76.03,
+                "var_1d_pct": -1.16,
+                "var_7d_pct": -0.91,
+                "var_30d_pct": -7.09,
+                "var_90d_pct": -26.56,
+                "volatilidad_30d_anualizada_pct": 55.21,
+                "z_score_ultimo_dia": -0.33,
+                "pos_rango_52s_pct": 31.8,
+                "minimo_52s": 56.66,
+                "maximo_52s": 117.66,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "EMB",
+              "nombre": "iShares J.P. Morgan EM Bond ETF",
+              "tipo_activo": "ETF",
+              "vector": "Riesgo soberano",
+              "recurso": "Deuda país",
+              "justificacion": "Riesgo por el costo fiscal del estado de excepción interno.",
+              "datos": {
+                "precio": 95.75,
+                "var_1d_pct": 0.19,
+                "var_7d_pct": -0.04,
+                "var_30d_pct": -0.21,
+                "var_90d_pct": 0.54,
+                "volatilidad_30d_anualizada_pct": 5.74,
+                "z_score_ultimo_dia": 0.54,
+                "pos_rango_52s_pct": 93.0,
+                "minimo_52s": 86.97,
+                "maximo_52s": 96.42,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        },
+        {
+          "conflict_id": 44,
+          "conflicto": "Venezuela - Guyana",
+          "activos": [
+            {
+              "ticker": "XOM",
+              "nombre": "ExxonMobil",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "Petróleo offshore",
+              "justificacion": "Operador principal del Bloque Stabroek en aguas del Esequibo.",
+              "datos": {
+                "precio": 143.64,
+                "var_1d_pct": -1.0,
+                "var_7d_pct": 1.78,
+                "var_30d_pct": -2.29,
+                "var_90d_pct": -3.1,
+                "volatilidad_30d_anualizada_pct": 27.81,
+                "z_score_ultimo_dia": -0.57,
+                "pos_rango_52s_pct": 60.6,
+                "minimo_52s": 102.56,
+                "maximo_52s": 170.31,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "HES",
+              "nombre": "Hess Corporation",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "Petróleo offshore",
+              "justificacion": "Socio en Guyana; cotización atada al riesgo de escaramuzas navales.",
+              "datos": null,
+              "estado_dato": "sin_datos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "teatro": "Complejo Israel–Irán",
+      "conflictos": [
+        {
+          "conflict_id": 9,
+          "conflicto": "Irán–Israel–EE.UU.",
+          "activos": [
+            {
+              "ticker": "BZ=F",
+              "nombre": "Petróleo Brent",
+              "tipo_activo": "Commodity",
+              "vector": "Energético",
+              "recurso": "Petróleo crudo",
+              "justificacion": "Paso clave por el Estrecho de Ormuz (20% del crudo mundial).",
+              "datos": {
+                "precio": 85.04,
+                "var_1d_pct": 0.37,
+                "var_7d_pct": 9.0,
+                "var_30d_pct": -2.62,
+                "var_90d_pct": -10.29,
+                "volatilidad_30d_anualizada_pct": 50.02,
+                "z_score_ultimo_dia": 0.12,
+                "pos_rango_52s_pct": 44.0,
+                "minimo_52s": 58.92,
+                "maximo_52s": 118.35,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "CL=F",
+              "nombre": "Petróleo WTI",
+              "tipo_activo": "Commodity",
+              "vector": "Energético",
+              "recurso": "Petróleo crudo (WTI)",
+              "justificacion": "Referencia estadounidense sensible a la escalada regional.",
+              "datos": {
+                "precio": 79.74,
+                "var_1d_pct": 0.5,
+                "var_7d_pct": 8.46,
+                "var_30d_pct": -6.06,
+                "var_90d_pct": -12.64,
+                "volatilidad_30d_anualizada_pct": 50.13,
+                "z_score_ultimo_dia": 0.16,
+                "pos_rango_52s_pct": 42.4,
+                "minimo_52s": 55.27,
+                "maximo_52s": 112.95,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "NG=F",
+              "nombre": "Gas Natural",
+              "tipo_activo": "Commodity",
+              "vector": "Energético",
+              "recurso": "GNL",
+              "justificacion": "Riesgo de disrupción en envíos desde Medio Oriente (Qatar).",
+              "datos": {
+                "precio": 2.93,
+                "var_1d_pct": 0.79,
+                "var_7d_pct": -8.87,
+                "var_30d_pct": -6.19,
+                "var_90d_pct": 12.62,
+                "volatilidad_30d_anualizada_pct": 39.46,
+                "z_score_ultimo_dia": 0.32,
+                "pos_rango_52s_pct": 8.2,
+                "minimo_52s": 2.52,
+                "maximo_52s": 7.46,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ZIM",
+              "nombre": "Zim Integrated Shipping",
+              "tipo_activo": "Acción",
+              "vector": "Logística y comercio",
+              "recurso": "Fletes marítimos",
+              "justificacion": "Naviera israelí muy expuesta a bloqueos en el Mar Rojo.",
+              "datos": {
+                "precio": 24.59,
+                "var_1d_pct": 0.8,
+                "var_7d_pct": -0.02,
+                "var_30d_pct": -6.23,
+                "var_90d_pct": -6.8,
+                "volatilidad_30d_anualizada_pct": 38.81,
+                "z_score_ultimo_dia": 0.33,
+                "pos_rango_52s_pct": 76.1,
+                "minimo_52s": 12.03,
+                "maximo_52s": 28.55,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ALI=F",
+              "nombre": "Futuros de Aluminio",
+              "tipo_activo": "Commodity",
+              "vector": "Materiales críticos",
+              "recurso": "Aluminio",
+              "justificacion": "El Golfo Pérsico produce cerca del 10% mundial, intensivo en energía.",
+              "datos": {
+                "precio": 3337.25,
+                "var_1d_pct": -3.21,
+                "var_7d_pct": -2.85,
+                "var_30d_pct": -13.51,
+                "var_90d_pct": -6.59,
+                "volatilidad_30d_anualizada_pct": 39.48,
+                "z_score_ultimo_dia": -1.29,
+                "pos_rango_52s_pct": 51.5,
+                "minimo_52s": 2427.0,
+                "maximo_52s": 4195.0,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "AA",
+              "nombre": "Alcoa Corp",
+              "tipo_activo": "Acción",
+              "vector": "Materiales críticos",
+              "recurso": "Aluminio (alternativa)",
+              "justificacion": "Alternativa occidental ante interrupciones en Medio Oriente.",
+              "datos": {
+                "precio": 48.67,
+                "var_1d_pct": -0.81,
+                "var_7d_pct": 0.32,
+                "var_30d_pct": -29.24,
+                "var_90d_pct": -32.15,
+                "volatilidad_30d_anualizada_pct": 62.03,
+                "z_score_ultimo_dia": -0.21,
+                "pos_rango_52s_pct": 36.9,
+                "minimo_52s": 28.14,
+                "maximo_52s": 83.79,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ESLT",
+              "nombre": "Elbit Systems",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y ciberseguridad",
+              "recurso": "Tecnología militar y drones",
+              "justificacion": "Principal contratista de defensa israelí cotizado.",
+              "datos": {
+                "precio": 733.3,
+                "var_1d_pct": -0.41,
+                "var_7d_pct": -5.99,
+                "var_30d_pct": -14.03,
+                "var_90d_pct": -20.26,
+                "volatilidad_30d_anualizada_pct": 53.23,
+                "z_score_ultimo_dia": -0.12,
+                "pos_rango_52s_pct": 52.3,
+                "minimo_52s": 427.77,
+                "maximo_52s": 1011.93,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "RTX",
+              "nombre": "RTX Corp",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y ciberseguridad",
+              "recurso": "Defensa antiaérea",
+              "justificacion": "Sistemas e interceptores clave para la defensa aliada.",
+              "datos": {
+                "precio": 195.33,
+                "var_1d_pct": 1.0,
+                "var_7d_pct": 0.22,
+                "var_30d_pct": 6.43,
+                "var_90d_pct": -3.29,
+                "volatilidad_30d_anualizada_pct": 30.45,
+                "z_score_ultimo_dia": 0.52,
+                "pos_rango_52s_pct": 75.4,
+                "minimo_52s": 146.35,
+                "maximo_52s": 211.28,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "LMT",
+              "nombre": "Lockheed Martin",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y ciberseguridad",
+              "recurso": "Defensa antiaérea",
+              "justificacion": "Sistemas e interceptores clave para la defensa aliada.",
+              "datos": {
+                "precio": 514.2,
+                "var_1d_pct": -0.15,
+                "var_7d_pct": -2.61,
+                "var_30d_pct": -4.84,
+                "var_90d_pct": -15.37,
+                "volatilidad_30d_anualizada_pct": 32.49,
+                "z_score_ultimo_dia": -0.07,
+                "pos_rango_52s_pct": 41.9,
+                "minimo_52s": 399.95,
+                "maximo_52s": 672.3,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "CHKP",
+              "nombre": "Check Point Software",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y ciberseguridad",
+              "recurso": "Ciberdefensa",
+              "justificacion": "Protección ante guerra híbrida y ciberataques a infraestructura.",
+              "datos": {
+                "precio": 132.23,
+                "var_1d_pct": -3.5,
+                "var_7d_pct": -3.38,
+                "var_30d_pct": 6.59,
+                "var_90d_pct": -1.89,
+                "volatilidad_30d_anualizada_pct": 36.51,
+                "z_score_ultimo_dia": -1.52,
+                "pos_rango_52s_pct": 17.9,
+                "minimo_52s": 112.47,
+                "maximo_52s": 223.0,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "CYBR",
+              "nombre": "CyberArk",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y ciberseguridad",
+              "recurso": "Ciberdefensa",
+              "justificacion": "Protección ante guerra híbrida y ciberataques a infraestructura.",
+              "datos": null,
+              "estado_dato": "sin_datos"
+            },
+            {
+              "ticker": "GC=F",
+              "nombre": "Futuros de Oro",
+              "tipo_activo": "Commodity",
+              "vector": "Refugio financiero",
+              "recurso": "Capital seguro",
+              "justificacion": "Refugio histórico ante escalada regional a gran escala.",
+              "datos": {
+                "precio": 4075.8,
+                "var_1d_pct": 0.36,
+                "var_7d_pct": 0.12,
+                "var_30d_pct": -3.3,
+                "var_90d_pct": -15.53,
+                "volatilidad_30d_anualizada_pct": 27.78,
+                "z_score_ultimo_dia": 0.21,
+                "pos_rango_52s_pct": 38.6,
+                "minimo_52s": 3293.2,
+                "maximo_52s": 5318.4,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "teatro": "Indo-Pacífico",
+      "conflictos": [
+        {
+          "conflict_id": 31,
+          "conflicto": "China - Taiwán",
+          "activos": [
+            {
+              "ticker": "TSM",
+              "nombre": "Taiwan Semiconductor",
+              "tipo_activo": "Acción",
+              "vector": "Tecnología y microchips",
+              "recurso": "Semiconductores avanzados",
+              "justificacion": "Produce más del 60% de los chips mundiales y el 90% de los avanzados.",
+              "datos": {
+                "precio": 418.29,
+                "var_1d_pct": -0.5,
+                "var_7d_pct": -4.28,
+                "var_30d_pct": -1.33,
+                "var_90d_pct": 10.37,
+                "volatilidad_30d_anualizada_pct": 57.34,
+                "z_score_ultimo_dia": -0.14,
+                "pos_rango_52s_pct": 76.5,
+                "minimo_52s": 224.84,
+                "maximo_52s": 477.57,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ASML",
+              "nombre": "ASML Holding",
+              "tipo_activo": "Acción",
+              "vector": "Tecnología y microchips",
+              "recurso": "Equipamiento litográfico",
+              "justificacion": "Proveedor principal de maquinaria EUV, vulnerable a cuellos de botella.",
+              "datos": {
+                "precio": 1780.69,
+                "var_1d_pct": 0.28,
+                "var_7d_pct": 0.68,
+                "var_30d_pct": -4.45,
+                "var_90d_pct": 17.54,
+                "volatilidad_30d_anualizada_pct": 67.99,
+                "z_score_ultimo_dia": 0.07,
+                "pos_rango_52s_pct": 84.0,
+                "minimo_52s": 686.0,
+                "maximo_52s": 1989.44,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "NVDA",
+              "nombre": "Nvidia",
+              "tipo_activo": "Acción",
+              "vector": "Tecnología y microchips",
+              "recurso": "Dependencia tecnológica",
+              "justificacion": "Cadena de valor dependiente casi exclusivamente de TSMC.",
+              "datos": {
+                "precio": 210.08,
+                "var_1d_pct": -0.81,
+                "var_7d_pct": 2.92,
+                "var_30d_pct": 2.38,
+                "var_90d_pct": 7.03,
+                "volatilidad_30d_anualizada_pct": 41.82,
+                "z_score_ultimo_dia": -0.31,
+                "pos_rango_52s_pct": 64.0,
+                "minimo_52s": 164.98,
+                "maximo_52s": 235.47,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "AAPL",
+              "nombre": "Apple",
+              "tipo_activo": "Acción",
+              "vector": "Tecnología y microchips",
+              "recurso": "Dependencia tecnológica",
+              "justificacion": "Cadena de valor dependiente casi exclusivamente de TSMC.",
+              "datos": {
+                "precio": 327.25,
+                "var_1d_pct": 3.94,
+                "var_7d_pct": 4.42,
+                "var_30d_pct": 12.41,
+                "var_90d_pct": 26.55,
+                "volatilidad_30d_anualizada_pct": 34.98,
+                "z_score_ultimo_dia": 1.79,
+                "pos_rango_52s_pct": 100.0,
+                "minimo_52s": 201.58,
+                "maximo_52s": 327.25,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "REMX",
+              "nombre": "VanEck Rare Earth ETF",
+              "tipo_activo": "ETF",
+              "vector": "Minerales críticos",
+              "recurso": "Tierras raras",
+              "justificacion": "China controla ~70% de la extracción y ~90% del procesamiento.",
+              "datos": {
+                "precio": 76.75,
+                "var_1d_pct": -3.02,
+                "var_7d_pct": -3.64,
+                "var_30d_pct": -19.63,
+                "var_90d_pct": -22.32,
+                "volatilidad_30d_anualizada_pct": 52.49,
+                "z_score_ultimo_dia": -0.91,
+                "pos_rango_52s_pct": 48.0,
+                "minimo_52s": 46.51,
+                "maximo_52s": 109.53,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "MP",
+              "nombre": "MP Materials",
+              "tipo_activo": "Acción",
+              "vector": "Minerales críticos",
+              "recurso": "Tierras raras (alternativa)",
+              "justificacion": "Productor occidental clave para reducir la dependencia china.",
+              "datos": {
+                "precio": 49.22,
+                "var_1d_pct": -3.09,
+                "var_7d_pct": -7.13,
+                "var_30d_pct": -14.47,
+                "var_90d_pct": -14.19,
+                "volatilidad_30d_anualizada_pct": 60.2,
+                "z_score_ultimo_dia": -0.82,
+                "pos_rango_52s_pct": 6.8,
+                "minimo_52s": 45.59,
+                "maximo_52s": 98.65,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "EWT",
+              "nombre": "iShares MSCI Taiwan ETF",
+              "tipo_activo": "ETF",
+              "vector": "Logística y comercio",
+              "recurso": "Bloqueo del Estrecho",
+              "justificacion": "Termómetro de riesgo país y de bloqueo económico/naval a la isla.",
+              "datos": {
+                "precio": 102.12,
+                "var_1d_pct": 0.24,
+                "var_7d_pct": -1.71,
+                "var_30d_pct": -0.49,
+                "var_90d_pct": 27.32,
+                "volatilidad_30d_anualizada_pct": 46.18,
+                "z_score_ultimo_dia": 0.08,
+                "pos_rango_52s_pct": 83.2,
+                "minimo_52s": 55.5,
+                "maximo_52s": 111.53,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "FXI",
+              "nombre": "iShares China Large-Cap",
+              "tipo_activo": "ETF",
+              "vector": "Logística y comercio",
+              "recurso": "Cadenas de suministro chinas",
+              "justificacion": "Impacto en gigantes chinos ante sanciones comerciales masivas.",
+              "datos": {
+                "precio": 34.31,
+                "var_1d_pct": 1.61,
+                "var_7d_pct": 2.62,
+                "var_30d_pct": -2.03,
+                "var_90d_pct": -6.28,
+                "volatilidad_30d_anualizada_pct": 22.18,
+                "z_score_ultimo_dia": 1.15,
+                "pos_rango_52s_pct": 29.0,
+                "minimo_52s": 31.59,
+                "maximo_52s": 40.99,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "LMT",
+              "nombre": "Lockheed Martin",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y rearme",
+              "recurso": "Sistemas de misiles y naval",
+              "justificacion": "Contratista de EE.UU. para defensa asimétrica de Taiwán.",
+              "datos": {
+                "precio": 514.2,
+                "var_1d_pct": -0.15,
+                "var_7d_pct": -2.61,
+                "var_30d_pct": -4.84,
+                "var_90d_pct": -15.37,
+                "volatilidad_30d_anualizada_pct": 32.49,
+                "z_score_ultimo_dia": -0.07,
+                "pos_rango_52s_pct": 41.9,
+                "minimo_52s": 399.95,
+                "maximo_52s": 672.3,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "NOC",
+              "nombre": "Northrop Grumman",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y rearme",
+              "recurso": "Sistemas de misiles y naval",
+              "justificacion": "Contratista de EE.UU. para defensa asimétrica de Taiwán.",
+              "datos": {
+                "precio": 530.18,
+                "var_1d_pct": 0.29,
+                "var_7d_pct": -2.74,
+                "var_30d_pct": -3.66,
+                "var_90d_pct": -21.7,
+                "volatilidad_30d_anualizada_pct": 33.04,
+                "z_score_ultimo_dia": 0.14,
+                "pos_rango_52s_pct": 12.7,
+                "minimo_52s": 496.02,
+                "maximo_52s": 764.65,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "JPY=X",
+              "nombre": "Yen Japonés",
+              "tipo_activo": "Divisa",
+              "vector": "Refugio regional",
+              "recurso": "Moneda de refugio",
+              "justificacion": "Activo de refugio en Asia ante inestabilidad militar en el Indopacífico.",
+              "datos": {
+                "precio": 162.02,
+                "var_1d_pct": -0.25,
+                "var_7d_pct": -0.21,
+                "var_30d_pct": 1.12,
+                "var_90d_pct": 1.77,
+                "volatilidad_30d_anualizada_pct": 3.6,
+                "z_score_ultimo_dia": -1.12,
+                "pos_rango_52s_pct": 96.2,
+                "minimo_52s": 146.41,
+                "maximo_52s": 162.63,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "teatro": "Rusia–Ucrania",
+      "conflictos": [
+        {
+          "conflict_id": 1,
+          "conflicto": "Rusia - Ucrania",
+          "activos": [
+            {
+              "ticker": "BZ=F",
+              "nombre": "Petróleo Brent",
+              "tipo_activo": "Commodity",
+              "vector": "Energético",
+              "recurso": "Petróleo crudo",
+              "justificacion": "Referencia global afectada por sanciones a Rusia.",
+              "datos": {
+                "precio": 85.04,
+                "var_1d_pct": 0.37,
+                "var_7d_pct": 9.0,
+                "var_30d_pct": -2.62,
+                "var_90d_pct": -10.29,
+                "volatilidad_30d_anualizada_pct": 50.02,
+                "z_score_ultimo_dia": 0.12,
+                "pos_rango_52s_pct": 44.0,
+                "minimo_52s": 58.92,
+                "maximo_52s": 118.35,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "NG=F",
+              "nombre": "Gas Natural",
+              "tipo_activo": "Commodity",
+              "vector": "Energético",
+              "recurso": "Gas natural",
+              "justificacion": "Referencia clave para el suministro europeo.",
+              "datos": {
+                "precio": 2.93,
+                "var_1d_pct": 0.79,
+                "var_7d_pct": -8.87,
+                "var_30d_pct": -6.19,
+                "var_90d_pct": 12.62,
+                "volatilidad_30d_anualizada_pct": 39.46,
+                "z_score_ultimo_dia": 0.32,
+                "pos_rango_52s_pct": 8.2,
+                "minimo_52s": 2.52,
+                "maximo_52s": 7.46,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "LNG",
+              "nombre": "Cheniere Energy",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "GNL",
+              "justificacion": "Alternativa de EE.UU. al gas por gasoducto ruso.",
+              "datos": {
+                "precio": 255.4,
+                "var_1d_pct": -3.63,
+                "var_7d_pct": -2.12,
+                "var_30d_pct": 5.85,
+                "var_90d_pct": -1.42,
+                "volatilidad_30d_anualizada_pct": 28.99,
+                "z_score_ultimo_dia": -1.99,
+                "pos_rango_52s_pct": 62.3,
+                "minimo_52s": 187.9,
+                "maximo_52s": 296.22,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "CCJ",
+              "nombre": "Cameco",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "Uranio",
+              "justificacion": "Búsqueda de alternativas occidentales al uranio ruso.",
+              "datos": {
+                "precio": 90.36,
+                "var_1d_pct": -1.33,
+                "var_7d_pct": -4.62,
+                "var_30d_pct": -10.5,
+                "var_90d_pct": -22.15,
+                "volatilidad_30d_anualizada_pct": 56.18,
+                "z_score_ultimo_dia": -0.37,
+                "pos_rango_52s_pct": 31.4,
+                "minimo_52s": 70.33,
+                "maximo_52s": 134.09,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ZW=F",
+              "nombre": "Futuros de Trigo",
+              "tipo_activo": "Commodity",
+              "vector": "Agro y soberanía",
+              "recurso": "Trigo",
+              "justificacion": "Interrupciones en el granero del mundo y rutas marítimas.",
+              "datos": {
+                "precio": 677.75,
+                "var_1d_pct": 7.37,
+                "var_7d_pct": 13.05,
+                "var_30d_pct": 15.95,
+                "var_90d_pct": 14.48,
+                "volatilidad_30d_anualizada_pct": 31.93,
+                "z_score_ultimo_dia": 3.66,
+                "pos_rango_52s_pct": 100.0,
+                "minimo_52s": 495.0,
+                "maximo_52s": 677.75,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ZC=F",
+              "nombre": "Futuros de Maíz",
+              "tipo_activo": "Commodity",
+              "vector": "Agro y soberanía",
+              "recurso": "Maíz",
+              "justificacion": "Caída de exportaciones desde el Mar Negro.",
+              "datos": {
+                "precio": 469.25,
+                "var_1d_pct": 8.18,
+                "var_7d_pct": 7.94,
+                "var_30d_pct": 13.69,
+                "var_90d_pct": 5.93,
+                "volatilidad_30d_anualizada_pct": 34.24,
+                "z_score_ultimo_dia": 3.79,
+                "pos_rango_52s_pct": 92.7,
+                "minimo_52s": 371.5,
+                "maximo_52s": 477.0,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "NTR",
+              "nombre": "Nutrien",
+              "tipo_activo": "Acción",
+              "vector": "Agro y soberanía",
+              "recurso": "Fertilizantes",
+              "justificacion": "Reemplazo de la producción de potasio rusa y bielorrusa.",
+              "datos": {
+                "precio": 68.07,
+                "var_1d_pct": -0.83,
+                "var_7d_pct": 1.96,
+                "var_30d_pct": 1.58,
+                "var_90d_pct": -6.7,
+                "volatilidad_30d_anualizada_pct": 29.7,
+                "z_score_ultimo_dia": -0.44,
+                "pos_rango_52s_pct": 51.3,
+                "minimo_52s": 52.78,
+                "maximo_52s": 82.59,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ADM",
+              "nombre": "Archer-Daniels-Midland",
+              "tipo_activo": "Acción",
+              "vector": "Agro y soberanía",
+              "recurso": "Procesamiento agrícola",
+              "justificacion": "Afectación en la cadena global de granos.",
+              "datos": {
+                "precio": 82.58,
+                "var_1d_pct": 0.37,
+                "var_7d_pct": 2.86,
+                "var_30d_pct": 2.92,
+                "var_90d_pct": 20.76,
+                "volatilidad_30d_anualizada_pct": 24.1,
+                "z_score_ultimo_dia": 0.24,
+                "pos_rango_52s_pct": 95.3,
+                "minimo_52s": 51.9,
+                "maximo_52s": 84.11,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "PA=F",
+              "nombre": "Futuros de Paladio",
+              "tipo_activo": "Commodity",
+              "vector": "Minerales críticos",
+              "recurso": "Paladio",
+              "justificacion": "Rusia concentra cerca del 40% de la producción mundial.",
+              "datos": {
+                "precio": 1318.5,
+                "var_1d_pct": 1.53,
+                "var_7d_pct": 8.66,
+                "var_30d_pct": 3.31,
+                "var_90d_pct": -16.52,
+                "volatilidad_30d_anualizada_pct": 47.41,
+                "z_score_ultimo_dia": 0.51,
+                "pos_rango_52s_pct": 21.7,
+                "minimo_52s": 1082.0,
+                "maximo_52s": 2169.9,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "TSM",
+              "nombre": "TSMC",
+              "tipo_activo": "Acción",
+              "vector": "Minerales críticos",
+              "recurso": "Semiconductores",
+              "justificacion": "Monitoreo por dependencia del gas neón ucraniano.",
+              "datos": {
+                "precio": 418.29,
+                "var_1d_pct": -0.5,
+                "var_7d_pct": -4.28,
+                "var_30d_pct": -1.33,
+                "var_90d_pct": 10.37,
+                "volatilidad_30d_anualizada_pct": 57.34,
+                "z_score_ultimo_dia": -0.14,
+                "pos_rango_52s_pct": 76.5,
+                "minimo_52s": 224.84,
+                "maximo_52s": 477.57,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "ATI",
+              "nombre": "ATI Inc",
+              "tipo_activo": "Acción",
+              "vector": "Minerales críticos",
+              "recurso": "Titanio y aleaciones",
+              "justificacion": "Alternativa a la dependencia del titanio ruso (aeroespacial).",
+              "datos": {
+                "precio": 191.49,
+                "var_1d_pct": 1.08,
+                "var_7d_pct": 3.17,
+                "var_30d_pct": -3.52,
+                "var_90d_pct": 17.46,
+                "volatilidad_30d_anualizada_pct": 38.84,
+                "z_score_ultimo_dia": 0.44,
+                "pos_rango_52s_pct": 90.5,
+                "minimo_52s": 71.34,
+                "maximo_52s": 204.09,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "LMT",
+              "nombre": "Lockheed Martin",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y rearme",
+              "recurso": "Armamento EE.UU.",
+              "justificacion": "Aumento de demanda y envíos de misiles.",
+              "datos": {
+                "precio": 514.2,
+                "var_1d_pct": -0.15,
+                "var_7d_pct": -2.61,
+                "var_30d_pct": -4.84,
+                "var_90d_pct": -15.37,
+                "volatilidad_30d_anualizada_pct": 32.49,
+                "z_score_ultimo_dia": -0.07,
+                "pos_rango_52s_pct": 41.9,
+                "minimo_52s": 399.95,
+                "maximo_52s": 672.3,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "RHM.DE",
+              "nombre": "Rheinmetall",
+              "tipo_activo": "Acción",
+              "vector": "Defensa y rearme",
+              "recurso": "Armamento Europa",
+              "justificacion": "Rearme alemán y provisión de blindados y munición pesada.",
+              "datos": {
+                "precio": 976.1,
+                "var_1d_pct": -0.39,
+                "var_7d_pct": -7.81,
+                "var_30d_pct": -14.8,
+                "var_90d_pct": -34.15,
+                "volatilidad_30d_anualizada_pct": 68.06,
+                "z_score_ultimo_dia": -0.09,
+                "pos_rango_52s_pct": 2.9,
+                "minimo_52s": 946.6,
+                "maximo_52s": 1968.82,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "teatro": "África de Recursos Críticos",
+      "conflictos": [
+        {
+          "conflict_id": 17,
+          "conflicto": "Rep. Dem. del Congo",
+          "activos": [
+            {
+              "ticker": "GLNCY",
+              "nombre": "Glencore ADR",
+              "tipo_activo": "Acción",
+              "vector": "Minerales críticos",
+              "recurso": "Cobalto y cobre",
+              "justificacion": "Operador con producción de cobalto y cobre en Katanga; exposición directa al riesgo del este.",
+              "datos": {
+                "precio": 14.08,
+                "var_1d_pct": -0.35,
+                "var_7d_pct": 4.84,
+                "var_30d_pct": -10.77,
+                "var_90d_pct": -6.94,
+                "volatilidad_30d_anualizada_pct": 41.68,
+                "z_score_ultimo_dia": -0.13,
+                "pos_rango_52s_pct": 72.4,
+                "minimo_52s": 7.46,
+                "maximo_52s": 16.61,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "COPX",
+              "nombre": "Global X Copper Miners ETF",
+              "tipo_activo": "ETF",
+              "vector": "Minerales críticos",
+              "recurso": "Cobre",
+              "justificacion": "Termómetro del sector cuprífero ante disrupción del cinturón de cobre congoleño.",
+              "datos": {
+                "precio": 77.38,
+                "var_1d_pct": -1.7,
+                "var_7d_pct": 5.94,
+                "var_30d_pct": -9.69,
+                "var_90d_pct": -10.17,
+                "volatilidad_30d_anualizada_pct": 60.28,
+                "z_score_ultimo_dia": -0.45,
+                "pos_rango_52s_pct": 66.5,
+                "minimo_52s": 41.63,
+                "maximo_52s": 95.38,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "LIT",
+              "nombre": "Global X Lithium & Battery Tech ETF",
+              "tipo_activo": "ETF",
+              "vector": "Cadena de baterías",
+              "recurso": "Cobalto (cadena de valor)",
+              "justificacion": "Proxy cotizable de la cadena de baterías que el cobalto congoleño alimenta.",
+              "datos": {
+                "precio": 71.0,
+                "var_1d_pct": -0.81,
+                "var_7d_pct": -1.55,
+                "var_30d_pct": -13.43,
+                "var_90d_pct": -11.48,
+                "volatilidad_30d_anualizada_pct": 37.42,
+                "z_score_ultimo_dia": -0.34,
+                "pos_rango_52s_pct": 60.9,
+                "minimo_52s": 39.45,
+                "maximo_52s": 91.23,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        },
+        {
+          "conflict_id": 22,
+          "conflicto": "Níger",
+          "activos": [
+            {
+              "ticker": "URA",
+              "nombre": "Global X Uranium ETF",
+              "tipo_activo": "ETF",
+              "vector": "Combustible nuclear",
+              "recurso": "Uranio",
+              "justificacion": "Exposición amplia al ciclo del uranio ante restricción del suministro nigerino.",
+              "datos": {
+                "precio": 40.8,
+                "var_1d_pct": -1.81,
+                "var_7d_pct": -2.06,
+                "var_30d_pct": -10.37,
+                "var_90d_pct": -22.79,
+                "volatilidad_30d_anualizada_pct": 54.49,
+                "z_score_ultimo_dia": -0.53,
+                "pos_rango_52s_pct": 22.2,
+                "minimo_52s": 34.79,
+                "maximo_52s": 61.81,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "CCJ",
+              "nombre": "Cameco",
+              "tipo_activo": "Acción",
+              "vector": "Combustible nuclear",
+              "recurso": "Uranio",
+              "justificacion": "Principal productor occidental; beneficiario directo de la sustitución de origen nigerino.",
+              "datos": {
+                "precio": 90.36,
+                "var_1d_pct": -1.33,
+                "var_7d_pct": -4.62,
+                "var_30d_pct": -10.5,
+                "var_90d_pct": -22.15,
+                "volatilidad_30d_anualizada_pct": 56.18,
+                "z_score_ultimo_dia": -0.37,
+                "pos_rango_52s_pct": 31.4,
+                "minimo_52s": 70.33,
+                "maximo_52s": 134.09,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        },
+        {
+          "conflict_id": 27,
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "activos": [
+            {
+              "ticker": "TTE",
+              "nombre": "TotalEnergies",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "GNL",
+              "justificacion": "Operador del proyecto de Cabo Delgado; reanudación tras la fuerza mayor de 2021.",
+              "datos": {
+                "precio": 80.42,
+                "var_1d_pct": -0.61,
+                "var_7d_pct": 1.96,
+                "var_30d_pct": -8.64,
+                "var_90d_pct": -11.62,
+                "volatilidad_30d_anualizada_pct": 26.69,
+                "z_score_ultimo_dia": -0.36,
+                "pos_rango_52s_pct": 65.0,
+                "minimo_52s": 55.92,
+                "maximo_52s": 93.6,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "E",
+              "nombre": "Eni SpA (ADR)",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "GNL",
+              "justificacion": "Operador de Coral Sul FLNG, el activo de GNL ya en producción frente a Cabo Delgado.",
+              "datos": {
+                "precio": 48.9,
+                "var_1d_pct": -1.31,
+                "var_7d_pct": 1.03,
+                "var_30d_pct": -8.6,
+                "var_90d_pct": -10.72,
+                "volatilidad_30d_anualizada_pct": 27.71,
+                "z_score_ultimo_dia": -0.75,
+                "pos_rango_52s_pct": 67.4,
+                "minimo_52s": 32.19,
+                "maximo_52s": 56.97,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            },
+            {
+              "ticker": "XOM",
+              "nombre": "ExxonMobil",
+              "tipo_activo": "Acción",
+              "vector": "Energético",
+              "recurso": "GNL",
+              "justificacion": "Socio en Rovuma LNG; decisión de inversión atada a la seguridad de la provincia.",
+              "datos": {
+                "precio": 143.64,
+                "var_1d_pct": -1.0,
+                "var_7d_pct": 1.78,
+                "var_30d_pct": -2.29,
+                "var_90d_pct": -3.1,
+                "volatilidad_30d_anualizada_pct": 27.81,
+                "z_score_ultimo_dia": -0.57,
+                "pos_rango_52s_pct": 60.6,
+                "minimo_52s": 102.56,
+                "maximo_52s": 170.31,
+                "ultima_fecha": "2026-07-15"
+              },
+              "estado_dato": "ok"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
