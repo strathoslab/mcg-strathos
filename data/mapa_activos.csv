@@ -22,7 +22,7 @@ conflict_id,teatro,conflicto,vector,recurso,tipo_activo,ticker,nombre,justificac
 9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Defensa antiaérea,Acción,RTX,RTX Corp,Sistemas e interceptores clave para la defensa aliada.
 9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Defensa antiaérea,Acción,LMT,Lockheed Martin,Sistemas e interceptores clave para la defensa aliada.
 9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Ciberdefensa,Acción,CHKP,Check Point Software,Protección ante guerra híbrida y ciberataques a infraestructura.
-9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Ciberdefensa,Acción,CYBR,CyberArk,Protección ante guerra híbrida y ciberataques a infraestructura.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Defensa y ciberseguridad,Ciberdefensa,Acción,PANW,Palo Alto Networks,Absorbió a CyberArk en 2026; líder de ciberdefensa ante guerra híbrida y ataques a infraestructura.
 9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Refugio financiero,Capital seguro,Commodity,GC=F,Futuros de Oro,Refugio histórico ante escalada regional a gran escala.
 31,Indo-Pacífico,China - Taiwán,Tecnología y microchips,Semiconductores avanzados,Acción,TSM,Taiwan Semiconductor,Produce más del 60% de los chips mundiales y el 90% de los avanzados.
 31,Indo-Pacífico,China - Taiwán,Tecnología y microchips,Equipamiento litográfico,Acción,ASML,ASML Holding,"Proveedor principal de maquinaria EUV, vulnerable a cuellos de botella."
@@ -44,7 +44,7 @@ conflict_id,teatro,conflicto,vector,recurso,tipo_activo,ticker,nombre,justificac
 43,Américas,Ecuador,Minería,Oro y cobre,Acción,LUG.TO,Lundin Gold,Principal mina de oro en Ecuador.
 43,Américas,Ecuador,Riesgo soberano,Deuda país,ETF,EMB,iShares J.P. Morgan EM Bond ETF,Riesgo por el costo fiscal del estado de excepción interno.
 44,Américas,Venezuela - Guyana,Energético,Petróleo offshore,Acción,XOM,ExxonMobil,Operador principal del Bloque Stabroek en aguas del Esequibo.
-44,Américas,Venezuela - Guyana,Energético,Petróleo offshore,Acción,HES,Hess Corporation,Socio en Guyana; cotización atada al riesgo de escaramuzas navales.
+44,Américas,Venezuela - Guyana,Energético,Petróleo offshore,Acción,CVX,Chevron,Tras absorber a Hess en 2025, opera el 30% del Bloque Stabroek en aguas del Esequibo.
 22,África de Recursos Críticos,Níger,Combustible nuclear,Uranio,ETF,URA,Global X Uranium ETF,Exposición amplia al ciclo del uranio ante restricción del suministro nigerino.
 22,África de Recursos Críticos,Níger,Combustible nuclear,Uranio,Acción,CCJ,Cameco,Principal productor occidental; beneficiario directo de la sustitución de origen nigerino.
 17,África de Recursos Críticos,Rep. Dem. del Congo,Minerales críticos,Cobalto y cobre,Acción,GLNCY,Glencore ADR,Operador con producción de cobalto y cobre en Katanga; exposición directa al riesgo del este.
