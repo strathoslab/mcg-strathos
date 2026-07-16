@@ -1,0 +1,42 @@
+name: MCG - Generar informe mensual
+
+on:
+  workflow_dispatch:
+    inputs:
+      mes:
+        description: "Mes del informe (formato AAAA-MM, por ejemplo 2026-07)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  informe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar el informe del mes
+        run: python scripts/generar_informe.py "${{ inputs.mes }}"
+
+      - name: Guardar el DOCX en el repositorio
+        run: |
+          git config user.name "MCG Bot"
+          git config user.email "actions@github.com"
+          git add informe/*.docx
+          if git diff --staged --quiet; then
+            echo "Sin cambios que guardar."
+          else
+            git commit -m "MCG: informe ${{ inputs.mes }}"
+            git push
+          fi
