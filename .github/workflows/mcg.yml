@@ -1,22 +1,16 @@
 name: MCG - Actualizar precios
 
-# Cuándo corre el job
 on:
   schedule:
-    # Todos los días a las 22:00 UTC (19:00 en Buenos Aires),
-    # con los mercados de EE.UU. ya cerrados.
     - cron: "0 22 * * 1-5"
-  # Permite ejecutarlo a mano desde la pestaña Actions, con un botón.
   workflow_dispatch:
 
-# Necesario para que el job pueda guardar el archivo de resultados.
 permissions:
   contents: write
 
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
@@ -36,10 +30,27 @@ jobs:
         run: |
           git config user.name "MCG Bot"
           git config user.email "actions@github.com"
-          git add docs/mcg_estado.json
-          if git diff --staged --quiet; then
-            echo "Sin cambios que guardar."
-          else
-            git commit -m "MCG: actualización de precios $(date -u +'%Y-%m-%d')"
-            git push
+          if [ ! -f docs/mcg_estado.json ]; then
+            echo "No hay estado para guardar."
+            exit 0
           fi
+          cp docs/mcg_estado.json /tmp/estado.json
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/estado.json docs/mcg_estado.json
+            git add docs/mcg_estado.json
+            if git diff --staged --quiet; then
+              echo "Sin cambios que guardar."
+              exit 0
+            fi
+            git commit -m "MCG: actualizacion de precios $(date -u +'%Y-%m-%d')"
+            if git push; then
+              echo "Push OK (intento $i)"
+              exit 0
+            fi
+            echo "Push rechazado (intento $i). Reintentando sobre el ultimo main..."
+            sleep 3
+          done
+          echo "No se pudo empujar tras varios intentos."
+          exit 1
