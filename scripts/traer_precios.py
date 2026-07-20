@@ -15,6 +15,7 @@ import csv
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 
 import pandas as pd
@@ -96,17 +97,36 @@ def main():
     tickers = sorted({f["ticker"] for f in filas})
     print(f"Mapa: {len(filas)} vínculos · {len(tickers)} tickers únicos")
 
-    # Descarga en bloque: una sola llamada para todos los tickers.
+    # Descarga en bloque con reintentos. Yahoo a veces limita las IPs de GitHub
+    # y devuelve vacío o corta la conexión; en ese caso reintentamos con pausa
+    # en lugar de dejar caer el job.
     print("Descargando precios (1 año de histórico)...")
-    datos = yf.download(
-        tickers,
-        period="1y",
-        interval="1d",
-        group_by="ticker",
-        auto_adjust=True,
-        progress=False,
-        threads=True,
-    )
+    datos = None
+    intentos = 3
+    for intento in range(1, intentos + 1):
+        try:
+            datos = yf.download(
+                tickers,
+                period="1y",
+                interval="1d",
+                group_by="ticker",
+                auto_adjust=True,
+                progress=False,
+                threads=False,  # más suave con el límite de tasa de Yahoo
+            )
+            if datos is not None and not datos.empty:
+                break
+            print(f"  intento {intento}/{intentos}: Yahoo devolvió vacío.")
+        except Exception as e:
+            print(f"  intento {intento}/{intentos} falló: {e}")
+        if intento < intentos:
+            time.sleep(15 * intento)  # pausa creciente: 15s, 30s
+
+    # Si tras los reintentos no hay nada, conservamos el último estado bueno.
+    if datos is None or datos.empty:
+        print("Yahoo no devolvió datos tras varios intentos. "
+              "Se conserva el último estado y no se sobrescribe. Reintentá más tarde.")
+        sys.exit(0)
 
     metricas_por_ticker = {}
     fallidos = []
@@ -124,6 +144,11 @@ def main():
             metricas_por_ticker[t] = m
 
     print(f"OK: {len(metricas_por_ticker)} · Sin datos: {len(fallidos)}")
+
+    # Si no se resolvió ni un solo ticker, no pisamos el estado bueno con vacío.
+    if not metricas_por_ticker:
+        print("Ningún ticker devolvió datos. Se conserva el último estado. Reintentá más tarde.")
+        sys.exit(0)
 
     # ---- Armado del estado, agrupado por teatro y conflicto ----
     teatros = {}
@@ -208,3 +233,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
