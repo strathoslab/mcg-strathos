@@ -5,6 +5,12 @@ on:
     - cron: "0 22 * * 1-5"
   workflow_dispatch:
 
+# Candado: nunca corren dos actualizaciones de precios a la vez.
+# Si una esta en curso, la siguiente espera su turno en lugar de chocar.
+concurrency:
+  group: mcg-actualizar-precios
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
