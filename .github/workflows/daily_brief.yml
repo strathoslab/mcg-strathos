@@ -20,14 +20,14 @@ jobs:
 
       - name: Instalar librerías necesarias
         run: |
-          pip install pandas yfinance requests google-genai
+          pip install pandas yfinance requests groq
 
       - name: 1. Actualizar precios del monitor
         run: python scripts/traer_precios.py
 
       - name: 2. Generar y enviar el Brief por Email
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
