@@ -53,3 +53,11 @@ conflict_id,teatro,conflicto,vector,recurso,tipo_activo,ticker,nombre,justificac
 27,África de Recursos Críticos,Mozambique (Cabo Delgado),Energético,GNL,Acción,TTE,TotalEnergies,Operador del proyecto de Cabo Delgado; reanudación tras la fuerza mayor de 2021.
 27,África de Recursos Críticos,Mozambique (Cabo Delgado),Energético,GNL,Acción,E,Eni SpA (ADR),"Operador de Coral Sul FLNG, el activo de GNL ya en producción frente a Cabo Delgado."
 27,África de Recursos Críticos,Mozambique (Cabo Delgado),Energético,GNL,Acción,XOM,ExxonMobil,Socio en Rovuma LNG; decisión de inversión atada a la seguridad de la provincia.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Cadena petroquímica y alimentos,Fertilizante nitrogenado,Acción,CF,CF Industries,Produce nitrogenados usando gas natural como insumo: eslabón directo entre disrupción de gas y costo agrícola.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Logística y comercio,Transporte de crudo,Acción,FRO,Frontline plc,Flota de tanqueros: las tarifas reaccionan al riesgo de tránsito y al reencaminamiento por Ormuz.
+9,Complejo Israel–Irán,Irán–Israel–EE.UU.,Logística y comercio,Transporte de crudo,Acción,INSW,International Seaways,Tanqueros expuestos a primas de guerra y a rutas más largas ante cierre del estrecho.
+39,Indo-Pacífico,Disputas marítimas,Logística y comercio,Transporte de contenedores,Acción,AMKBY,A.P. Møller-Mærsk (ADR),Naviera de referencia global: su ruta Asia-Europa atraviesa el paso en disputa.
+39,Indo-Pacífico,Disputas marítimas,Logística y comercio,Transporte transpacífico,Acción,MATX,Matson Inc,Operador transpacífico: expuesto a disrupción de rutas y a reasignación de capacidad en el Indopacífico.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Potasa y fosfatos,Acción,MOS,Mosaic Company,Rusia y Bielorrusia concentran buena parte de la potasa mundial: sustitución occidental del insumo.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Soja,Commodity,ZS=F,Futuros de Soja,Completa el complejo de granos afectado por la interrupción de exportaciones del Mar Negro.
+1,Rusia–Ucrania,Rusia - Ucrania,Agro y soberanía,Producción agrícola sustituta,Acción,AGRO,Adecoagro,Productor del Cono Sur: capta reposicionamiento cuando la oferta del Mar Negro se interrumpe.
