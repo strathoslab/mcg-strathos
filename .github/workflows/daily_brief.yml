@@ -20,7 +20,7 @@ jobs:
 
       - name: Instalar librerías necesarias
         run: |
-          pip install pandas yfinance requests google-generativeai
+          pip install pandas yfinance requests google-genai
 
       - name: 1. Actualizar precios del monitor
         run: python scripts/traer_precios.py
