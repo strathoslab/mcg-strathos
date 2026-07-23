@@ -4,26 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mapa de conflictos monitoreados — Strathos Lab</title>
+<link rel="icon" href="logo.svg">
 <meta name="description" content="Los 44 conflictos que Strathos Lab cataloga y su exposición a activos en minería, banca, energía, alimentos y logística.">
 <style>
   :root{
-    --tinta:#1f2a33; --core:#26413c; --ocre:#7a6a3f; --gris:#6b7480;
-    --linea:#e2e5e2; --fondo:#fbfbfa; --panel:#ffffff;
-    --tierra:#e8eae7; --borde:#cfd4cf; --excl:#9aa1a8;
+    --navy:#0F1A2E; --oro:#B8902A; --oro2:#B8902A; --gris:#4A5568;
+    --linea:#E6E1D4; --fondo:#FAFAF7; --panel:#ffffff;
+    --tierra:#EDE8DB; --borde:#DBD4C2; --excl:#A8AEB8;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--fondo);color:var(--tinta);
+  body{background:var(--fondo);color:var(--navy);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
     line-height:1.5;padding:30px 20px}
   .wrap{max-width:1140px;margin:0 auto}
-  header{border-bottom:2px solid var(--tinta);padding-bottom:15px}
+  header{border-bottom:2px solid var(--navy);padding-bottom:15px}
   h1{font-size:24px;letter-spacing:-.01em}
   .sub{color:var(--gris);font-size:14px;margin-top:4px}
   .nav{margin-top:9px;font-size:13px}
-  .nav a{color:var(--core);text-decoration:none;font-weight:600}
+  .nav a{color:var(--navy);text-decoration:none;font-weight:600}
   .nav a:hover{text-decoration:underline}
-  .encuadre{background:#f2f3f1;border-left:3px solid var(--core);
-    padding:12px 14px;font-size:13px;color:#2b333b;margin:18px 0}
+  .encuadre{background:#F5EEDE;border-left:3px solid var(--oro);
+    padding:12px 14px;font-size:13px;color:#1A1A1A;margin:18px 0}
   .barra{display:flex;flex-wrap:wrap;gap:16px;align-items:center;
     margin-bottom:12px;font-size:12.5px}
   .leyenda{display:flex;gap:14px;flex-wrap:wrap}
@@ -33,39 +34,73 @@
   .li.off{opacity:.35}
   .pt{width:11px;height:11px;border-radius:50%;display:inline-block}
   select{font-size:12.5px;padding:4px 7px;border:1px solid var(--linea);
-    border-radius:3px;background:#fff;color:var(--tinta)}
+    border-radius:3px;background:#fff;color:var(--navy)}
   .mapa{background:var(--panel);border:1px solid var(--linea);border-radius:3px;
     padding:6px;position:relative}
   svg{width:100%;height:auto;display:block}
   .pais{fill:var(--tierra);stroke:var(--borde);stroke-width:.5}
-  circle.nodo{cursor:pointer;stroke:#fff;stroke-width:1.2;transition:opacity .15s}
+  circle.nodo{cursor:pointer;stroke:#0F1A2E;stroke-width:.9;stroke-opacity:.55;transition:opacity .15s}
   circle.nodo:hover{stroke-width:2}
   circle.oculto{display:none}
-  #tip{position:absolute;pointer-events:none;background:#1f2a33;color:#fff;
+  #tip{position:absolute;pointer-events:none;background:#0F1A2E;color:#fff;
     padding:7px 10px;border-radius:3px;font-size:12px;max-width:250px;
     display:none;z-index:5;line-height:1.35}
   #tip b{display:block;font-size:12.5px;margin-bottom:2px}
-  #tip i{font-style:normal;color:#b9c2c9;font-size:11px}
+  #tip i{font-style:normal;color:#C7CBD2;font-size:11px}
   #detalle{background:var(--panel);border:1px solid var(--linea);
-    border-left:3px solid var(--core);border-radius:3px;padding:14px 16px;margin-top:14px;
+    border-left:3px solid var(--oro);border-radius:3px;padding:14px 16px;margin-top:14px;
     font-size:13px;min-height:64px}
   #detalle .vacio{color:var(--gris);font-style:italic}
   #detalle h3{font-size:15px;margin-bottom:3px}
   #detalle .campo{margin-top:7px}
-  #detalle .campo b{color:var(--core);font-size:11px;text-transform:uppercase;
+  #detalle .campo b{color:var(--navy);font-size:11px;text-transform:uppercase;
     letter-spacing:.05em;display:block}
   .conteo{font-size:12px;color:var(--gris);margin-top:10px}
   footer{margin-top:30px;padding-top:13px;border-top:1px solid var(--linea);
     font-size:11px;color:var(--gris)}
+
+  /* ---- identidad Strathos ---- */
+  .marca{border-bottom:2px solid var(--navy);padding-bottom:0;margin-bottom:0}
+  .marca-top{display:flex;align-items:center;justify-content:space-between;
+    gap:16px;flex-wrap:wrap;padding-bottom:12px}
+  .logo-link{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .logo{height:34px;width:auto;display:none}
+  .wordmark{display:block;font-size:17px;font-weight:800;letter-spacing:.10em;
+    color:var(--navy);line-height:1}
+  .wordmark em{font-style:normal;font-weight:400;color:var(--oro);margin-left:5px}
+  .producto{font-size:11px;text-transform:uppercase;letter-spacing:.12em;
+    color:var(--gris);font-weight:600;text-align:right}
+  .tabs{display:flex;gap:2px;flex-wrap:wrap}
+  .tab{font-size:12.5px;padding:7px 14px;text-decoration:none;color:var(--gris);
+    border:1px solid var(--linea);border-bottom:none;border-radius:3px 3px 0 0;
+    background:#F1EEE4;font-weight:600;position:relative;top:1px}
+  .tab:hover{color:var(--navy);background:#EAE5D8}
+  .tab.activa{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .titulo{padding-top:18px}
+  .titulo h1{font-size:23px;letter-spacing:-.01em}
+  .titulo .sub{color:var(--gris);font-size:14px;margin-top:3px}
+  .pie-marca{margin-top:34px;padding-top:14px;border-top:2px solid var(--navy);
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    font-size:11px;color:var(--gris)}
+  .pie-marca b{color:var(--navy);letter-spacing:.06em}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Mapa de conflictos monitoreados</h1>
-    <div class="sub">Strathos Lab · catálogo del Monitor de Conflictos Geopolíticos</div>
-    <div class="nav"><a href="index.html">Ver el monitor de exposición →</a></div>
+  <header class="marca">
+    <div class="marca-top">
+      <a href="index.html" class="logo-link" aria-label="Strathos Lab">
+        <img alt="Strathos Lab" class="logo" id="logo">
+        <span class="wordmark" id="wordmark">STRATHOS<em>LAB</em></span>
+      </a>
+      <span class="producto">Inteligencia estratégica · Monitor de Conflictos Geopolíticos</span>
+    </div>
+    <nav class="tabs"><a href="index.html" class="tab">Exposición</a><a href="mapa.html" class="tab activa">Mapa</a><a href="historial.html" class="tab">Historial</a></nav>
   </header>
+  <div class="titulo">
+    <h1>Mapa de conflictos monitoreados</h1>
+    <div class="sub">Catálogo completo y criterio de inclusión</div>
+  </div>
 
   <div class="encuadre">
     <strong>Criterio de inclusión.</strong> Un conflicto entra al monitoreo activo cuando presenta
@@ -90,14 +125,18 @@
 
   <div id="detalle"><span class="vacio">Pasá el cursor sobre un punto para ver el conflicto, o hacé clic para fijar el detalle.</span></div>
 
+  <div class="pie-marca">
+    <span><b>STRATHOS LAB</b> · strathoslab.com</span>
+    <span>44 conflictos catalogados</span>
+  </div>
   <footer id="pie"></footer>
 </div>
 
 <script>
 const TIERS = {
-  "Núcleo":    {color:"#26413c", r:6.5, desc:"Monitoreo activo"},
-  "Watchlist": {color:"#7a6a3f", r:5,   desc:"Vigilancia"},
-  "Excluido":  {color:"#9aa1a8", r:3.8, desc:"Catalogado sin monitoreo"}
+  "Núcleo":    {color:"#0F1A2E", r:6.5, desc:"Monitoreo activo"},
+  "Watchlist": {color:"#B8902A", r:5,   desc:"Vigilancia"},
+  "Excluido":  {color:"#A8AEB8", r:3.8, desc:"Catalogado sin monitoreo"}
 };
 const W=1000, H=500;
 const proj = (lon,lat) => [ (lon+180)/360*W, (90-lat)/180*H ];
@@ -234,8 +273,27 @@ cargarCatalogo(0)
     document.getElementById("detalle").innerHTML =
       `<span style="color:#a33a2e"><strong>No se pudo cargar el catálogo.</strong><br>
        Subí <code>catalogo_conflictos.csv</code> dentro de la carpeta <code>docs</code>.<br>
-       <span style="font-size:11px;color:#6b7480">Detalle: ${e.message}</span></span>`;
+       <span style="font-size:11px;color:#4A5568">Detalle: ${e.message}</span></span>`;
   });
+</script>
+
+<script>
+// El nombre tipografico se muestra por defecto. El logo lo reemplaza unicamente
+// si carga bien, asi nunca aparece un icono de imagen rota.
+(function(){
+  var img=document.getElementById('logo'), wm=document.getElementById('wordmark'), paso=0;
+  if(!img) return;
+  img.addEventListener('load', function(){
+    if(!img.naturalWidth) return;
+    img.style.display='block';
+    if(wm) wm.style.display='none';
+  });
+  img.addEventListener('error', function(){
+    paso++;
+    if(paso===1){ img.src='logo.png'; }
+  });
+  img.src='logo.svg';
+})();
 </script>
 </body>
 </html>

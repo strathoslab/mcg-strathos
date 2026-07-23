@@ -4,67 +4,102 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Monitor de Conflictos Geopolíticos — Strathos Lab</title>
+<link rel="icon" href="logo.svg">
 <style>
   :root{
-    --tinta:#1f2a33; --core:#26413c; --ocre:#7a6a3f;
-    --gris:#6b7480; --linea:#e2e5e2; --fondo:#fbfbfa; --panel:#ffffff;
+    --navy:#0F1A2E; --oro:#B8902A; --oro2:#B8902A;
+    --gris:#4A5568; --linea:#E6E1D4; --fondo:#FAFAF7; --panel:#ffffff;
     --sube:#1f6f4a; --baja:#a33a2e;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--fondo);color:var(--tinta);
+  body{background:var(--fondo);color:var(--navy);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
     line-height:1.5;padding:32px 20px}
   .wrap{max-width:1080px;margin:0 auto}
-  header{border-bottom:2px solid var(--tinta);padding-bottom:16px;margin-bottom:8px}
+  header{border-bottom:2px solid var(--navy);padding-bottom:16px;margin-bottom:8px}
   h1{font-size:24px;letter-spacing:-.01em}
   .sub{color:var(--gris);font-size:14px;margin-top:4px}
   .meta{font-size:12px;color:var(--gris);margin:12px 0 28px}
-  .encuadre{background:#f2f3f1;border-left:3px solid var(--core);
-    padding:12px 14px;font-size:13px;color:#2b333b;margin-bottom:28px}
+  .encuadre{background:#F5EEDE;border-left:3px solid var(--oro);
+    padding:12px 14px;font-size:13px;color:#1A1A1A;margin-bottom:28px}
   h2{font-size:12px;text-transform:uppercase;letter-spacing:.09em;
-    color:var(--core);margin:32px 0 12px;font-weight:700}
+    color:var(--navy);margin:32px 0 12px;font-weight:700}
   .senales{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
   .senal{background:var(--panel);border:1px solid var(--linea);
-    border-left:3px solid var(--ocre);border-radius:3px;padding:11px 13px}
+    border-left:3px solid var(--oro2);border-radius:3px;padding:11px 13px}
   .senal .tk{font-weight:700;font-size:14px}
   .senal .nm{font-size:11px;color:var(--gris);margin-bottom:6px}
   .senal .ct{font-size:11px;color:var(--gris);margin-top:5px}
   .teatro{margin-top:34px}
-  .teatro > h3{font-size:17px;padding-bottom:7px;border-bottom:1px solid var(--tinta);margin-bottom:4px}
+  .teatro > h3{font-size:17px;padding-bottom:7px;border-bottom:1px solid var(--navy);margin-bottom:4px}
   .conflicto{margin-top:18px}
-  .conflicto > h4{font-size:13px;color:var(--core);font-weight:700;margin-bottom:7px}
+  .conflicto > h4{font-size:13px;color:var(--navy);font-weight:700;margin-bottom:7px}
   table{width:100%;border-collapse:collapse;background:var(--panel);
     border:1px solid var(--linea);font-size:13px}
-  th{background:var(--tinta);color:#fff;text-align:left;padding:7px 9px;
+  th{background:var(--navy);color:#fff;text-align:left;padding:7px 9px;
     font-size:10px;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
   td{padding:7px 9px;border-top:1px solid var(--linea);vertical-align:top}
-  tbody tr:nth-child(even){background:#fafbfa}
+  tbody tr:nth-child(even){background:#FCFAF4}
   .tk{font-weight:700;white-space:nowrap}
   .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   .up{color:var(--sube);font-weight:600}
   .dn{color:var(--baja);font-weight:600}
   .just{color:var(--gris);font-size:11.5px}
-  .nd{color:#b0b6bb;font-style:italic}
-  .flag{display:inline-block;background:var(--ocre);color:#fff;font-size:9px;
+  .nd{color:#A8AEB8;font-style:italic}
+  .flag{display:inline-block;background:var(--oro2);color:#fff;font-size:9px;
     padding:1px 5px;border-radius:2px;margin-left:5px;vertical-align:middle}
   footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--linea);
     font-size:11px;color:var(--gris)}
-  #err{background:#fdf3f2;border-left:3px solid var(--baja);padding:14px;font-size:13px}
+  #err{background:#FBF1EF;border-left:3px solid var(--baja);padding:14px;font-size:13px}
+
+  /* ---- identidad Strathos ---- */
+  .marca{border-bottom:2px solid var(--navy);padding-bottom:0;margin-bottom:0}
+  .marca-top{display:flex;align-items:center;justify-content:space-between;
+    gap:16px;flex-wrap:wrap;padding-bottom:12px}
+  .logo-link{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .logo{height:34px;width:auto;display:none}
+  .wordmark{display:block;font-size:17px;font-weight:800;letter-spacing:.10em;
+    color:var(--navy);line-height:1}
+  .wordmark em{font-style:normal;font-weight:400;color:var(--oro);margin-left:5px}
+  .producto{font-size:11px;text-transform:uppercase;letter-spacing:.12em;
+    color:var(--gris);font-weight:600;text-align:right}
+  .tabs{display:flex;gap:2px;flex-wrap:wrap}
+  .tab{font-size:12.5px;padding:7px 14px;text-decoration:none;color:var(--gris);
+    border:1px solid var(--linea);border-bottom:none;border-radius:3px 3px 0 0;
+    background:#F1EEE4;font-weight:600;position:relative;top:1px}
+  .tab:hover{color:var(--navy);background:#EAE5D8}
+  .tab.activa{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .titulo{padding-top:18px}
+  .titulo h1{font-size:23px;letter-spacing:-.01em}
+  .titulo .sub{color:var(--gris);font-size:14px;margin-top:3px}
+  .pie-marca{margin-top:34px;padding-top:14px;border-top:2px solid var(--navy);
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    font-size:11px;color:var(--gris)}
+  .pie-marca b{color:var(--navy);letter-spacing:.06em}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Monitor de Conflictos Geopolíticos</h1>
-    <div class="sub">Strathos Lab · exposición de activos a conflictos activos</div>
-    <div style="margin-top:10px;font-size:13px">
-      <a href="mapa.html" style="color:#26413c;text-decoration:none;font-weight:600">Ver mapa de conflictos →</a>
-      &nbsp;·&nbsp;
-      <a href="historial.html" style="color:#26413c;text-decoration:none;font-weight:600">Ver historial de señales →</a>
+  <header class="marca">
+    <div class="marca-top">
+      <a href="index.html" class="logo-link" aria-label="Strathos Lab">
+        <img alt="Strathos Lab" class="logo" id="logo">
+        <span class="wordmark" id="wordmark">STRATHOS<em>LAB</em></span>
+      </a>
+      <span class="producto">Inteligencia estratégica · Monitor de Conflictos Geopolíticos</span>
     </div>
+    <nav class="tabs"><a href="index.html" class="tab activa">Exposición</a><a href="mapa.html" class="tab">Mapa</a><a href="historial.html" class="tab">Historial</a></nav>
   </header>
+  <div class="titulo">
+    <h1>Monitor de exposición</h1>
+    <div class="sub">Movimientos de mercado de los activos mapeados a conflictos activos</div>
+  </div>
   <div class="meta" id="meta">Cargando datos...</div>
   <div id="app"></div>
+  <div class="pie-marca">
+    <span><b>STRATHOS LAB</b> · strathoslab.com</span>
+    <span>Minería · Banca · Energía · Alimentos · Logística</span>
+  </div>
   <footer id="pie"></footer>
 </div>
 
@@ -146,8 +181,27 @@ fetch('mcg_estado.json?v=' + Date.now())
       Esto es normal si el job aún no corrió. Andá a la pestaña <strong>Actions</strong>
       del repositorio y ejecutá <em>MCG - Actualizar precios</em> con el botón
       <em>Run workflow</em>. Cuando termine, recargá esta página.<br><br>
-      <span style="color:#6b7480;font-size:12px">Detalle técnico: ${e.message}</span></div>`;
+      <span style="color:#4A5568;font-size:12px">Detalle técnico: ${e.message}</span></div>`;
   });
+</script>
+
+<script>
+// El nombre tipografico se muestra por defecto. El logo lo reemplaza unicamente
+// si carga bien, asi nunca aparece un icono de imagen rota.
+(function(){
+  var img=document.getElementById('logo'), wm=document.getElementById('wordmark'), paso=0;
+  if(!img) return;
+  img.addEventListener('load', function(){
+    if(!img.naturalWidth) return;
+    img.style.display='block';
+    if(wm) wm.style.display='none';
+  });
+  img.addEventListener('error', function(){
+    paso++;
+    if(paso===1){ img.src='logo.png'; }
+  });
+  img.src='logo.svg';
+})();
 </script>
 </body>
 </html>
