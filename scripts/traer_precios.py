@@ -25,6 +25,10 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAPA = os.path.join(RAIZ, "data", "mapa_activos.csv")
 SALIDA_DIR = os.path.join(RAIZ, "docs")
 SALIDA = os.path.join(SALIDA_DIR, "mcg_estado.json")
+HISTORIAL = os.path.join(SALIDA_DIR, "mcg_historial.json")
+
+# Cuántos días de historial se conservan (algo más de un año hábil).
+MAX_DIAS_HISTORIAL = 400
 
 # Umbral para marcar un movimiento como "inusual" (a revisar en el informe).
 # No implica causalidad: solo señala que el activo se movió fuera de su rango habitual.
@@ -86,6 +90,114 @@ def metricas(hist):
         "maximo_52s": round(maximo, 2),
         "ultima_fecha": cierre.index[-1].strftime("%Y-%m-%d"),
     }
+
+
+def dia_desde_estado(estado):
+    """Extrae de un estado el registro compacto de un día."""
+    meta = estado.get("meta", {})
+    sello = meta.get("actualizado_utc", "")
+    fecha = sello[:10] if len(sello) >= 10 else None
+    if not fecha:
+        return None
+    return {
+        "fecha": fecha,
+        "actualizado_utc": sello,
+        "senales": estado.get("senales", []),
+    }
+
+
+def backfill_desde_git():
+    """
+    Reconstruye historial a partir de los commits previos de mcg_estado.json.
+    Se ejecuta una sola vez, cuando todavía no existe el archivo de historial.
+    Si algo falla, devuelve lo que haya podido recuperar sin romper el job.
+    """
+    import subprocess
+    dias = {}
+    try:
+        log = subprocess.run(
+            ["git", "log", "--format=%H", "--", "docs/mcg_estado.json"],
+            capture_output=True, text=True, cwd=RAIZ, timeout=90,
+        )
+        hashes = [h.strip() for h in log.stdout.split() if h.strip()]
+        print(f"  backfill: {len(hashes)} versiones previas encontradas en el repositorio")
+        for h in hashes:
+            try:
+                sh = subprocess.run(
+                    ["git", "show", f"{h}:docs/mcg_estado.json"],
+                    capture_output=True, text=True, cwd=RAIZ, timeout=30,
+                )
+                if not sh.stdout.strip():
+                    continue
+                d = dia_desde_estado(json.loads(sh.stdout))
+                if d and d["fecha"] not in dias:
+                    dias[d["fecha"]] = d
+            except Exception:
+                continue
+    except Exception as e:
+        print(f"  aviso: no se pudo reconstruir historial desde el repositorio ({e})")
+    return dias
+
+
+def actualizar_historial(estado):
+    """Agrega el día actual al historial, sin duplicar fechas."""
+    dias = {}
+    if os.path.exists(HISTORIAL):
+        try:
+            with open(HISTORIAL, encoding="utf-8") as f:
+                prev = json.load(f)
+            for d in prev.get("dias", []):
+                if d.get("fecha"):
+                    dias[d["fecha"]] = d
+        except Exception as e:
+            print(f"  aviso: historial ilegible, se reconstruye ({e})")
+    else:
+        print("  Primera vez: reconstruyendo historial desde el repositorio...")
+        dias = backfill_desde_git()
+
+    hoy = dia_desde_estado(estado)
+    if hoy:
+        dias[hoy["fecha"]] = hoy  # el día actual pisa cualquier corrida previa del mismo día
+
+    ordenados = sorted(dias.values(), key=lambda d: d["fecha"], reverse=True)[:MAX_DIAS_HISTORIAL]
+
+    # Recurrencia: cuántas veces marcó señal cada activo en el período registrado.
+    recuento = {}
+    for d in ordenados:
+        for s in d.get("senales", []):
+            k = s.get("ticker")
+            if not k:
+                continue
+            r = recuento.setdefault(k, {
+                "ticker": k, "nombre": s.get("nombre", ""),
+                "teatro": s.get("teatro", ""), "conflicto": s.get("conflicto", ""),
+                "veces": 0, "ultima_fecha": d["fecha"],
+            })
+            r["veces"] += 1
+            if d["fecha"] > r["ultima_fecha"]:
+                r["ultima_fecha"] = d["fecha"]
+    recurrentes = sorted(recuento.values(), key=lambda r: (-r["veces"], r["ticker"]))
+
+    salida = {
+        "meta": {
+            "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
+            "organizacion": "Strathos Lab",
+            "actualizado_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "dias_registrados": len(ordenados),
+            "desde": ordenados[-1]["fecha"] if ordenados else None,
+            "hasta": ordenados[0]["fecha"] if ordenados else None,
+            "encuadre": (
+                "Registro histórico de movimientos fuera de rango. La recurrencia indica "
+                "persistencia de tensión en un activo, no causalidad respecto del conflicto."
+            ),
+        },
+        "recurrentes": recurrentes,
+        "dias": ordenados,
+    }
+    with open(HISTORIAL, "w", encoding="utf-8") as f:
+        json.dump(salida, f, ensure_ascii=False, indent=2)
+    print(f"Historial actualizado: {len(ordenados)} días registrados "
+          f"({salida['meta']['desde']} a {salida['meta']['hasta']})")
 
 
 def main():
@@ -227,10 +339,16 @@ def main():
 
     print(f"\nEscrito: {SALIDA}")
     print(f"Señales detectadas: {len(senales_unicas)}")
+
+    # Registro histórico: permite mirar hacia atrás qué señales se activaron.
+    try:
+        actualizar_historial(estado)
+    except Exception as e:
+        print(f"AVISO: no se pudo actualizar el historial ({e}). El estado del día quedó guardado igual.")
+
     if fallidos:
         print(f"REVISAR estos tickers: {', '.join(fallidos)}")
 
 
 if __name__ == "__main__":
     main()
-    
