@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Monitor de Conflictos Geopolíticos (MCG) — Strathos Lab
-Briefing Diario Matutino vía Email + Gemini AI.
+Briefing Diario Matutino vía Email + Groq AI (Llama 3.3).
 """
 
 import os
@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from google import genai
+from groq import Groq
 
 # ==========================================
 # 1. RUTAS Y CONFIGURACIÓN DE ENTORNO
@@ -21,13 +21,13 @@ from google import genai
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUTA_ESTADO = os.path.join(RAIZ, "docs", "mcg_estado.json")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 
-if not all([GEMINI_API_KEY, SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL]):
-    print("ERROR: Faltan variables de entorno.")
+if not all([GROQ_API_KEY, SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL]):
+    print("ERROR: Faltan variables de entorno (GROQ_API_KEY, SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL).")
     sys.exit(1)
 
 
@@ -115,7 +115,7 @@ def main():
 
     METADATOS DEL MONITOR:
     - Fecha/Hora de Actualización: {actualizado_utc}
-    - Total de Señales Detectadas (z-score >= {meta.get('umbral_senal_sigma', 1.5)}): {len(senales)}
+    - Total de Señales Detectadas: {len(senales)}
 
     SEÑALES DESTACADAS HOY (JSON):
     {json.dumps(senales, ensure_ascii=False, indent=2)}
@@ -139,14 +139,14 @@ def main():
     No incluyas etiquetas ```html de código al principio ni al final. Solo devuelve el HTML limpio.
     """
 
-    print("Consultando a Gemini AI para redactar el brief...")
+    print("Consultando a Groq AI (Llama 3.3) para redactar el brief...")
     try:
-        client = genai.Client(api_key=GEMINI_API_KEY)
-        respuesta = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
+        client = Groq(api_key=GROQ_API_KEY)
+        response = client.chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model="llama-3.3-70b-versatile",
         )
-        html_brief = respuesta.text.strip()
+        html_brief = response.choices[0].message.content.strip()
         
         if html_brief.startswith("```html"):
             html_brief = html_brief.replace("```html", "").replace("```", "")
@@ -154,7 +154,7 @@ def main():
             html_brief = html_brief.replace("```", "")
 
     except Exception as e:
-        print(f"ERROR consultando la API de Gemini: {e}")
+        print(f"ERROR consultando la API de Groq: {e}")
         sys.exit(1)
 
     print("Enviando mail matutino...")
