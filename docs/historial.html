@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historial de señales — MCG · Strathos Lab</title>
+<style>
+  :root{
+    --tinta:#1f2a33; --core:#26413c; --ocre:#7a6a3f;
+    --gris:#6b7480; --linea:#e2e5e2; --fondo:#fbfbfa; --panel:#ffffff;
+    --sube:#1f6f4a; --baja:#a33a2e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--fondo);color:var(--tinta);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    line-height:1.5;padding:32px 20px}
+  .wrap{max-width:1080px;margin:0 auto}
+  header{border-bottom:2px solid var(--tinta);padding-bottom:16px}
+  h1{font-size:24px;letter-spacing:-.01em}
+  .sub{color:var(--gris);font-size:14px;margin-top:4px}
+  .nav{margin-top:10px;font-size:13px}
+  .nav a{color:var(--core);text-decoration:none;font-weight:600}
+  .nav a:hover{text-decoration:underline}
+  .meta{font-size:12px;color:var(--gris);margin:14px 0 24px}
+  .encuadre{background:#f2f3f1;border-left:3px solid var(--core);
+    padding:12px 14px;font-size:13px;color:#2b333b;margin-bottom:26px}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.09em;
+    color:var(--core);margin:30px 0 12px;font-weight:700}
+  table{width:100%;border-collapse:collapse;background:var(--panel);
+    border:1px solid var(--linea);font-size:13px}
+  th{background:var(--tinta);color:#fff;text-align:left;padding:7px 9px;
+    font-size:10px;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+  td{padding:7px 9px;border-top:1px solid var(--linea);vertical-align:top}
+  tbody tr:nth-child(even){background:#fafbfa}
+  .tk{font-weight:700;white-space:nowrap}
+  .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .up{color:var(--sube);font-weight:600}
+  .dn{color:var(--baja);font-weight:600}
+  .barra{display:inline-block;height:9px;background:var(--ocre);
+    border-radius:1px;vertical-align:middle;margin-right:6px;min-width:2px}
+  .dia{background:var(--panel);border:1px solid var(--linea);
+    border-radius:3px;padding:12px 14px;margin-bottom:9px}
+  .fecha{font-size:13px;font-weight:700;color:var(--tinta);margin-bottom:7px}
+  .fecha span{font-weight:400;color:var(--gris);font-size:11.5px;margin-left:7px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{border:1px solid var(--linea);border-left:3px solid var(--ocre);
+    border-radius:2px;padding:5px 9px;font-size:12px;background:#fcfcfb}
+  .chip b{font-size:12.5px}
+  .chip i{font-style:normal;color:var(--gris);font-size:10.5px;display:block}
+  .silencio{color:var(--gris);font-size:12px;font-style:italic}
+  .filtros{margin-bottom:14px;font-size:13px}
+  select{font-size:13px;padding:4px 7px;border:1px solid var(--linea);
+    border-radius:3px;background:#fff;color:var(--tinta)}
+  footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--linea);
+    font-size:11px;color:var(--gris)}
+  #err{background:#fdf3f2;border-left:3px solid var(--baja);padding:14px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Historial de señales</h1>
+    <div class="sub">Monitor de Conflictos Geopolíticos · Strathos Lab</div>
+    <div class="nav"><a href="index.html">← Volver al monitor</a></div>
+  </header>
+  <div class="meta" id="meta">Cargando historial...</div>
+  <div id="app"></div>
+  <footer id="pie"></footer>
+</div>
+
+<script>
+const pct = v => (v === null || v === undefined)
+  ? '<span style="color:#b0b6bb">—</span>'
+  : `<span class="${v >= 0 ? 'up' : 'dn'}">${v >= 0 ? '+' : ''}${v.toFixed(2)}%</span>`;
+
+let H = null;
+
+function render(teatroSel) {
+  const dias = teatroSel === 'todos'
+    ? H.dias
+    : H.dias.map(d => ({...d, senales: d.senales.filter(s => s.teatro === teatroSel)}));
+
+  const rec = teatroSel === 'todos'
+    ? H.recurrentes
+    : H.recurrentes.filter(r => r.teatro === teatroSel);
+
+  let h = '';
+
+  // --- recurrencia ---
+  h += `<h2>Persistencia: activos que más veces marcaron señal</h2>`;
+  if (!rec.length) {
+    h += `<p class="silencio">Sin señales registradas en este teatro.</p>`;
+  } else {
+    const max = Math.max(...rec.map(r => r.veces));
+    h += `<table><thead><tr><th>Activo</th><th>Teatro / Conflicto</th>
+          <th>Veces fuera de rango</th><th>Última</th></tr></thead><tbody>`;
+    rec.slice(0, 20).forEach(r => {
+      const ancho = Math.round((r.veces / max) * 120);
+      h += `<tr>
+        <td class="tk">${r.ticker}<div style="font-weight:400;font-size:11px;color:var(--gris)">${r.nombre}</div></td>
+        <td style="font-size:12px">${r.teatro}<div style="color:var(--gris);font-size:11px">${r.conflicto}</div></td>
+        <td><span class="barra" style="width:${ancho}px"></span><b>${r.veces}</b></td>
+        <td style="font-size:12px;color:var(--gris)">${r.ultima_fecha}</td>
+      </tr>`;
+    });
+    h += `</tbody></table>`;
+  }
+
+  // --- línea de tiempo ---
+  h += `<h2>Línea de tiempo</h2>`;
+  dias.forEach(d => {
+    h += `<div class="dia"><div class="fecha">${d.fecha}<span>${d.senales.length} ${d.senales.length === 1 ? 'señal' : 'señales'}</span></div>`;
+    if (!d.senales.length) {
+      h += `<div class="silencio">Sin movimientos fuera de rango.</div>`;
+    } else {
+      h += `<div class="chips">`;
+      d.senales.forEach(s => {
+        h += `<div class="chip"><b>${s.ticker}</b> ${pct(s.var_1d_pct)}
+              <i>${s.conflicto} · z ${s.z_score}</i></div>`;
+      });
+      h += `</div>`;
+    }
+    h += `</div>`;
+  });
+
+  document.getElementById('app').innerHTML = h;
+}
+
+fetch('mcg_historial.json?v=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error('Todavía no existe mcg_historial.json'); return r.json(); })
+  .then(d => {
+    H = d;
+    const m = d.meta;
+    const teatros = [...new Set(d.recurrentes.map(r => r.teatro).filter(Boolean))].sort();
+
+    document.getElementById('meta').innerHTML =
+      `<strong>${m.dias_registrados}</strong> días registrados · del ${m.desde} al ${m.hasta} · ` +
+      `actualizado ${m.actualizado_utc}`;
+
+    let filtro = `<div class="encuadre"><strong>Encuadre.</strong> ${m.encuadre}</div>`;
+    filtro += `<div class="filtros">Filtrar por teatro:
+      <select id="sel"><option value="todos">Todos los teatros</option>` +
+      teatros.map(t => `<option value="${t}">${t}</option>`).join('') +
+      `</select></div>`;
+    document.getElementById('app').insertAdjacentHTML('beforebegin', filtro);
+
+    render('todos');
+    document.getElementById('sel').addEventListener('change', e => render(e.target.value));
+
+    document.getElementById('pie').innerHTML =
+      `La recurrencia mide cuántas veces un activo se movió fuera de su rango habitual en el período ` +
+      `registrado. Un activo que aparece repetidamente señala tensión persistente; uno que aparece una ` +
+      `sola vez puede ser un episodio aislado. Ninguna de las dos cosas establece causalidad respecto ` +
+      `del conflicto asociado. © Strathos Lab.`;
+  })
+  .catch(e => {
+    document.getElementById('meta').innerHTML = '';
+    document.getElementById('app').innerHTML =
+      `<div id="err"><strong>Todavía no hay historial.</strong><br>
+      Se crea la primera vez que corre el job de precios con la versión actualizada del script.
+      Andá a <strong>Actions</strong> y ejecutá <em>MCG - Actualizar precios</em>.<br><br>
+      <span style="color:#6b7480;font-size:12px">Detalle: ${e.message}</span></div>`;
+  });
+</script>
+</body>
+</html>
