@@ -1,31 +1,27 @@
 name: Briefing Matutino Strathos Lab
-
 on:
   schedule:
-    # Corre a las 7:00 AM de Argentina (10:00 UTC)
-    - cron: '0 10 * * *'
-  workflow_dispatch: # Permite probarlo a mano cuando quieras
+    # 7:00 AM Argentina (10:00 UTC), de martes a sábado:
+    # cubre los cierres de lunes a viernes.
+    - cron: '0 10 * * 2-6'
+  workflow_dispatch:
 
 jobs:
   ejecutar-briefing:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el codigo del repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Instalar Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
-      - name: Instalar librerías necesarias
-        run: |
-          pip install pandas yfinance requests groq
+      - name: Instalar librerias necesarias
+        run: pip install requests groq
 
-      - name: 1. Actualizar precios del monitor
-        run: python scripts/traer_precios.py
-
-      - name: 2. Generar y enviar el Brief por Email
+      - name: Generar y enviar el Brief por Email
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
