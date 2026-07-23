@@ -3,10 +3,6 @@
 """
 Monitor de Conflictos Geopolíticos (MCG) — Strathos Lab
 Briefing Diario Matutino vía Email + Gemini AI.
-
-Lee localmente docs/mcg_estado.json (generado por traer_precios.py), busca noticias 
-asociadas a las señales en Google News RSS, consulta a Gemini para armar un análisis 
-y envía un mail en formato HTML al correo registrado.
 """
 
 import os
@@ -17,7 +13,7 @@ import xml.etree.ElementTree as ET
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import google.generativeai as genai
+from google import genai
 
 # ==========================================
 # 1. RUTAS Y CONFIGURACIÓN DE ENTORNO
@@ -26,35 +22,31 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUTA_ESTADO = os.path.join(RAIZ, "docs", "mcg_estado.json")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-SENDER_EMAIL = os.getenv("SENDER_EMAIL")       # Tu mail emisor (ej: tu_cuenta@gmail.com)
-SENDER_PASSWORD = os.getenv("SENDER_PASSWORD") # Tu Contraseña de Aplicación de 16 letras
-RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL") # Tu mail donde recibís el informe
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 
-# Validar variables necesarias
 if not all([GEMINI_API_KEY, SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL]):
-    print("ERROR: Faltan variables de entorno (GEMINI_API_KEY, SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL).")
+    print("ERROR: Faltan variables de entorno.")
     sys.exit(1)
-
-genai.configure(api_key=GEMINI_API_KEY)
 
 
 # ==========================================
 # 2. BÚSQUEDA DE NOTICIAS EN GOOGLE NEWS RSS
 # ==========================================
 def obtener_noticias_rss(query):
-    """Obtiene titulares y links de Google News RSS de las últimas 24hs."""
     url = f"https://news.google.com/rss/search?q={query}+when:1d&hl=es-419&gl=AR&ceid=AR:es-419"
     noticias = []
     try:
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
             root = ET.fromstring(resp.content)
-            for item in root.findall('.//item')[:3]:  # Máximo 3 noticias por término
+            for item in root.findall('.//item')[:3]:
                 title = item.find('title').text
                 link = item.find('link').text
                 noticias.append(f"- {title} | Link: {link}")
     except Exception as e:
-        print(f"Aviso: Error al buscar noticias RSS para '{query}': {e}")
+        print(f"Aviso: Error en RSS para '{query}': {e}")
     return noticias
 
 
@@ -107,19 +99,16 @@ def main():
 
     print(f"Señales detectadas hoy: {len(senales)}")
 
-    # Recopilar noticias dirigidas a las señales encontradas
     noticias_contexto = []
     if senales:
-        for s in senales[:5]:  # Tomar los 5 movimientos más extremos
+        for s in senales[:5]:
             query = f"{s['nombre']} {s['conflicto']}"
             noticias_contexto.extend(obtener_noticias_rss(query))
     else:
-        # Si no hay señales inusuales, buscar contexto macro general
         noticias_contexto.extend(obtener_noticias_rss("mercados geopolitica commodities"))
 
     noticias_str = "\n".join(noticias_contexto) if noticias_contexto else "No se encontraron noticias recientes específicas."
 
-    # Prompt estilizado en HTML para Gemini
     prompt = f"""
     Actúa como un analista sénior de inteligencia geopolítica para Strathos Lab.
     Analiza las señales registradas hoy por el Monitor de Conflictos Geopolíticos (MCG) y el contexto de noticias:
@@ -152,11 +141,13 @@ def main():
 
     print("Consultando a Gemini AI para redactar el brief...")
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
-        respuesta = model.generate_content(prompt)
+        client = genai.Client(api_key=GEMINI_API_KEY)
+        respuesta = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt,
+        )
         html_brief = respuesta.text.strip()
         
-        # Limpieza de marcado markdown por seguridad
         if html_brief.startswith("```html"):
             html_brief = html_brief.replace("```html", "").replace("```", "")
         if html_brief.startswith("```"):
