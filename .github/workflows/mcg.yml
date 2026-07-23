@@ -5,8 +5,6 @@ on:
     - cron: "0 22 * * 1-5"
   workflow_dispatch:
 
-# Candado: nunca corren dos actualizaciones de precios a la vez.
-# Si una esta en curso, la siguiente espera su turno en lugar de chocar.
 concurrency:
   group: mcg-actualizar-precios
   cancel-in-progress: false
@@ -20,6 +18,9 @@ jobs:
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
+        with:
+          # Trae todo el historial: necesario para reconstruir las señales pasadas.
+          fetch-depth: 0
 
       - name: Preparar Python
         uses: actions/setup-python@v5
@@ -40,12 +41,14 @@ jobs:
             echo "No hay estado para guardar."
             exit 0
           fi
-          cp docs/mcg_estado.json /tmp/estado.json
+          mkdir -p /tmp/salida
+          cp docs/mcg_estado.json /tmp/salida/
+          [ -f docs/mcg_historial.json ] && cp docs/mcg_historial.json /tmp/salida/
           for i in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
-            cp /tmp/estado.json docs/mcg_estado.json
-            git add docs/mcg_estado.json
+            cp /tmp/salida/*.json docs/
+            git add docs/
             if git diff --staged --quiet; then
               echo "Sin cambios que guardar."
               exit 0
