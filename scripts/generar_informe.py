@@ -30,13 +30,14 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 # ---------- identidad visual Strathos (sobria) ----------
-INK   = RGBColor(0x1F, 0x2A, 0x33)   # slate — títulos
-CORE  = RGBColor(0x26, 0x41, 0x3C)   # verde profundo — acentos
-OCRE  = RGBColor(0x7A, 0x6A, 0x3F)   # ocre — señales
-GRIS  = RGBColor(0x5A, 0x64, 0x70)   # gris — metadatos
+INK   = RGBColor(0x0F, 0x1A, 0x2E)   # navy profundo — títulos
+CORE  = RGBColor(0xB8, 0x90, 0x2A)   # dorado Strathos — acento único
+OCRE  = RGBColor(0xB8, 0x90, 0x2A)   # dorado — señales
+ORO_TXT = RGBColor(0x8A, 0x6B, 0x18)   # dorado oscurecido: legible en texto chico
+GRIS  = RGBColor(0x4A, 0x55, 0x68)   # gris humo — metadatos
 SUBE  = RGBColor(0x1F, 0x6F, 0x4A)
 BAJA  = RGBColor(0xA3, 0x3A, 0x2E)
-TINTA = RGBColor(0x22, 0x2A, 0x30)
+TINTA = RGBColor(0x1A, 0x1A, 0x1A)
 FUENTE = "Calibri"
 
 MESES = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -80,7 +81,7 @@ def add_hr(doc):
     bottom.set(qn("w:val"), "single")
     bottom.set(qn("w:sz"), "6")
     bottom.set(qn("w:space"), "1")
-    bottom.set(qn("w:color"), "1F2A33")
+    bottom.set(qn("w:color"), "0F1A2E")
     pb.append(bottom)
     pPr.append(pb)
     p.paragraph_format.space_after = Pt(2)
@@ -150,7 +151,7 @@ def encabezado_seccion(doc, kicker, titulo):
         p.paragraph_format.space_before = Pt(14)
         p.paragraph_format.space_after = Pt(0)
         r = p.add_run(kicker.upper())
-        set_font(r, size=9, color=CORE, bold=True)
+        set_font(r, size=9, color=ORO_TXT, bold=True)
         r.font.name = FUENTE
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(6)
@@ -170,7 +171,7 @@ def tabla_senales(doc, senales):
     t.autofit = True
     for j, c in enumerate(cols):
         cell = t.rows[0].cells[j]
-        shade(cell, "1F2A33")
+        shade(cell, "0F1A2E")
         pr = cell.paragraphs[0]; pr.paragraph_format.space_after = Pt(2)
         r = pr.add_run(c); set_font(r, size=9, color=RGBColor(0xFF,0xFF,0xFF), bold=True)
     for s in senales:
@@ -181,7 +182,7 @@ def tabla_senales(doc, senales):
         r2 = p0.add_run(f"\n{s['nombre']}"); set_font(r2, size=8, color=GRIS)
         # teatro/conflicto
         p1 = row[1].paragraphs[0]
-        r = p1.add_run(s.get("teatro", "")); set_font(r, size=9, color=CORE)
+        r = p1.add_run(s.get("teatro", "")); set_font(r, size=9, color=INK)
         r2 = p1.add_run(f"\n{s['conflicto']}"); set_font(r2, size=8.5, color=GRIS)
         # 1d, 30d
         for idx, key in ((2, "var_1d_pct"), (3, "var_30d_pct")):
@@ -190,7 +191,7 @@ def tabla_senales(doc, senales):
         # z
         pz = row[4].paragraphs[0]; pz.alignment = WD_ALIGN_PARAGRAPH.RIGHT
         rz = pz.add_run(f"{s['z_score']:+.2f}")
-        set_font(rz, size=9.5, color=OCRE, bold=True)
+        set_font(rz, size=9.5, color=ORO_TXT, bold=True)
 
 
 def tabla_teatro(doc, activos_mov):
@@ -201,7 +202,7 @@ def tabla_teatro(doc, activos_mov):
     t = doc.add_table(rows=1, cols=len(cols))
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
     for j, c in enumerate(cols):
-        cell = t.rows[0].cells[j]; shade(cell, "3A464E")
+        cell = t.rows[0].cells[j]; shade(cell, "2C3A52")
         pr = cell.paragraphs[0]; r = pr.add_run(c)
         set_font(r, size=8.5, color=RGBColor(0xFF,0xFF,0xFF), bold=True)
     for a in activos_mov:
@@ -255,7 +256,7 @@ def main():
     # ---- Portada / cabecera ----
     p = doc.add_paragraph()
     r = p.add_run("STRATHOS LAB")
-    set_font(r, size=11, color=CORE, bold=True)
+    set_font(r, size=11, color=ORO_TXT, bold=True)
     p.paragraph_format.space_after = Pt(2)
 
     p = doc.add_paragraph()
