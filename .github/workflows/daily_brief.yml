@@ -23,7 +23,7 @@ jobs:
           pip install pandas yfinance requests google-generativeai
 
       - name: 1. Actualizar precios del monitor
-        run: python traer_precios.py
+        run: python scripts/traer_precios.py
 
       - name: 2. Generar y enviar el Brief por Email
         env:
