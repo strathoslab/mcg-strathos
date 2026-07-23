@@ -1,0 +1,75 @@
+name: MCG - Generar dossier ERG
+
+# Se dispara a mano. Pedis el teatro y GitHub arma el DOCX en la carpeta erg/.
+on:
+  workflow_dispatch:
+    inputs:
+      teatro:
+        description: "Nombre del archivo de analisis, sin .md (por ejemplo: ormuz)"
+        required: true
+        default: "ormuz"
+        type: string
+
+concurrency:
+  group: mcg-erg
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  dossier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install python-docx
+
+      - name: Verificar que exista el analisis
+        run: |
+          if [ ! -f "erg/${{ inputs.teatro }}.md" ]; then
+            echo "ERROR: no existe erg/${{ inputs.teatro }}.md"
+            echo "Archivos disponibles en erg/:"
+            ls -1 erg/*.md 2>/dev/null || echo "  (ninguno)"
+            exit 1
+          fi
+
+      - name: Generar el dossier
+        run: python scripts/generar_erg.py "${{ inputs.teatro }}"
+
+      - name: Guardar el DOCX en el repositorio
+        run: |
+          git config user.name "MCG Bot"
+          git config user.email "actions@github.com"
+          mkdir -p /tmp/out
+          cp erg/*.docx /tmp/out/ 2>/dev/null || true
+          if [ -z "$(ls -A /tmp/out 2>/dev/null)" ]; then
+            echo "No se genero ningun DOCX."
+            exit 1
+          fi
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/out/*.docx erg/ 2>/dev/null || true
+            git add erg/*.docx
+            if git diff --staged --quiet; then
+              echo "Sin cambios que guardar."
+              exit 0
+            fi
+            git commit -m "ERG: dossier ${{ inputs.teatro }}"
+            if git push; then
+              echo "Push OK (intento $i)"
+              exit 0
+            fi
+            echo "Push rechazado (intento $i). Reintentando..."
+            sleep 3
+          done
+          echo "No se pudo empujar tras varios intentos."
+          exit 1
