@@ -163,8 +163,20 @@ function mostrar(d){
     <div class="campo"><b>Exposición a activos</b>${d.exposicion} · <b style="display:inline">Tier</b> ${d.tier}${d.teatro!=="—"?` · teatro ${d.teatro}`:""}</div>`;
 }
 
-fetch('../data/catalogo_conflictos.csv?v='+Date.now())
-  .then(r=>{ if(!r.ok) throw new Error('No se encontró catalogo_conflictos.csv'); return r.text(); })
+// El CSV se busca primero junto a esta página (docs/) y, si no está,
+// en la carpeta data/ del repositorio. Así funciona en cualquiera de las dos ubicaciones.
+const RUTAS = ['catalogo_conflictos.csv', '../data/catalogo_conflictos.csv'];
+
+function cargarCatalogo(i){
+  if(i >= RUTAS.length){
+    return Promise.reject(new Error('No se encontró catalogo_conflictos.csv en docs/ ni en data/'));
+  }
+  return fetch(RUTAS[i] + '?v=' + Date.now())
+    .then(r => r.ok ? r.text() : Promise.reject(new Error('no está en ' + RUTAS[i])))
+    .catch(() => cargarCatalogo(i+1));
+}
+
+cargarCatalogo(0)
   .then(txt=>{
     DATOS = parseCSV(txt);
 
@@ -221,7 +233,7 @@ fetch('../data/catalogo_conflictos.csv?v='+Date.now())
   .catch(e=>{
     document.getElementById("detalle").innerHTML =
       `<span style="color:#a33a2e"><strong>No se pudo cargar el catálogo.</strong><br>
-       Verificá que <code>data/catalogo_conflictos.csv</code> esté en el repositorio.<br>
+       Subí <code>catalogo_conflictos.csv</code> dentro de la carpeta <code>docs</code>.<br>
        <span style="font-size:11px;color:#6b7480">Detalle: ${e.message}</span></span>`;
   });
 </script>
