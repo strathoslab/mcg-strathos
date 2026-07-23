@@ -22,7 +22,7 @@ import google.generativeai as genai
 # ==========================================
 # 1. RUTAS Y CONFIGURACIÓN DE ENTORNO
 # ==========================================
-RAIZ = os.path.dirname(os.path.abspath(__file__))
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUTA_ESTADO = os.path.join(RAIZ, "docs", "mcg_estado.json")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
