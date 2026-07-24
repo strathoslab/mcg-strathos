@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-07-23 19:55:54 UTC",
-    "dias_registrados": 8,
+    "actualizado_utc": "2026-07-24 07:41:42 UTC",
+    "dias_registrados": 9,
     "desde": "2026-07-15",
-    "hasta": "2026-07-23",
+    "hasta": "2026-07-24",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 7,
-      "ultima_fecha": "2026-07-23"
+      "veces": 8,
+      "ultima_fecha": "2026-07-24"
     },
     {
       "ticker": "CP",
@@ -34,12 +34,36 @@
       "ultima_fecha": "2026-07-22"
     },
     {
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
+    },
+    {
       "ticker": "CHKP",
       "nombre": "Check Point Software",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 2,
       "ultima_fecha": "2026-07-22"
+    },
+    {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
+    },
+    {
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
     },
     {
       "ticker": "FXI",
@@ -50,12 +74,44 @@
       "ultima_fecha": "2026-07-21"
     },
     {
+      "ticker": "GIL",
+      "nombre": "Gildan Activewear",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
+    },
+    {
+      "ticker": "JPY=X",
+      "nombre": "Yen Japonés",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
+    },
+    {
+      "ticker": "LMT",
+      "nombre": "Lockheed Martin",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
+    },
+    {
       "ticker": "MP",
       "nombre": "MP Materials",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 2,
       "ultima_fecha": "2026-07-17"
+    },
+    {
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 2,
+      "ultima_fecha": "2026-07-24"
     },
     {
       "ticker": "TTE",
@@ -98,14 +154,6 @@
       "ultima_fecha": "2026-07-18"
     },
     {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
       "ticker": "CCJ",
       "nombre": "Cameco",
       "teatro": "Rusia–Ucrania",
@@ -138,14 +186,6 @@
       "ultima_fecha": "2026-07-18"
     },
     {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
       "ticker": "EWT",
       "nombre": "iShares MSCI Taiwan ETF",
       "teatro": "Indo-Pacífico",
@@ -154,52 +194,12 @@
       "ultima_fecha": "2026-07-22"
     },
     {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
-      "ticker": "GIL",
-      "nombre": "Gildan Activewear",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
-      "ticker": "LMT",
-      "nombre": "Lockheed Martin",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 1,
       "ultima_fecha": "2026-07-15"
-    },
-    {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
     },
     {
       "ticker": "TSM",
@@ -219,6 +219,84 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-07-24",
+      "actualizado_utc": "2026-07-24 07:41:42 UTC",
+      "senales": [
+        {
+          "ticker": "LMT",
+          "nombre": "Lockheed Martin",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 10.54,
+          "var_30d_pct": 12.89,
+          "z_score": 3.77
+        },
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 7.33,
+          "var_30d_pct": 12.22,
+          "z_score": 3.36
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.55,
+          "var_30d_pct": 20.33,
+          "z_score": 3.0
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -8.08,
+          "var_30d_pct": 25.51,
+          "z_score": -2.14
+        },
+        {
+          "ticker": "JPY=X",
+          "nombre": "Yen Japonés",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 0.42,
+          "var_30d_pct": 1.24,
+          "z_score": 1.8
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -0.59,
+          "var_30d_pct": -1.39,
+          "z_score": -1.75
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": -2.23,
+          "var_30d_pct": 0.36,
+          "z_score": -1.68
+        },
+        {
+          "ticker": "GIL",
+          "nombre": "Gildan Activewear",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -6.87,
+          "var_30d_pct": -5.99,
+          "z_score": -1.63
+        }
+      ]
+    },
     {
       "fecha": "2026-07-23",
       "actualizado_utc": "2026-07-23 19:55:54 UTC",
