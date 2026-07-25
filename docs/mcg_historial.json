@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-07-24 07:41:42 UTC",
-    "dias_registrados": 9,
+    "actualizado_utc": "2026-07-25 06:37:15 UTC",
+    "dias_registrados": 10,
     "desde": "2026-07-15",
-    "hasta": "2026-07-24",
+    "hasta": "2026-07-25",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -18,12 +18,44 @@
       "ultima_fecha": "2026-07-24"
     },
     {
+      "ticker": "CHKP",
+      "nombre": "Check Point Software",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 3,
+      "ultima_fecha": "2026-07-25"
+    },
+    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
       "conflicto": "México",
       "veces": 3,
       "ultima_fecha": "2026-07-21"
+    },
+    {
+      "ticker": "JPY=X",
+      "nombre": "Yen Japonés",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 3,
+      "ultima_fecha": "2026-07-25"
+    },
+    {
+      "ticker": "MP",
+      "nombre": "MP Materials",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 3,
+      "ultima_fecha": "2026-07-25"
+    },
+    {
+      "ticker": "AAPL",
+      "nombre": "Apple",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 2,
+      "ultima_fecha": "2026-07-25"
     },
     {
       "ticker": "ATI",
@@ -40,14 +72,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "CHKP",
-      "nombre": "Check Point Software",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 2,
-      "ultima_fecha": "2026-07-22"
     },
     {
       "ticker": "EMB",
@@ -82,28 +106,12 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 2,
-      "ultima_fecha": "2026-07-24"
-    },
-    {
       "ticker": "LMT",
       "nombre": "Lockheed Martin",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "MP",
-      "nombre": "MP Materials",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 2,
-      "ultima_fecha": "2026-07-17"
     },
     {
       "ticker": "RTX",
@@ -136,14 +144,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 1,
       "ultima_fecha": "2026-07-18"
-    },
-    {
-      "ticker": "AAPL",
-      "nombre": "Apple",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 1,
-      "ultima_fecha": "2026-07-15"
     },
     {
       "ticker": "ADM",
@@ -219,6 +219,48 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-07-25",
+      "actualizado_utc": "2026-07-25 06:37:15 UTC",
+      "senales": [
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -7.5,
+          "var_30d_pct": -26.92,
+          "z_score": -2.12
+        },
+        {
+          "ticker": "JPY=X",
+          "nombre": "Yen Japonés",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 0.44,
+          "var_30d_pct": 1.25,
+          "z_score": 1.84
+        },
+        {
+          "ticker": "AAPL",
+          "nombre": "Apple",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 3.53,
+          "var_30d_pct": 13.63,
+          "z_score": 1.67
+        },
+        {
+          "ticker": "CHKP",
+          "nombre": "Check Point Software",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.62,
+          "var_30d_pct": 4.72,
+          "z_score": 1.54
+        }
+      ]
+    },
     {
       "fecha": "2026-07-24",
       "actualizado_utc": "2026-07-24 07:41:42 UTC",
