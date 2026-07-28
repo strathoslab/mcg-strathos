@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-07-25 06:37:15 UTC",
-    "dias_registrados": 10,
+    "actualizado_utc": "2026-07-28 07:48:07 UTC",
+    "dias_registrados": 11,
     "desde": "2026-07-15",
-    "hasta": "2026-07-25",
+    "hasta": "2026-07-28",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 8,
-      "ultima_fecha": "2026-07-24"
+      "veces": 9,
+      "ultima_fecha": "2026-07-28"
     },
     {
       "ticker": "CHKP",
@@ -58,6 +58,14 @@
       "ultima_fecha": "2026-07-25"
     },
     {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-07-28"
+    },
+    {
       "ticker": "ATI",
       "nombre": "ATI Inc",
       "teatro": "Rusia–Ucrania",
@@ -72,6 +80,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
+    },
+    {
+      "ticker": "E",
+      "nombre": "Eni SpA (ADR)",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 2,
+      "ultima_fecha": "2026-07-28"
     },
     {
       "ticker": "EMB",
@@ -114,6 +130,14 @@
       "ultima_fecha": "2026-07-24"
     },
     {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-07-28"
+    },
+    {
       "ticker": "RTX",
       "nombre": "RTX Corp",
       "teatro": "Complejo Israel–Irán",
@@ -146,12 +170,12 @@
       "ultima_fecha": "2026-07-18"
     },
     {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "ASML",
+      "nombre": "ASML Holding",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 1,
-      "ultima_fecha": "2026-07-18"
+      "ultima_fecha": "2026-07-28"
     },
     {
       "ticker": "CCJ",
@@ -160,6 +184,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 1,
       "ultima_fecha": "2026-07-22"
+    },
+    {
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 1,
+      "ultima_fecha": "2026-07-28"
     },
     {
       "ticker": "CL=F",
@@ -178,14 +210,6 @@
       "ultima_fecha": "2026-07-22"
     },
     {
-      "ticker": "E",
-      "nombre": "Eni SpA (ADR)",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 1,
-      "ultima_fecha": "2026-07-18"
-    },
-    {
       "ticker": "EWT",
       "nombre": "iShares MSCI Taiwan ETF",
       "teatro": "Indo-Pacífico",
@@ -194,12 +218,20 @@
       "ultima_fecha": "2026-07-22"
     },
     {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
       "veces": 1,
-      "ultima_fecha": "2026-07-15"
+      "ultima_fecha": "2026-07-28"
+    },
+    {
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 1,
+      "ultima_fecha": "2026-07-28"
     },
     {
       "ticker": "TSM",
@@ -219,6 +251,84 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-07-28",
+      "actualizado_utc": "2026-07-28 07:48:07 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.09,
+          "var_30d_pct": 15.02,
+          "z_score": 2.74
+        },
+        {
+          "ticker": "LNG",
+          "nombre": "Cheniere Energy",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.13,
+          "var_30d_pct": 8.84,
+          "z_score": -2.59
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.18,
+          "var_30d_pct": 8.69,
+          "z_score": -2.08
+        },
+        {
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.23,
+          "var_30d_pct": 13.55,
+          "z_score": -2.08
+        },
+        {
+          "ticker": "NVDA",
+          "nombre": "Nvidia",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.99,
+          "var_30d_pct": 0.39,
+          "z_score": -2.05
+        },
+        {
+          "ticker": "E",
+          "nombre": "Eni SpA (ADR)",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": -3.38,
+          "var_30d_pct": 8.21,
+          "z_score": -1.66
+        },
+        {
+          "ticker": "ASML",
+          "nombre": "ASML Holding",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -5.8,
+          "var_30d_pct": -10.1,
+          "z_score": -1.59
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -3.15,
+          "var_30d_pct": 0.88,
+          "z_score": -1.5
+        }
+      ]
+    },
     {
       "fecha": "2026-07-25",
       "actualizado_utc": "2026-07-25 06:37:15 UTC",
