@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-07-28 07:48:07 UTC",
-    "dias_registrados": 11,
+    "actualizado_utc": "2026-07-29 08:04:19 UTC",
+    "dias_registrados": 12,
     "desde": "2026-07-15",
-    "hasta": "2026-07-28",
+    "hasta": "2026-07-29",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,16 +14,24 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 9,
-      "ultima_fecha": "2026-07-28"
+      "veces": 10,
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "CHKP",
       "nombre": "Check Point Software",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 4,
+      "ultima_fecha": "2026-07-29"
+    },
+    {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 3,
-      "ultima_fecha": "2026-07-25"
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "CP",
@@ -34,12 +42,28 @@
       "ultima_fecha": "2026-07-21"
     },
     {
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 3,
+      "ultima_fecha": "2026-07-29"
+    },
+    {
       "ticker": "JPY=X",
       "nombre": "Yen Japonés",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 3,
       "ultima_fecha": "2026-07-25"
+    },
+    {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "MP",
@@ -58,12 +82,12 @@
       "ultima_fecha": "2026-07-25"
     },
     {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "ASML",
+      "nombre": "ASML Holding",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 2,
-      "ultima_fecha": "2026-07-28"
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "ATI",
@@ -82,6 +106,14 @@
       "ultima_fecha": "2026-07-24"
     },
     {
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 2,
+      "ultima_fecha": "2026-07-29"
+    },
+    {
       "ticker": "E",
       "nombre": "Eni SpA (ADR)",
       "teatro": "África de Recursos Críticos",
@@ -94,14 +126,6 @@
       "nombre": "iShares J.P. Morgan EM Bond ETF",
       "teatro": "Américas",
       "conflicto": "Ecuador",
-      "veces": 2,
-      "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
     },
@@ -130,12 +154,12 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 2,
-      "ultima_fecha": "2026-07-28"
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "RTX",
@@ -170,28 +194,12 @@
       "ultima_fecha": "2026-07-18"
     },
     {
-      "ticker": "ASML",
-      "nombre": "ASML Holding",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 1,
-      "ultima_fecha": "2026-07-28"
-    },
-    {
       "ticker": "CCJ",
       "nombre": "Cameco",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 1,
       "ultima_fecha": "2026-07-22"
-    },
-    {
-      "ticker": "CF",
-      "nombre": "CF Industries",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 1,
-      "ultima_fecha": "2026-07-28"
     },
     {
       "ticker": "CL=F",
@@ -226,12 +234,12 @@
       "ultima_fecha": "2026-07-28"
     },
     {
-      "ticker": "NVDA",
-      "nombre": "Nvidia",
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
       "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
+      "conflicto": "Disputas marítimas",
       "veces": 1,
-      "ultima_fecha": "2026-07-28"
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "TSM",
@@ -240,6 +248,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 1,
       "ultima_fecha": "2026-07-22"
+    },
+    {
+      "ticker": "ZIM",
+      "nombre": "Zim Integrated Shipping",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 1,
+      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "ZW=F",
@@ -251,6 +267,102 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-07-29",
+      "actualizado_utc": "2026-07-29 08:04:19 UTC",
+      "senales": [
+        {
+          "ticker": "LNG",
+          "nombre": "Cheniere Energy",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.92,
+          "var_30d_pct": 10.84,
+          "z_score": -2.88
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.96,
+          "var_30d_pct": 19.71,
+          "z_score": 2.67
+        },
+        {
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -5.47,
+          "var_30d_pct": 16.19,
+          "z_score": -2.51
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.66,
+          "var_30d_pct": 10.8,
+          "z_score": -2.21
+        },
+        {
+          "ticker": "CHKP",
+          "nombre": "Check Point Software",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.35,
+          "var_30d_pct": 6.47,
+          "z_score": 2.18
+        },
+        {
+          "ticker": "NVDA",
+          "nombre": "Nvidia",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.99,
+          "var_30d_pct": 0.39,
+          "z_score": -2.05
+        },
+        {
+          "ticker": "ZIM",
+          "nombre": "Zim Integrated Shipping",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.03,
+          "var_30d_pct": -3.99,
+          "z_score": -1.64
+        },
+        {
+          "ticker": "ASML",
+          "nombre": "ASML Holding",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -5.8,
+          "var_30d_pct": -10.1,
+          "z_score": -1.59
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -3.81,
+          "var_30d_pct": 5.04,
+          "z_score": -1.57
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": 2.05,
+          "var_30d_pct": 3.73,
+          "z_score": 1.5
+        }
+      ]
+    },
     {
       "fecha": "2026-07-28",
       "actualizado_utc": "2026-07-28 07:48:07 UTC",
