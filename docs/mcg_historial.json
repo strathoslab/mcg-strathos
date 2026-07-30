@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-07-29 08:04:19 UTC",
-    "dias_registrados": 12,
+    "actualizado_utc": "2026-07-30 07:42:05 UTC",
+    "dias_registrados": 13,
     "desde": "2026-07-15",
-    "hasta": "2026-07-29",
+    "hasta": "2026-07-30",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,16 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 10,
-      "ultima_fecha": "2026-07-29"
+      "veces": 11,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 4,
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "CHKP",
@@ -26,12 +34,28 @@
       "ultima_fecha": "2026-07-29"
     },
     {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
+      "ticker": "MP",
+      "nombre": "MP Materials",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 4,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
-      "ultima_fecha": "2026-07-29"
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 3,
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "CP",
@@ -40,6 +64,22 @@
       "conflicto": "México",
       "veces": 3,
       "ultima_fecha": "2026-07-21"
+    },
+    {
+      "ticker": "E",
+      "nombre": "Eni SpA (ADR)",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 3,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 3,
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "EWW",
@@ -66,12 +106,12 @@
       "ultima_fecha": "2026-07-29"
     },
     {
-      "ticker": "MP",
-      "nombre": "MP Materials",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
+      "ticker": "TTE",
+      "nombre": "TotalEnergies",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
       "veces": 3,
-      "ultima_fecha": "2026-07-25"
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "AAPL",
@@ -90,14 +130,6 @@
       "ultima_fecha": "2026-07-29"
     },
     {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-07-22"
-    },
-    {
       "ticker": "BZ=F",
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
@@ -106,28 +138,12 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "CF",
-      "nombre": "CF Industries",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 2,
-      "ultima_fecha": "2026-07-29"
-    },
-    {
-      "ticker": "E",
-      "nombre": "Eni SpA (ADR)",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 2,
-      "ultima_fecha": "2026-07-28"
-    },
-    {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 2,
-      "ultima_fecha": "2026-07-24"
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "FXI",
@@ -170,14 +186,6 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "TTE",
-      "nombre": "TotalEnergies",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 2,
-      "ultima_fecha": "2026-07-22"
-    },
-    {
       "ticker": "WU",
       "nombre": "Western Union",
       "teatro": "Américas",
@@ -218,12 +226,12 @@
       "ultima_fecha": "2026-07-22"
     },
     {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 1,
-      "ultima_fecha": "2026-07-22"
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "GLNCY",
@@ -250,6 +258,22 @@
       "ultima_fecha": "2026-07-22"
     },
     {
+      "ticker": "URA",
+      "nombre": "Global X Uranium ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Níger",
+      "veces": 1,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 1,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
       "ticker": "ZIM",
       "nombre": "Zim Integrated Shipping",
       "teatro": "Complejo Israel–Irán",
@@ -267,6 +291,120 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-07-30",
+      "actualizado_utc": "2026-07-30 07:42:05 UTC",
+      "senales": [
+        {
+          "ticker": "E",
+          "nombre": "Eni SpA (ADR)",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 7.13,
+          "var_30d_pct": 15.47,
+          "z_score": 3.11
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.51,
+          "var_30d_pct": 14.78,
+          "z_score": 2.81
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -6.05,
+          "var_30d_pct": 4.97,
+          "z_score": -2.42
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -0.66,
+          "var_30d_pct": -1.93,
+          "z_score": -2.19
+        },
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -7.7,
+          "var_30d_pct": -30.4,
+          "z_score": -2.15
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.37,
+          "var_30d_pct": 4.57,
+          "z_score": -2.09
+        },
+        {
+          "ticker": "ATI",
+          "nombre": "ATI Inc",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -4.85,
+          "var_30d_pct": -10.01,
+          "z_score": -2.01
+        },
+        {
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.6,
+          "var_30d_pct": 20.83,
+          "z_score": 1.77
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.83,
+          "var_30d_pct": -15.48,
+          "z_score": -1.75
+        },
+        {
+          "ticker": "URA",
+          "nombre": "Global X Uranium ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Níger",
+          "var_1d_pct": -3.67,
+          "var_30d_pct": -14.59,
+          "z_score": -1.63
+        },
+        {
+          "ticker": "TTE",
+          "nombre": "TotalEnergies",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 3.05,
+          "var_30d_pct": 11.69,
+          "z_score": 1.57
+        },
+        {
+          "ticker": "XOM",
+          "nombre": "ExxonMobil",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.42,
+          "var_30d_pct": 15.21,
+          "z_score": 1.56
+        }
+      ]
+    },
     {
       "fecha": "2026-07-29",
       "actualizado_utc": "2026-07-29 08:04:19 UTC",
