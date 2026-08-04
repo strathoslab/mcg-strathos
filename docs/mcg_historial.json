@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-01 07:36:28 UTC",
-    "dias_registrados": 15,
+    "actualizado_utc": "2026-08-04 07:48:35 UTC",
+    "dias_registrados": 16,
     "desde": "2026-07-15",
-    "hasta": "2026-08-01",
+    "hasta": "2026-08-04",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 12,
-      "ultima_fecha": "2026-07-31"
+      "veces": 13,
+      "ultima_fecha": "2026-08-04"
     },
     {
       "ticker": "CHKP",
@@ -42,6 +42,22 @@
       "ultima_fecha": "2026-07-31"
     },
     {
+      "ticker": "WU",
+      "nombre": "Western Union",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 5,
+      "ultima_fecha": "2026-08-04"
+    },
+    {
+      "ticker": "AAPL",
+      "nombre": "Apple",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 4,
+      "ultima_fecha": "2026-08-04"
+    },
+    {
       "ticker": "ADM",
       "nombre": "Archer-Daniels-Midland",
       "teatro": "Rusia–Ucrania",
@@ -66,20 +82,12 @@
       "ultima_fecha": "2026-07-31"
     },
     {
-      "ticker": "WU",
-      "nombre": "Western Union",
+      "ticker": "GIL",
+      "nombre": "Gildan Activewear",
       "teatro": "Américas",
       "conflicto": "Haití",
       "veces": 4,
-      "ultima_fecha": "2026-08-01"
-    },
-    {
-      "ticker": "AAPL",
-      "nombre": "Apple",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 3,
-      "ultima_fecha": "2026-08-01"
+      "ultima_fecha": "2026-08-04"
     },
     {
       "ticker": "ASML",
@@ -128,14 +136,6 @@
       "conflicto": "China - Taiwán",
       "veces": 3,
       "ultima_fecha": "2026-07-31"
-    },
-    {
-      "ticker": "GIL",
-      "nombre": "Gildan Activewear",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 3,
-      "ultima_fecha": "2026-08-01"
     },
     {
       "ticker": "LNG",
@@ -200,6 +200,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
+    },
+    {
+      "ticker": "LUG.TO",
+      "nombre": "Lundin Gold",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 2,
+      "ultima_fecha": "2026-08-04"
     },
     {
       "ticker": "NVDA",
@@ -274,20 +282,20 @@
       "ultima_fecha": "2026-07-31"
     },
     {
-      "ticker": "LUG.TO",
-      "nombre": "Lundin Gold",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 1,
-      "ultima_fecha": "2026-08-01"
-    },
-    {
       "ticker": "MATX",
       "nombre": "Matson Inc",
       "teatro": "Indo-Pacífico",
       "conflicto": "Disputas marítimas",
       "veces": 1,
       "ultima_fecha": "2026-07-29"
+    },
+    {
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 1,
+      "ultima_fecha": "2026-08-04"
     },
     {
       "ticker": "XOM",
@@ -307,6 +315,66 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-04",
+      "actualizado_utc": "2026-08-04 07:48:35 UTC",
+      "senales": [
+        {
+          "ticker": "WU",
+          "nombre": "Western Union",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -17.3,
+          "var_30d_pct": -18.98,
+          "z_score": -4.4
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 7.66,
+          "var_30d_pct": 11.65,
+          "z_score": 3.51
+        },
+        {
+          "ticker": "AAPL",
+          "nombre": "Apple",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -7.35,
+          "var_30d_pct": 4.94,
+          "z_score": -2.92
+        },
+        {
+          "ticker": "GIL",
+          "nombre": "Gildan Activewear",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": 5.49,
+          "var_30d_pct": 7.24,
+          "z_score": 2.48
+        },
+        {
+          "ticker": "LUG.TO",
+          "nombre": "Lundin Gold",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -5.6,
+          "var_30d_pct": -2.87,
+          "z_score": -1.96
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.97,
+          "var_30d_pct": 9.33,
+          "z_score": 1.51
+        }
+      ]
+    },
     {
       "fecha": "2026-08-01",
       "actualizado_utc": "2026-08-01 07:36:28 UTC",

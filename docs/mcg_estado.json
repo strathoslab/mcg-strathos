@@ -2,7 +2,7 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG)",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-01 07:36:28 UTC",
+    "actualizado_utc": "2026-08-04 07:48:35 UTC",
     "fuente_precios": "Yahoo Finance vía yfinance",
     "encuadre": "Monitor de exposición. Registra movimientos de activos mapeados a conflictos. No establece causalidad entre el conflicto y el movimiento de precio.",
     "umbral_senal_sigma": 1.5,
@@ -21,13 +21,13 @@
       "z_score": -4.4
     },
     {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "var_1d_pct": -1.74,
-      "var_30d_pct": -2.51,
-      "z_score": -3.28
+      "ticker": "ZC=F",
+      "nombre": "Futuros de Maíz",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "var_1d_pct": 7.66,
+      "var_30d_pct": 11.65,
+      "z_score": 3.51
     },
     {
       "ticker": "AAPL",
@@ -57,13 +57,13 @@
       "z_score": -1.96
     },
     {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "var_1d_pct": -3.65,
-      "var_30d_pct": 7.98,
-      "z_score": -1.6
+      "var_1d_pct": 6.97,
+      "var_30d_pct": 9.33,
+      "z_score": 1.51
     }
   ],
   "teatros": [
@@ -190,7 +190,7 @@
                 "volatilidad_30d_anualizada_pct": 40.62,
                 "z_score_ultimo_dia": -0.62,
                 "pos_rango_52s_pct": 97.0,
-                "minimo_52s": 7.9,
+                "minimo_52s": 7.95,
                 "maximo_52s": 17.04,
                 "ultima_fecha": "2026-07-31"
               },
@@ -254,16 +254,16 @@
               "recurso": "Deuda país",
               "justificacion": "Riesgo por el costo fiscal del estado de excepción interno.",
               "datos": {
-                "precio": 94.66,
+                "precio": 94.25,
                 "var_1d_pct": -0.14,
                 "var_7d_pct": 0.02,
                 "var_30d_pct": -1.42,
                 "var_90d_pct": 0.07,
                 "volatilidad_30d_anualizada_pct": 4.76,
                 "z_score_ultimo_dia": -0.46,
-                "pos_rango_52s_pct": 77.8,
-                "minimo_52s": 88.5,
-                "maximo_52s": 96.42,
+                "pos_rango_52s_pct": 76.5,
+                "minimo_52s": 88.55,
+                "maximo_52s": 96.0,
                 "ultima_fecha": "2026-07-31"
               },
               "estado_dato": "ok"
@@ -337,17 +337,17 @@
               "recurso": "Petróleo crudo",
               "justificacion": "Paso clave por el Estrecho de Ormuz (20% del crudo mundial).",
               "datos": {
-                "precio": 90.12,
-                "var_1d_pct": 1.22,
-                "var_7d_pct": -6.88,
-                "var_30d_pct": 25.92,
-                "var_90d_pct": -20.95,
-                "volatilidad_30d_anualizada_pct": 62.83,
-                "z_score_ultimo_dia": 0.31,
-                "pos_rango_52s_pct": 52.5,
+                "precio": 85.02,
+                "var_1d_pct": -5.66,
+                "var_7d_pct": -3.78,
+                "var_30d_pct": 18.41,
+                "var_90d_pct": -21.4,
+                "volatilidad_30d_anualizada_pct": 65.32,
+                "z_score_ultimo_dia": -1.38,
+                "pos_rango_52s_pct": 43.9,
                 "minimo_52s": 58.92,
                 "maximo_52s": 118.35,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -359,17 +359,17 @@
               "recurso": "Petróleo crudo (WTI)",
               "justificacion": "Referencia estadounidense sensible a la escalada regional.",
               "datos": {
-                "precio": 84.67,
-                "var_1d_pct": 1.29,
-                "var_7d_pct": -5.2,
-                "var_30d_pct": 23.46,
-                "var_90d_pct": -19.42,
-                "volatilidad_30d_anualizada_pct": 56.67,
-                "z_score_ultimo_dia": 0.36,
-                "pos_rango_52s_pct": 51.0,
+                "precio": 80.89,
+                "var_1d_pct": -4.46,
+                "var_7d_pct": -2.08,
+                "var_30d_pct": 17.76,
+                "var_90d_pct": -20.65,
+                "volatilidad_30d_anualizada_pct": 58.37,
+                "z_score_ultimo_dia": -1.21,
+                "pos_rango_52s_pct": 44.4,
                 "minimo_52s": 55.27,
                 "maximo_52s": 112.95,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -381,17 +381,17 @@
               "recurso": "GNL",
               "justificacion": "Riesgo de disrupción en envíos desde Medio Oriente (Qatar).",
               "datos": {
-                "precio": 2.75,
-                "var_1d_pct": -0.4,
-                "var_7d_pct": -4.32,
-                "var_30d_pct": -14.69,
-                "var_90d_pct": -0.72,
-                "volatilidad_30d_anualizada_pct": 37.85,
-                "z_score_ultimo_dia": -0.17,
-                "pos_rango_52s_pct": 4.5,
+                "precio": 2.77,
+                "var_1d_pct": 0.66,
+                "var_7d_pct": -0.07,
+                "var_30d_pct": -13.49,
+                "var_90d_pct": -0.54,
+                "volatilidad_30d_anualizada_pct": 36.76,
+                "z_score_ultimo_dia": 0.28,
+                "pos_rango_52s_pct": 4.9,
                 "minimo_52s": 2.52,
                 "maximo_52s": 7.46,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -425,17 +425,17 @@
               "recurso": "Aluminio",
               "justificacion": "El Golfo Pérsico produce cerca del 10% mundial, intensivo en energía.",
               "datos": {
-                "precio": 3334.75,
-                "var_1d_pct": -0.92,
-                "var_7d_pct": -5.48,
-                "var_30d_pct": -1.46,
-                "var_90d_pct": -3.35,
-                "volatilidad_30d_anualizada_pct": 36.56,
-                "z_score_ultimo_dia": -0.4,
-                "pos_rango_52s_pct": 51.3,
+                "precio": 3443.75,
+                "var_1d_pct": 3.27,
+                "var_7d_pct": -2.77,
+                "var_30d_pct": 0.82,
+                "var_90d_pct": -1.5,
+                "volatilidad_30d_anualizada_pct": 38.0,
+                "z_score_ultimo_dia": 1.37,
+                "pos_rango_52s_pct": 57.5,
                 "minimo_52s": 2427.0,
                 "maximo_52s": 4195.0,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -454,8 +454,8 @@
                 "var_90d_pct": -28.93,
                 "volatilidad_30d_anualizada_pct": 48.8,
                 "z_score_ultimo_dia": 0.21,
-                "pos_rango_52s_pct": 30.8,
-                "minimo_52s": 28.14,
+                "pos_rango_52s_pct": 29.9,
+                "minimo_52s": 28.85,
                 "maximo_52s": 83.79,
                 "ultima_fecha": "2026-07-31"
               },
@@ -520,8 +520,8 @@
                 "var_90d_pct": 13.24,
                 "volatilidad_30d_anualizada_pct": 42.74,
                 "z_score_ultimo_dia": 0.56,
-                "pos_rango_52s_pct": 65.9,
-                "minimo_52s": 409.95,
+                "pos_rango_52s_pct": 65.5,
+                "minimo_52s": 412.57,
                 "maximo_52s": 672.3,
                 "ultima_fecha": "2026-07-31"
               },
@@ -579,17 +579,17 @@
               "recurso": "Capital seguro",
               "justificacion": "Refugio histórico ante escalada regional a gran escala.",
               "datos": {
-                "precio": 4049.1,
-                "var_1d_pct": -1.24,
-                "var_7d_pct": -0.45,
-                "var_30d_pct": -0.47,
-                "var_90d_pct": -12.26,
-                "volatilidad_30d_anualizada_pct": 23.71,
-                "z_score_ultimo_dia": -0.83,
-                "pos_rango_52s_pct": 36.7,
+                "precio": 4120.4,
+                "var_1d_pct": 1.76,
+                "var_7d_pct": 1.13,
+                "var_30d_pct": 0.19,
+                "var_90d_pct": -11.0,
+                "volatilidad_30d_anualizada_pct": 22.78,
+                "z_score_ultimo_dia": 1.23,
+                "pos_rango_52s_pct": 40.2,
                 "minimo_52s": 3313.4,
                 "maximo_52s": 5318.4,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -653,7 +653,7 @@
                 "volatilidad_30d_anualizada_pct": 50.19,
                 "z_score_ultimo_dia": 0.32,
                 "pos_rango_52s_pct": 100.0,
-                "minimo_52s": 35.63,
+                "minimo_52s": 36.79,
                 "maximo_52s": 96.18,
                 "ultima_fecha": "2026-07-31"
               },
@@ -751,8 +751,8 @@
                 "var_90d_pct": 13.95,
                 "volatilidad_30d_anualizada_pct": 39.99,
                 "z_score_ultimo_dia": -2.92,
-                "pos_rango_52s_pct": 77.5,
-                "minimo_52s": 201.58,
+                "pos_rango_52s_pct": 77.4,
+                "minimo_52s": 202.12,
                 "maximo_52s": 340.08,
                 "ultima_fecha": "2026-07-31"
               },
@@ -773,8 +773,8 @@
                 "var_90d_pct": -37.43,
                 "volatilidad_30d_anualizada_pct": 39.25,
                 "z_score_ultimo_dia": -0.29,
-                "pos_rango_52s_pct": 28.7,
-                "minimo_52s": 48.48,
+                "pos_rango_52s_pct": 26.8,
+                "minimo_52s": 50.02,
                 "maximo_52s": 109.53,
                 "ultima_fecha": "2026-07-31"
               },
@@ -861,8 +861,8 @@
                 "var_90d_pct": 13.24,
                 "volatilidad_30d_anualizada_pct": 42.74,
                 "z_score_ultimo_dia": 0.56,
-                "pos_rango_52s_pct": 65.9,
-                "minimo_52s": 409.95,
+                "pos_rango_52s_pct": 65.5,
+                "minimo_52s": 412.57,
                 "maximo_52s": 672.3,
                 "ultima_fecha": "2026-07-31"
               },
@@ -898,17 +898,17 @@
               "recurso": "Moneda de refugio",
               "justificacion": "Activo de refugio en Asia ante inestabilidad militar en el Indopacífico.",
               "datos": {
-                "precio": 157.4,
-                "var_1d_pct": -1.74,
-                "var_7d_pct": -3.8,
-                "var_30d_pct": -2.51,
-                "var_90d_pct": -0.18,
-                "volatilidad_30d_anualizada_pct": 8.42,
-                "z_score_ultimo_dia": -3.28,
-                "pos_rango_52s_pct": 63.0,
+                "precio": 157.77,
+                "var_1d_pct": 0.12,
+                "var_7d_pct": -3.66,
+                "var_30d_pct": -2.28,
+                "var_90d_pct": 0.81,
+                "volatilidad_30d_anualizada_pct": 8.24,
+                "z_score_ultimo_dia": 0.23,
+                "pos_rango_52s_pct": 65.1,
                 "minimo_52s": 146.41,
                 "maximo_52s": 163.86,
-                "ultima_fecha": "2026-08-01"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             }
@@ -981,17 +981,17 @@
               "recurso": "Petróleo crudo",
               "justificacion": "Referencia global afectada por sanciones a Rusia.",
               "datos": {
-                "precio": 90.12,
-                "var_1d_pct": 1.22,
-                "var_7d_pct": -6.88,
-                "var_30d_pct": 25.92,
-                "var_90d_pct": -20.95,
-                "volatilidad_30d_anualizada_pct": 62.83,
-                "z_score_ultimo_dia": 0.31,
-                "pos_rango_52s_pct": 52.5,
+                "precio": 85.02,
+                "var_1d_pct": -5.66,
+                "var_7d_pct": -3.78,
+                "var_30d_pct": 18.41,
+                "var_90d_pct": -21.4,
+                "volatilidad_30d_anualizada_pct": 65.32,
+                "z_score_ultimo_dia": -1.38,
+                "pos_rango_52s_pct": 43.9,
                 "minimo_52s": 58.92,
                 "maximo_52s": 118.35,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1003,17 +1003,17 @@
               "recurso": "Gas natural",
               "justificacion": "Referencia clave para el suministro europeo.",
               "datos": {
-                "precio": 2.75,
-                "var_1d_pct": -0.4,
-                "var_7d_pct": -4.32,
-                "var_30d_pct": -14.69,
-                "var_90d_pct": -0.72,
-                "volatilidad_30d_anualizada_pct": 37.85,
-                "z_score_ultimo_dia": -0.17,
-                "pos_rango_52s_pct": 4.5,
+                "precio": 2.77,
+                "var_1d_pct": 0.66,
+                "var_7d_pct": -0.07,
+                "var_30d_pct": -13.49,
+                "var_90d_pct": -0.54,
+                "volatilidad_30d_anualizada_pct": 36.76,
+                "z_score_ultimo_dia": 0.28,
+                "pos_rango_52s_pct": 4.9,
                 "minimo_52s": 2.52,
                 "maximo_52s": 7.46,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1069,17 +1069,17 @@
               "recurso": "Trigo",
               "justificacion": "Interrupciones en el granero del mundo y rutas marítimas.",
               "datos": {
-                "precio": 639.25,
-                "var_1d_pct": -3.65,
-                "var_7d_pct": -5.72,
-                "var_30d_pct": 7.98,
-                "var_90d_pct": 2.48,
-                "volatilidad_30d_anualizada_pct": 36.19,
-                "z_score_ultimo_dia": -1.6,
-                "pos_rango_52s_pct": 68.4,
+                "precio": 657.25,
+                "var_1d_pct": 2.82,
+                "var_7d_pct": -0.42,
+                "var_30d_pct": 11.3,
+                "var_90d_pct": 5.24,
+                "volatilidad_30d_anualizada_pct": 36.76,
+                "z_score_ultimo_dia": 1.22,
+                "pos_rango_52s_pct": 77.0,
                 "minimo_52s": 495.0,
                 "maximo_52s": 705.75,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1091,17 +1091,17 @@
               "recurso": "Maíz",
               "justificacion": "Caída de exportaciones desde el Mar Negro.",
               "datos": {
-                "precio": 440.75,
-                "var_1d_pct": -1.12,
-                "var_7d_pct": -5.06,
-                "var_30d_pct": 4.69,
-                "var_90d_pct": -5.16,
-                "volatilidad_30d_anualizada_pct": 27.23,
-                "z_score_ultimo_dia": -0.65,
-                "pos_rango_52s_pct": 65.6,
+                "precio": 474.5,
+                "var_1d_pct": 7.66,
+                "var_7d_pct": 5.04,
+                "var_30d_pct": 11.65,
+                "var_90d_pct": 1.33,
+                "volatilidad_30d_anualizada_pct": 34.64,
+                "z_score_ultimo_dia": 3.51,
+                "pos_rango_52s_pct": 97.6,
                 "minimo_52s": 371.5,
                 "maximo_52s": 477.0,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1142,8 +1142,8 @@
                 "var_90d_pct": 7.05,
                 "volatilidad_30d_anualizada_pct": 24.93,
                 "z_score_ultimo_dia": -1.06,
-                "pos_rango_52s_pct": 77.1,
-                "minimo_52s": 52.21,
+                "pos_rango_52s_pct": 76.7,
+                "minimo_52s": 52.7,
                 "maximo_52s": 87.32,
                 "ultima_fecha": "2026-07-31"
               },
@@ -1157,17 +1157,17 @@
               "recurso": "Paladio",
               "justificacion": "Rusia concentra cerca del 40% de la producción mundial.",
               "datos": {
-                "precio": 1275.6,
-                "var_1d_pct": -2.04,
-                "var_7d_pct": 2.32,
-                "var_30d_pct": 5.18,
-                "var_90d_pct": -16.43,
-                "volatilidad_30d_anualizada_pct": 43.61,
-                "z_score_ultimo_dia": -0.74,
-                "pos_rango_52s_pct": 17.8,
+                "precio": 1291.5,
+                "var_1d_pct": 1.25,
+                "var_7d_pct": 0.15,
+                "var_30d_pct": 2.35,
+                "var_90d_pct": -16.09,
+                "volatilidad_30d_anualizada_pct": 40.67,
+                "z_score_ultimo_dia": 0.49,
+                "pos_rango_52s_pct": 19.3,
                 "minimo_52s": 1082.0,
                 "maximo_52s": 2169.9,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1230,8 +1230,8 @@
                 "var_90d_pct": 13.24,
                 "volatilidad_30d_anualizada_pct": 42.74,
                 "z_score_ultimo_dia": 0.56,
-                "pos_rango_52s_pct": 65.9,
-                "minimo_52s": 409.95,
+                "pos_rango_52s_pct": 65.5,
+                "minimo_52s": 412.57,
                 "maximo_52s": 672.3,
                 "ultima_fecha": "2026-07-31"
               },
@@ -1245,17 +1245,17 @@
               "recurso": "Armamento Europa",
               "justificacion": "Rearme alemán y provisión de blindados y munición pesada.",
               "datos": {
-                "precio": 1139.6,
-                "var_1d_pct": -1.2,
-                "var_7d_pct": 12.06,
-                "var_30d_pct": 8.47,
-                "var_90d_pct": -17.09,
-                "volatilidad_30d_anualizada_pct": 70.53,
-                "z_score_ultimo_dia": -0.27,
-                "pos_rango_52s_pct": 18.9,
+                "precio": 1219.0,
+                "var_1d_pct": 6.97,
+                "var_7d_pct": 17.48,
+                "var_30d_pct": 9.33,
+                "var_90d_pct": -14.23,
+                "volatilidad_30d_anualizada_pct": 73.18,
+                "z_score_ultimo_dia": 1.51,
+                "pos_rango_52s_pct": 26.6,
                 "minimo_52s": 946.6,
                 "maximo_52s": 1968.82,
-                "ultima_fecha": "2026-07-30"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1289,17 +1289,17 @@
               "recurso": "Soja",
               "justificacion": "Completa el complejo de granos afectado por la interrupción de exportaciones del Mar Negro.",
               "datos": {
-                "precio": 1172.0,
-                "var_1d_pct": -0.45,
-                "var_7d_pct": -6.09,
-                "var_30d_pct": 4.06,
-                "var_90d_pct": -0.85,
-                "volatilidad_30d_anualizada_pct": 22.5,
-                "z_score_ultimo_dia": -0.31,
-                "pos_rango_52s_pct": 73.5,
+                "precio": 1191.25,
+                "var_1d_pct": 1.64,
+                "var_7d_pct": -1.43,
+                "var_30d_pct": 5.26,
+                "var_90d_pct": 0.29,
+                "volatilidad_30d_anualizada_pct": 22.74,
+                "z_score_ultimo_dia": 1.15,
+                "pos_rango_52s_pct": 80.2,
                 "minimo_52s": 961.5,
                 "maximo_52s": 1248.0,
-                "ultima_fecha": "2026-07-31"
+                "ultima_fecha": "2026-08-04"
               },
               "estado_dato": "ok"
             },
@@ -1373,8 +1373,8 @@
                 "var_90d_pct": -0.61,
                 "volatilidad_30d_anualizada_pct": 46.82,
                 "z_score_ultimo_dia": -0.27,
-                "pos_rango_52s_pct": 69.3,
-                "minimo_52s": 41.63,
+                "pos_rango_52s_pct": 68.9,
+                "minimo_52s": 42.31,
                 "maximo_52s": 95.38,
                 "ultima_fecha": "2026-07-31"
               },
@@ -1395,8 +1395,8 @@
                 "var_90d_pct": -21.22,
                 "volatilidad_30d_anualizada_pct": 32.9,
                 "z_score_ultimo_dia": -0.41,
-                "pos_rango_52s_pct": 56.6,
-                "minimo_52s": 40.52,
+                "pos_rango_52s_pct": 56.0,
+                "minimo_52s": 41.2,
                 "maximo_52s": 91.23,
                 "ultima_fecha": "2026-07-31"
               },
