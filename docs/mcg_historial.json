@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-04 07:48:35 UTC",
-    "dias_registrados": 16,
+    "actualizado_utc": "2026-08-05 07:58:57 UTC",
+    "dias_registrados": 17,
     "desde": "2026-07-15",
-    "hasta": "2026-08-04",
+    "hasta": "2026-08-05",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,24 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 13,
-      "ultima_fecha": "2026-08-04"
+      "veces": 14,
+      "ultima_fecha": "2026-08-05"
+    },
+    {
+      "ticker": "MP",
+      "nombre": "MP Materials",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-08-05"
+    },
+    {
+      "ticker": "WU",
+      "nombre": "Western Union",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 6,
+      "ultima_fecha": "2026-08-05"
     },
     {
       "ticker": "CHKP",
@@ -32,22 +48,6 @@
       "conflicto": "China - Taiwán",
       "veces": 5,
       "ultima_fecha": "2026-08-01"
-    },
-    {
-      "ticker": "MP",
-      "nombre": "MP Materials",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-07-31"
-    },
-    {
-      "ticker": "WU",
-      "nombre": "Western Union",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 5,
-      "ultima_fecha": "2026-08-04"
     },
     {
       "ticker": "AAPL",
@@ -72,6 +72,14 @@
       "conflicto": "México",
       "veces": 4,
       "ultima_fecha": "2026-07-31"
+    },
+    {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 4,
+      "ultima_fecha": "2026-08-05"
     },
     {
       "ticker": "EWW",
@@ -118,14 +126,6 @@
       "nombre": "Eni SpA (ADR)",
       "teatro": "África de Recursos Críticos",
       "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 3,
-      "ultima_fecha": "2026-07-30"
-    },
-    {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
       "veces": 3,
       "ultima_fecha": "2026-07-30"
     },
@@ -178,6 +178,14 @@
       "ultima_fecha": "2026-07-31"
     },
     {
+      "ticker": "COPX",
+      "nombre": "Global X Copper Miners ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 2,
+      "ultima_fecha": "2026-08-05"
+    },
+    {
       "ticker": "FXI",
       "nombre": "iShares China Large-Cap",
       "teatro": "Indo-Pacífico",
@@ -192,6 +200,14 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 2,
       "ultima_fecha": "2026-07-31"
+    },
+    {
+      "ticker": "LIT",
+      "nombre": "Global X Lithium & Battery Tech ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 2,
+      "ultima_fecha": "2026-08-05"
     },
     {
       "ticker": "LMT",
@@ -242,6 +258,14 @@
       "ultima_fecha": "2026-07-31"
     },
     {
+      "ticker": "ZIM",
+      "nombre": "Zim Integrated Shipping",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 2,
+      "ultima_fecha": "2026-08-05"
+    },
+    {
       "ticker": "ZW=F",
       "nombre": "Futuros de Trigo",
       "teatro": "Rusia–Ucrania",
@@ -258,14 +282,6 @@
       "ultima_fecha": "2026-07-23"
     },
     {
-      "ticker": "COPX",
-      "nombre": "Global X Copper Miners ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 1,
-      "ultima_fecha": "2026-07-22"
-    },
-    {
       "ticker": "ESLT",
       "nombre": "Elbit Systems",
       "teatro": "Complejo Israel–Irán",
@@ -274,12 +290,12 @@
       "ultima_fecha": "2026-07-30"
     },
     {
-      "ticker": "LIT",
-      "nombre": "Global X Lithium & Battery Tech ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 1,
-      "ultima_fecha": "2026-07-31"
+      "ultima_fecha": "2026-08-05"
     },
     {
       "ticker": "MATX",
@@ -288,6 +304,30 @@
       "conflicto": "Disputas marítimas",
       "veces": 1,
       "ultima_fecha": "2026-07-29"
+    },
+    {
+      "ticker": "MOS",
+      "nombre": "Mosaic Company",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 1,
+      "ultima_fecha": "2026-08-05"
+    },
+    {
+      "ticker": "PANW",
+      "nombre": "Palo Alto Networks",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 1,
+      "ultima_fecha": "2026-08-05"
+    },
+    {
+      "ticker": "REMX",
+      "nombre": "VanEck Rare Earth ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 1,
+      "ultima_fecha": "2026-08-05"
     },
     {
       "ticker": "RHM.DE",
@@ -304,17 +344,114 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 1,
       "ultima_fecha": "2026-07-30"
-    },
-    {
-      "ticker": "ZIM",
-      "nombre": "Zim Integrated Shipping",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 1,
-      "ultima_fecha": "2026-07-29"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-05",
+      "actualizado_utc": "2026-08-05 07:58:57 UTC",
+      "senales": [
+        {
+          "ticker": "WU",
+          "nombre": "Western Union",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": 11.6,
+          "var_30d_pct": -8.4,
+          "z_score": 2.57
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.8,
+          "var_30d_pct": 4.75,
+          "z_score": 2.5
+        },
+        {
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.14,
+          "var_30d_pct": 1.9,
+          "z_score": 2.08
+        },
+        {
+          "ticker": "REMX",
+          "nombre": "VanEck Rare Earth ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 5.75,
+          "var_30d_pct": -16.19,
+          "z_score": 2.05
+        },
+        {
+          "ticker": "ZIM",
+          "nombre": "Zim Integrated Shipping",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 4.68,
+          "var_30d_pct": 15.1,
+          "z_score": 2.0
+        },
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 8.28,
+          "var_30d_pct": -10.45,
+          "z_score": 1.89
+        },
+        {
+          "ticker": "COPX",
+          "nombre": "Global X Copper Miners ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": 5.83,
+          "var_30d_pct": 7.02,
+          "z_score": 1.86
+        },
+        {
+          "ticker": "MOS",
+          "nombre": "Mosaic Company",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.13,
+          "var_30d_pct": 7.22,
+          "z_score": 1.62
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": 0.5,
+          "var_30d_pct": -0.74,
+          "z_score": 1.58
+        },
+        {
+          "ticker": "PANW",
+          "nombre": "Palo Alto Networks",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.53,
+          "var_30d_pct": 2.46,
+          "z_score": 1.56
+        },
+        {
+          "ticker": "LIT",
+          "nombre": "Global X Lithium & Battery Tech ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": 3.28,
+          "var_30d_pct": -5.88,
+          "z_score": 1.51
+        }
+      ]
+    },
     {
       "fecha": "2026-08-04",
       "actualizado_utc": "2026-08-04 07:48:35 UTC",
