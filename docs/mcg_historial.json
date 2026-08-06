@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-05 07:58:57 UTC",
-    "dias_registrados": 17,
+    "actualizado_utc": "2026-08-06 07:58:04 UTC",
+    "dias_registrados": 18,
     "desde": "2026-07-15",
-    "hasta": "2026-08-05",
+    "hasta": "2026-08-06",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 14,
-      "ultima_fecha": "2026-08-05"
+      "veces": 15,
+      "ultima_fecha": "2026-08-06"
     },
     {
       "ticker": "MP",
@@ -32,6 +32,14 @@
       "conflicto": "Haití",
       "veces": 6,
       "ultima_fecha": "2026-08-05"
+    },
+    {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 5,
+      "ultima_fecha": "2026-08-06"
     },
     {
       "ticker": "CHKP",
@@ -56,14 +64,6 @@
       "conflicto": "China - Taiwán",
       "veces": 4,
       "ultima_fecha": "2026-08-04"
-    },
-    {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "CP",
@@ -138,12 +138,28 @@
       "ultima_fecha": "2026-07-31"
     },
     {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 3,
+      "ultima_fecha": "2026-08-06"
+    },
+    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
       "ultima_fecha": "2026-07-29"
+    },
+    {
+      "ticker": "LUG.TO",
+      "nombre": "Lundin Gold",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 3,
+      "ultima_fecha": "2026-08-06"
     },
     {
       "ticker": "TTE",
@@ -194,14 +210,6 @@
       "ultima_fecha": "2026-07-21"
     },
     {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 2,
-      "ultima_fecha": "2026-07-31"
-    },
-    {
       "ticker": "LIT",
       "nombre": "Global X Lithium & Battery Tech ETF",
       "teatro": "África de Recursos Críticos",
@@ -218,12 +226,12 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "LUG.TO",
-      "nombre": "Lundin Gold",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
       "veces": 2,
-      "ultima_fecha": "2026-08-04"
+      "ultima_fecha": "2026-08-06"
     },
     {
       "ticker": "NVDA",
@@ -298,14 +306,6 @@
       "ultima_fecha": "2026-08-05"
     },
     {
-      "ticker": "MATX",
-      "nombre": "Matson Inc",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 1,
-      "ultima_fecha": "2026-07-29"
-    },
-    {
       "ticker": "MOS",
       "nombre": "Mosaic Company",
       "teatro": "Rusia–Ucrania",
@@ -347,6 +347,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-06",
+      "actualizado_utc": "2026-08-06 07:58:04 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.72,
+          "var_30d_pct": 6.21,
+          "z_score": 2.84
+        },
+        {
+          "ticker": "LUG.TO",
+          "nombre": "Lundin Gold",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": 6.0,
+          "var_30d_pct": 5.76,
+          "z_score": 1.95
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -2.87,
+          "var_30d_pct": -0.79,
+          "z_score": -1.71
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": 3.7,
+          "var_30d_pct": 14.05,
+          "z_score": 1.67
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -3.72,
+          "var_30d_pct": 3.52,
+          "z_score": -1.58
+        }
+      ]
+    },
     {
       "fecha": "2026-08-05",
       "actualizado_utc": "2026-08-05 07:58:57 UTC",
