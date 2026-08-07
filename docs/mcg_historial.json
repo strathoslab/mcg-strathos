@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-06 07:58:04 UTC",
-    "dias_registrados": 18,
+    "actualizado_utc": "2026-08-07 05:01:18 UTC",
+    "dias_registrados": 19,
     "desde": "2026-07-15",
-    "hasta": "2026-08-06",
+    "hasta": "2026-08-07",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 15,
-      "ultima_fecha": "2026-08-06"
+      "veces": 16,
+      "ultima_fecha": "2026-08-07"
     },
     {
       "ticker": "MP",
@@ -66,6 +66,14 @@
       "ultima_fecha": "2026-08-04"
     },
     {
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 4,
+      "ultima_fecha": "2026-08-07"
+    },
+    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
@@ -98,20 +106,20 @@
       "ultima_fecha": "2026-08-04"
     },
     {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 4,
+      "ultima_fecha": "2026-08-07"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 3,
       "ultima_fecha": "2026-07-31"
-    },
-    {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 3,
-      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "CF",
@@ -144,14 +152,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 3,
       "ultima_fecha": "2026-08-06"
-    },
-    {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 3,
-      "ultima_fecha": "2026-07-29"
     },
     {
       "ticker": "LUG.TO",
@@ -290,6 +290,14 @@
       "ultima_fecha": "2026-07-23"
     },
     {
+      "ticker": "EC",
+      "nombre": "Ecopetrol",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
+      "veces": 1,
+      "ultima_fecha": "2026-08-07"
+    },
+    {
       "ticker": "ESLT",
       "nombre": "Elbit Systems",
       "teatro": "Complejo Israel–Irán",
@@ -344,9 +352,68 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 1,
       "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "ZS=F",
+      "nombre": "Futuros de Soja",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 1,
+      "ultima_fecha": "2026-08-07"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-07",
+      "actualizado_utc": "2026-08-07 05:01:18 UTC",
+      "senales": [
+        {
+          "ticker": "EC",
+          "nombre": "Ecopetrol",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": 6.16,
+          "var_30d_pct": 15.0,
+          "z_score": 2.92
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.81,
+          "var_30d_pct": 8.59,
+          "z_score": 2.9
+        },
+        {
+          "ticker": "ATI",
+          "nombre": "ATI Inc",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 8.93,
+          "var_30d_pct": 20.38,
+          "z_score": 2.9
+        },
+        {
+          "ticker": "LNG",
+          "nombre": "Cheniere Energy",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.32,
+          "var_30d_pct": 1.85,
+          "z_score": 2.08
+        },
+        {
+          "ticker": "ZS=F",
+          "nombre": "Futuros de Soja",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 2.27,
+          "var_30d_pct": 0.32,
+          "z_score": 1.57
+        }
+      ]
+    },
     {
       "fecha": "2026-08-06",
       "actualizado_utc": "2026-08-06 07:58:04 UTC",
