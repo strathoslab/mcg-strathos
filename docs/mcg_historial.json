@@ -2,7 +2,7 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-07 05:01:18 UTC",
+    "actualizado_utc": "2026-08-07 23:49:59 UTC",
     "dias_registrados": 19,
     "desde": "2026-07-15",
     "hasta": "2026-08-07",
@@ -22,8 +22,8 @@
       "nombre": "MP Materials",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
-      "veces": 6,
-      "ultima_fecha": "2026-08-05"
+      "veces": 7,
+      "ultima_fecha": "2026-08-07"
     },
     {
       "ticker": "WU",
@@ -66,14 +66,6 @@
       "ultima_fecha": "2026-08-04"
     },
     {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-08-07"
-    },
-    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
@@ -114,12 +106,44 @@
       "ultima_fecha": "2026-08-07"
     },
     {
+      "ticker": "LUG.TO",
+      "nombre": "Lundin Gold",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 4,
+      "ultima_fecha": "2026-08-07"
+    },
+    {
+      "ticker": "AA",
+      "nombre": "Alcoa Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 3,
+      "ultima_fecha": "2026-08-07"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 3,
       "ultima_fecha": "2026-07-31"
+    },
+    {
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "CCJ",
+      "nombre": "Cameco",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-08-07"
     },
     {
       "ticker": "CF",
@@ -154,14 +178,6 @@
       "ultima_fecha": "2026-08-06"
     },
     {
-      "ticker": "LUG.TO",
-      "nombre": "Lundin Gold",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 3,
-      "ultima_fecha": "2026-08-06"
-    },
-    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
@@ -170,28 +186,12 @@
       "ultima_fecha": "2026-07-30"
     },
     {
-      "ticker": "AA",
-      "nombre": "Alcoa Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 2,
-      "ultima_fecha": "2026-07-31"
-    },
-    {
       "ticker": "BZ=F",
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "CCJ",
-      "nombre": "Cameco",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-07-31"
     },
     {
       "ticker": "COPX",
@@ -208,6 +208,14 @@
       "conflicto": "China - Taiwán",
       "veces": 2,
       "ultima_fecha": "2026-07-21"
+    },
+    {
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 2,
+      "ultima_fecha": "2026-08-07"
     },
     {
       "ticker": "LIT",
@@ -240,6 +248,14 @@
       "conflicto": "China - Taiwán",
       "veces": 2,
       "ultima_fecha": "2026-07-29"
+    },
+    {
+      "ticker": "REMX",
+      "nombre": "VanEck Rare Earth ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 2,
+      "ultima_fecha": "2026-08-07"
     },
     {
       "ticker": "RTX",
@@ -306,14 +322,6 @@
       "ultima_fecha": "2026-07-30"
     },
     {
-      "ticker": "GC=F",
-      "nombre": "Futuros de Oro",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 1,
-      "ultima_fecha": "2026-08-05"
-    },
-    {
       "ticker": "MOS",
       "nombre": "Mosaic Company",
       "teatro": "Rusia–Ucrania",
@@ -322,18 +330,18 @@
       "ultima_fecha": "2026-08-05"
     },
     {
+      "ticker": "NTR",
+      "nombre": "Nutrien",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 1,
+      "ultima_fecha": "2026-08-07"
+    },
+    {
       "ticker": "PANW",
       "nombre": "Palo Alto Networks",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 1,
-      "ultima_fecha": "2026-08-05"
-    },
-    {
-      "ticker": "REMX",
-      "nombre": "VanEck Rare Earth ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
       "veces": 1,
       "ultima_fecha": "2026-08-05"
     },
@@ -352,65 +360,102 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 1,
       "ultima_fecha": "2026-07-30"
-    },
-    {
-      "ticker": "ZS=F",
-      "nombre": "Futuros de Soja",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-08-07"
     }
   ],
   "dias": [
     {
       "fecha": "2026-08-07",
-      "actualizado_utc": "2026-08-07 05:01:18 UTC",
+      "actualizado_utc": "2026-08-07 23:49:59 UTC",
       "senales": [
-        {
-          "ticker": "EC",
-          "nombre": "Ecopetrol",
-          "teatro": "Américas",
-          "conflicto": "Colombia",
-          "var_1d_pct": 6.16,
-          "var_30d_pct": 15.0,
-          "z_score": 2.92
-        },
         {
           "ticker": "ZC=F",
           "nombre": "Futuros de Maíz",
           "teatro": "Rusia–Ucrania",
           "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 5.81,
-          "var_30d_pct": 8.59,
-          "z_score": 2.9
+          "var_1d_pct": 5.13,
+          "var_30d_pct": 7.89,
+          "z_score": 2.64
         },
         {
-          "ticker": "ATI",
-          "nombre": "ATI Inc",
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.76,
+          "var_30d_pct": 6.55,
+          "z_score": 2.43
+        },
+        {
+          "ticker": "LUG.TO",
+          "nombre": "Lundin Gold",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": 6.15,
+          "var_30d_pct": 19.94,
+          "z_score": 2.03
+        },
+        {
+          "ticker": "AA",
+          "nombre": "Alcoa Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.67,
+          "var_30d_pct": 2.98,
+          "z_score": 1.82
+        },
+        {
+          "ticker": "NTR",
+          "nombre": "Nutrien",
           "teatro": "Rusia–Ucrania",
           "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 8.93,
-          "var_30d_pct": 20.38,
-          "z_score": 2.9
+          "var_1d_pct": -3.51,
+          "var_30d_pct": -0.23,
+          "z_score": -1.75
+        },
+        {
+          "ticker": "REMX",
+          "nombre": "VanEck Rare Earth ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 4.93,
+          "var_30d_pct": -3.74,
+          "z_score": 1.7
+        },
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 7.62,
+          "var_30d_pct": -1.16,
+          "z_score": 1.67
         },
         {
           "ticker": "LNG",
           "nombre": "Cheniere Energy",
           "teatro": "Rusia–Ucrania",
           "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 4.32,
-          "var_30d_pct": 1.85,
-          "z_score": 2.08
+          "var_1d_pct": -3.62,
+          "var_30d_pct": -1.97,
+          "z_score": -1.66
         },
         {
-          "ticker": "ZS=F",
-          "nombre": "Futuros de Soja",
+          "ticker": "EC",
+          "nombre": "Ecopetrol",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -3.56,
+          "var_30d_pct": 9.03,
+          "z_score": -1.6
+        },
+        {
+          "ticker": "CCJ",
+          "nombre": "Cameco",
           "teatro": "Rusia–Ucrania",
           "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 2.27,
-          "var_30d_pct": 0.32,
-          "z_score": 1.57
+          "var_1d_pct": 4.03,
+          "var_30d_pct": 1.72,
+          "z_score": 1.5
         }
       ]
     },
