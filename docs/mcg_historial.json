@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-12 00:08:24 UTC",
-    "dias_registrados": 21,
+    "actualizado_utc": "2026-08-13 00:09:10 UTC",
+    "dias_registrados": 22,
     "desde": "2026-07-15",
-    "hasta": "2026-08-12",
+    "hasta": "2026-08-13",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 18,
-      "ultima_fecha": "2026-08-12"
+      "veces": 19,
+      "ultima_fecha": "2026-08-13"
     },
     {
       "ticker": "MP",
@@ -64,6 +64,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 5,
       "ultima_fecha": "2026-08-10"
+    },
+    {
+      "ticker": "AA",
+      "nombre": "Alcoa Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 4,
+      "ultima_fecha": "2026-08-13"
     },
     {
       "ticker": "AAPL",
@@ -119,14 +127,6 @@
       "teatro": "Américas",
       "conflicto": "Ecuador",
       "veces": 4,
-      "ultima_fecha": "2026-08-07"
-    },
-    {
-      "ticker": "AA",
-      "nombre": "Alcoa Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 3,
       "ultima_fecha": "2026-08-07"
     },
     {
@@ -194,6 +194,14 @@
       "ultima_fecha": "2026-08-06"
     },
     {
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 3,
+      "ultima_fecha": "2026-08-13"
+    },
+    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
@@ -208,6 +216,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 3,
       "ultima_fecha": "2026-08-10"
+    },
+    {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-08-13"
     },
     {
       "ticker": "ALI=F",
@@ -256,14 +272,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "MATX",
-      "nombre": "Matson Inc",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 2,
-      "ultima_fecha": "2026-08-06"
     },
     {
       "ticker": "NVDA",
@@ -322,14 +330,6 @@
       "ultima_fecha": "2026-08-10"
     },
     {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-08-01"
-    },
-    {
       "ticker": "CL=F",
       "nombre": "Petróleo WTI",
       "teatro": "Complejo Israel–Irán",
@@ -384,9 +384,68 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 1,
       "ultima_fecha": "2026-08-04"
+    },
+    {
+      "ticker": "ZS=F",
+      "nombre": "Futuros de Soja",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 1,
+      "ultima_fecha": "2026-08-13"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-13",
+      "actualizado_utc": "2026-08-13 00:09:10 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 10.13,
+          "var_30d_pct": 10.89,
+          "z_score": 4.22
+        },
+        {
+          "ticker": "ZS=F",
+          "nombre": "Futuros de Soja",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.12,
+          "var_30d_pct": -1.99,
+          "z_score": 2.12
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": 4.91,
+          "var_30d_pct": 1.85,
+          "z_score": 1.95
+        },
+        {
+          "ticker": "ZW=F",
+          "nombre": "Futuros de Trigo",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.61,
+          "var_30d_pct": 3.45,
+          "z_score": 1.56
+        },
+        {
+          "ticker": "AA",
+          "nombre": "Alcoa Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -5.29,
+          "var_30d_pct": 4.61,
+          "z_score": -1.56
+        }
+      ]
+    },
     {
       "fecha": "2026-08-12",
       "actualizado_utc": "2026-08-12 00:08:24 UTC",
