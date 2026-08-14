@@ -2,7 +2,7 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-14 00:10:04 UTC",
+    "actualizado_utc": "2026-08-14 22:55:08 UTC",
     "dias_registrados": 23,
     "desde": "2026-07-15",
     "hasta": "2026-08-14",
@@ -138,6 +138,14 @@
       "ultima_fecha": "2026-08-14"
     },
     {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 4,
+      "ultima_fecha": "2026-08-14"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
@@ -218,14 +226,6 @@
       "ultima_fecha": "2026-07-30"
     },
     {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 3,
-      "ultima_fecha": "2026-08-13"
-    },
-    {
       "ticker": "ALI=F",
       "nombre": "Futuros de Aluminio",
       "teatro": "Complejo Israel–Irán",
@@ -272,14 +272,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "MOS",
-      "nombre": "Mosaic Company",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-08-14"
     },
     {
       "ticker": "NVDA",
@@ -370,12 +362,12 @@
       "ultima_fecha": "2026-08-07"
     },
     {
-      "ticker": "KC=F",
-      "nombre": "Futuros de Café (Arábica)",
-      "teatro": "Américas",
-      "conflicto": "Colombia",
+      "ticker": "MOS",
+      "nombre": "Mosaic Company",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 1,
-      "ultima_fecha": "2026-08-14"
+      "ultima_fecha": "2026-08-05"
     },
     {
       "ticker": "NG=F",
@@ -413,52 +405,43 @@
   "dias": [
     {
       "fecha": "2026-08-14",
-      "actualizado_utc": "2026-08-14 00:10:04 UTC",
+      "actualizado_utc": "2026-08-14 22:55:08 UTC",
       "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 7.98,
+          "var_30d_pct": 9.57,
+          "z_score": 3.5
+        },
         {
           "ticker": "AMKBY",
           "nombre": "A.P. Møller-Mærsk (ADR)",
           "teatro": "Indo-Pacífico",
           "conflicto": "Disputas marítimas",
-          "var_1d_pct": 9.41,
-          "var_30d_pct": 22.49,
-          "z_score": 3.25
+          "var_1d_pct": 8.25,
+          "var_30d_pct": 22.25,
+          "z_score": 2.81
+        },
+        {
+          "ticker": "ZW=F",
+          "nombre": "Futuros de Trigo",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.55,
+          "var_30d_pct": 2.11,
+          "z_score": 2.23
         },
         {
           "ticker": "ZIM",
           "nombre": "Zim Integrated Shipping",
           "teatro": "Complejo Israel–Irán",
           "conflicto": "Irán–Israel–EE.UU.",
-          "var_1d_pct": 6.13,
-          "var_30d_pct": 12.69,
-          "z_score": 1.99
-        },
-        {
-          "ticker": "ZC=F",
-          "nombre": "Futuros de Maíz",
-          "teatro": "Rusia–Ucrania",
-          "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 3.34,
-          "var_30d_pct": 5.53,
-          "z_score": 1.83
-        },
-        {
-          "ticker": "KC=F",
-          "nombre": "Futuros de Café (Arábica)",
-          "teatro": "Américas",
-          "conflicto": "Colombia",
-          "var_1d_pct": -7.85,
-          "var_30d_pct": -6.29,
-          "z_score": -1.65
-        },
-        {
-          "ticker": "MOS",
-          "nombre": "Mosaic Company",
-          "teatro": "Rusia–Ucrania",
-          "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": -3.63,
-          "var_30d_pct": -5.47,
-          "z_score": -1.59
+          "var_1d_pct": 4.92,
+          "var_30d_pct": 14.81,
+          "z_score": 1.61
         }
       ]
     },
