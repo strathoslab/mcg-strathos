@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-13 00:09:10 UTC",
-    "dias_registrados": 22,
+    "actualizado_utc": "2026-08-14 00:10:04 UTC",
+    "dias_registrados": 23,
     "desde": "2026-07-15",
-    "hasta": "2026-08-13",
+    "hasta": "2026-08-14",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 19,
-      "ultima_fecha": "2026-08-13"
+      "veces": 20,
+      "ultima_fecha": "2026-08-14"
     },
     {
       "ticker": "MP",
@@ -130,6 +130,14 @@
       "ultima_fecha": "2026-08-07"
     },
     {
+      "ticker": "ZIM",
+      "nombre": "Zim Integrated Shipping",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 4,
+      "ultima_fecha": "2026-08-14"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
@@ -210,14 +218,6 @@
       "ultima_fecha": "2026-07-30"
     },
     {
-      "ticker": "ZIM",
-      "nombre": "Zim Integrated Shipping",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 3,
-      "ultima_fecha": "2026-08-10"
-    },
-    {
       "ticker": "ZW=F",
       "nombre": "Futuros de Trigo",
       "teatro": "Rusia–Ucrania",
@@ -272,6 +272,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
+    },
+    {
+      "ticker": "MOS",
+      "nombre": "Mosaic Company",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-08-14"
     },
     {
       "ticker": "NVDA",
@@ -330,6 +338,14 @@
       "ultima_fecha": "2026-08-10"
     },
     {
+      "ticker": "AMKBY",
+      "nombre": "A.P. Møller-Mærsk (ADR)",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 1,
+      "ultima_fecha": "2026-08-14"
+    },
+    {
       "ticker": "CL=F",
       "nombre": "Petróleo WTI",
       "teatro": "Complejo Israel–Irán",
@@ -354,12 +370,12 @@
       "ultima_fecha": "2026-08-07"
     },
     {
-      "ticker": "MOS",
-      "nombre": "Mosaic Company",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "KC=F",
+      "nombre": "Futuros de Café (Arábica)",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
       "veces": 1,
-      "ultima_fecha": "2026-08-05"
+      "ultima_fecha": "2026-08-14"
     },
     {
       "ticker": "NG=F",
@@ -395,6 +411,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-14",
+      "actualizado_utc": "2026-08-14 00:10:04 UTC",
+      "senales": [
+        {
+          "ticker": "AMKBY",
+          "nombre": "A.P. Møller-Mærsk (ADR)",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": 9.41,
+          "var_30d_pct": 22.49,
+          "z_score": 3.25
+        },
+        {
+          "ticker": "ZIM",
+          "nombre": "Zim Integrated Shipping",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 6.13,
+          "var_30d_pct": 12.69,
+          "z_score": 1.99
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.34,
+          "var_30d_pct": 5.53,
+          "z_score": 1.83
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -7.85,
+          "var_30d_pct": -6.29,
+          "z_score": -1.65
+        },
+        {
+          "ticker": "MOS",
+          "nombre": "Mosaic Company",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.63,
+          "var_30d_pct": -5.47,
+          "z_score": -1.59
+        }
+      ]
+    },
     {
       "fecha": "2026-08-13",
       "actualizado_utc": "2026-08-13 00:09:10 UTC",
