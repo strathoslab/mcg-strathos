@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-14 22:55:08 UTC",
-    "dias_registrados": 23,
+    "actualizado_utc": "2026-08-17 22:29:17 UTC",
+    "dias_registrados": 24,
     "desde": "2026-07-15",
-    "hasta": "2026-08-14",
+    "hasta": "2026-08-17",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 20,
-      "ultima_fecha": "2026-08-14"
+      "veces": 21,
+      "ultima_fecha": "2026-08-17"
     },
     {
       "ticker": "MP",
@@ -146,6 +146,14 @@
       "ultima_fecha": "2026-08-14"
     },
     {
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 3,
+      "ultima_fecha": "2026-08-17"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
@@ -226,12 +234,12 @@
       "ultima_fecha": "2026-07-30"
     },
     {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "AMKBY",
+      "nombre": "A.P. Møller-Mærsk (ADR)",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
       "veces": 2,
-      "ultima_fecha": "2026-08-12"
+      "ultima_fecha": "2026-08-17"
     },
     {
       "ticker": "BZ=F",
@@ -330,12 +338,12 @@
       "ultima_fecha": "2026-08-10"
     },
     {
-      "ticker": "AMKBY",
-      "nombre": "A.P. Møller-Mærsk (ADR)",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 1,
-      "ultima_fecha": "2026-08-14"
+      "ticker": "ZS=F",
+      "nombre": "Futuros de Soja",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-08-17"
     },
     {
       "ticker": "CL=F",
@@ -362,6 +370,14 @@
       "ultima_fecha": "2026-08-07"
     },
     {
+      "ticker": "KC=F",
+      "nombre": "Futuros de Café (Arábica)",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
+      "veces": 1,
+      "ultima_fecha": "2026-08-17"
+    },
+    {
       "ticker": "MOS",
       "nombre": "Mosaic Company",
       "teatro": "Rusia–Ucrania",
@@ -378,6 +394,14 @@
       "ultima_fecha": "2026-08-10"
     },
     {
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 1,
+      "ultima_fecha": "2026-08-17"
+    },
+    {
       "ticker": "NTR",
       "nombre": "Nutrien",
       "teatro": "Rusia–Ucrania",
@@ -392,17 +416,69 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 1,
       "ultima_fecha": "2026-08-04"
-    },
-    {
-      "ticker": "ZS=F",
-      "nombre": "Futuros de Soja",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-08-13"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-17",
+      "actualizado_utc": "2026-08-17 22:29:17 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.54,
+          "var_30d_pct": 9.95,
+          "z_score": 3.15
+        },
+        {
+          "ticker": "ZS=F",
+          "nombre": "Futuros de Soja",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.6,
+          "var_30d_pct": 0.95,
+          "z_score": 2.79
+        },
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -2.67,
+          "var_30d_pct": 9.32,
+          "z_score": -1.84
+        },
+        {
+          "ticker": "AMKBY",
+          "nombre": "A.P. Møller-Mærsk (ADR)",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": 5.03,
+          "var_30d_pct": 29.46,
+          "z_score": 1.72
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -6.05,
+          "var_30d_pct": -3.29,
+          "z_score": -1.64
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 1.98,
+          "var_30d_pct": -3.03,
+          "z_score": 1.55
+        }
+      ]
+    },
     {
       "fecha": "2026-08-14",
       "actualizado_utc": "2026-08-14 22:55:08 UTC",
