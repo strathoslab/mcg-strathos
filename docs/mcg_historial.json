@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-17 22:29:17 UTC",
-    "dias_registrados": 24,
+    "actualizado_utc": "2026-08-18 22:28:22 UTC",
+    "dias_registrados": 25,
     "desde": "2026-07-15",
-    "hasta": "2026-08-17",
+    "hasta": "2026-08-18",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 21,
-      "ultima_fecha": "2026-08-17"
+      "veces": 22,
+      "ultima_fecha": "2026-08-18"
     },
     {
       "ticker": "MP",
@@ -66,6 +66,14 @@
       "ultima_fecha": "2026-08-10"
     },
     {
+      "ticker": "LUG.TO",
+      "nombre": "Lundin Gold",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 5,
+      "ultima_fecha": "2026-08-18"
+    },
+    {
       "ticker": "AA",
       "nombre": "Alcoa Corp",
       "teatro": "Complejo Israel–Irán",
@@ -80,6 +88,22 @@
       "conflicto": "China - Taiwán",
       "veces": 4,
       "ultima_fecha": "2026-08-04"
+    },
+    {
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 4,
+      "ultima_fecha": "2026-08-18"
+    },
+    {
+      "ticker": "ASML",
+      "nombre": "ASML Holding",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 4,
+      "ultima_fecha": "2026-08-18"
     },
     {
       "ticker": "CF",
@@ -122,14 +146,6 @@
       "ultima_fecha": "2026-08-04"
     },
     {
-      "ticker": "LUG.TO",
-      "nombre": "Lundin Gold",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 4,
-      "ultima_fecha": "2026-08-07"
-    },
-    {
       "ticker": "ZIM",
       "nombre": "Zim Integrated Shipping",
       "teatro": "Complejo Israel–Irán",
@@ -144,22 +160,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 4,
       "ultima_fecha": "2026-08-14"
-    },
-    {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 3,
-      "ultima_fecha": "2026-08-17"
-    },
-    {
-      "ticker": "ASML",
-      "nombre": "ASML Holding",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 3,
-      "ultima_fecha": "2026-07-31"
     },
     {
       "ticker": "ATI",
@@ -226,12 +226,28 @@
       "ultima_fecha": "2026-08-13"
     },
     {
+      "ticker": "TSM",
+      "nombre": "TSMC",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-08-18"
+    },
+    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
       "conflicto": "Mozambique (Cabo Delgado)",
       "veces": 3,
       "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 3,
+      "ultima_fecha": "2026-08-18"
     },
     {
       "ticker": "AMKBY",
@@ -282,6 +298,22 @@
       "ultima_fecha": "2026-07-24"
     },
     {
+      "ticker": "NG=F",
+      "nombre": "Gas Natural",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 2,
+      "ultima_fecha": "2026-08-18"
+    },
+    {
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 2,
+      "ultima_fecha": "2026-08-18"
+    },
+    {
       "ticker": "NVDA",
       "nombre": "Nvidia",
       "teatro": "Indo-Pacífico",
@@ -314,14 +346,6 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "TSM",
-      "nombre": "TSMC",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-07-31"
-    },
-    {
       "ticker": "URA",
       "nombre": "Global X Uranium ETF",
       "teatro": "África de Recursos Críticos",
@@ -330,20 +354,20 @@
       "ultima_fecha": "2026-07-31"
     },
     {
-      "ticker": "XOM",
-      "nombre": "ExxonMobil",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 2,
-      "ultima_fecha": "2026-08-10"
-    },
-    {
       "ticker": "ZS=F",
       "nombre": "Futuros de Soja",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-08-17"
+    },
+    {
+      "ticker": "AGRO",
+      "nombre": "Adecoagro",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 1,
+      "ultima_fecha": "2026-08-18"
     },
     {
       "ticker": "CL=F",
@@ -386,22 +410,6 @@
       "ultima_fecha": "2026-08-05"
     },
     {
-      "ticker": "NG=F",
-      "nombre": "Gas Natural",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-08-10"
-    },
-    {
-      "ticker": "NOC",
-      "nombre": "Northrop Grumman",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 1,
-      "ultima_fecha": "2026-08-17"
-    },
-    {
       "ticker": "NTR",
       "nombre": "Nutrien",
       "teatro": "Rusia–Ucrania",
@@ -419,6 +427,93 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-18",
+      "actualizado_utc": "2026-08-18 22:28:22 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.89,
+          "var_30d_pct": 8.51,
+          "z_score": 2.54
+        },
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 3.32,
+          "var_30d_pct": 12.44,
+          "z_score": 2.12
+        },
+        {
+          "ticker": "AGRO",
+          "nombre": "Adecoagro",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.94,
+          "var_30d_pct": -4.29,
+          "z_score": 1.9
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.46,
+          "var_30d_pct": -5.37,
+          "z_score": -1.82
+        },
+        {
+          "ticker": "TSM",
+          "nombre": "TSMC",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -4.07,
+          "var_30d_pct": 2.76,
+          "z_score": -1.64
+        },
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.72,
+          "var_30d_pct": -2.45,
+          "z_score": 1.56
+        },
+        {
+          "ticker": "XOM",
+          "nombre": "ExxonMobil",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.54,
+          "var_30d_pct": 12.32,
+          "z_score": 1.56
+        },
+        {
+          "ticker": "LUG.TO",
+          "nombre": "Lundin Gold",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -4.2,
+          "var_30d_pct": 13.09,
+          "z_score": -1.51
+        },
+        {
+          "ticker": "ASML",
+          "nombre": "ASML Holding",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.26,
+          "var_30d_pct": 3.81,
+          "z_score": -1.5
+        }
+      ]
+    },
     {
       "fecha": "2026-08-17",
       "actualizado_utc": "2026-08-17 22:29:17 UTC",
