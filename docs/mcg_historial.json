@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-19 22:28:54 UTC",
-    "dias_registrados": 26,
+    "actualizado_utc": "2026-08-20 22:31:41 UTC",
+    "dias_registrados": 27,
     "desde": "2026-07-15",
-    "hasta": "2026-08-19",
+    "hasta": "2026-08-20",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 23,
-      "ultima_fecha": "2026-08-19"
+      "veces": 24,
+      "ultima_fecha": "2026-08-20"
     },
     {
       "ticker": "MP",
@@ -48,6 +48,14 @@
       "conflicto": "Haití",
       "veces": 6,
       "ultima_fecha": "2026-08-05"
+    },
+    {
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 5,
+      "ultima_fecha": "2026-08-20"
     },
     {
       "ticker": "CHKP",
@@ -120,14 +128,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 4,
       "ultima_fecha": "2026-08-19"
-    },
-    {
-      "ticker": "CF",
-      "nombre": "CF Industries",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 4,
-      "ultima_fecha": "2026-08-10"
     },
     {
       "ticker": "CP",
@@ -226,12 +226,44 @@
       "ultima_fecha": "2026-07-31"
     },
     {
+      "ticker": "KC=F",
+      "nombre": "Futuros de Café (Arábica)",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
+      "veces": 3,
+      "ultima_fecha": "2026-08-20"
+    },
+    {
       "ticker": "MATX",
       "nombre": "Matson Inc",
       "teatro": "Indo-Pacífico",
       "conflicto": "Disputas marítimas",
       "veces": 3,
       "ultima_fecha": "2026-08-13"
+    },
+    {
+      "ticker": "MOS",
+      "nombre": "Mosaic Company",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-08-20"
+    },
+    {
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 3,
+      "ultima_fecha": "2026-08-20"
+    },
+    {
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 3,
+      "ultima_fecha": "2026-08-20"
     },
     {
       "ticker": "TSM",
@@ -298,14 +330,6 @@
       "ultima_fecha": "2026-08-05"
     },
     {
-      "ticker": "KC=F",
-      "nombre": "Futuros de Café (Arábica)",
-      "teatro": "Américas",
-      "conflicto": "Colombia",
-      "veces": 2,
-      "ultima_fecha": "2026-08-19"
-    },
-    {
       "ticker": "LIT",
       "nombre": "Global X Lithium & Battery Tech ETF",
       "teatro": "África de Recursos Críticos",
@@ -322,14 +346,6 @@
       "ultima_fecha": "2026-07-24"
     },
     {
-      "ticker": "MOS",
-      "nombre": "Mosaic Company",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-08-19"
-    },
-    {
       "ticker": "NG=F",
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
@@ -338,12 +354,12 @@
       "ultima_fecha": "2026-08-18"
     },
     {
-      "ticker": "NOC",
-      "nombre": "Northrop Grumman",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
+      "ticker": "NTR",
+      "nombre": "Nutrien",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 2,
-      "ultima_fecha": "2026-08-18"
+      "ultima_fecha": "2026-08-20"
     },
     {
       "ticker": "NVDA",
@@ -368,14 +384,6 @@
       "conflicto": "China - Taiwán",
       "veces": 2,
       "ultima_fecha": "2026-08-07"
-    },
-    {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 2,
-      "ultima_fecha": "2026-07-24"
     },
     {
       "ticker": "URA",
@@ -410,14 +418,6 @@
       "ultima_fecha": "2026-08-07"
     },
     {
-      "ticker": "NTR",
-      "nombre": "Nutrien",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-08-07"
-    },
-    {
       "ticker": "PA=F",
       "nombre": "Futuros de Paladio",
       "teatro": "Rusia–Ucrania",
@@ -435,6 +435,75 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-20",
+      "actualizado_utc": "2026-08-20 22:31:41 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.24,
+          "var_30d_pct": 8.77,
+          "z_score": 3.12
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -8.68,
+          "var_30d_pct": 3.68,
+          "z_score": -2.78
+        },
+        {
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.61,
+          "var_30d_pct": -0.79,
+          "z_score": 2.08
+        },
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -3.26,
+          "var_30d_pct": 7.34,
+          "z_score": -1.99
+        },
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -3.66,
+          "var_30d_pct": 9.3,
+          "z_score": -1.97
+        },
+        {
+          "ticker": "MOS",
+          "nombre": "Mosaic Company",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.04,
+          "var_30d_pct": 2.5,
+          "z_score": 1.94
+        },
+        {
+          "ticker": "NTR",
+          "nombre": "Nutrien",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.72,
+          "var_30d_pct": 9.4,
+          "z_score": 1.84
+        }
+      ]
+    },
     {
       "fecha": "2026-08-19",
       "actualizado_utc": "2026-08-19 22:28:54 UTC",
