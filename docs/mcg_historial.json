@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-21 22:29:11 UTC",
-    "dias_registrados": 28,
+    "actualizado_utc": "2026-08-24 22:30:53 UTC",
+    "dias_registrados": 29,
     "desde": "2026-07-15",
-    "hasta": "2026-08-21",
+    "hasta": "2026-08-24",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 25,
-      "ultima_fecha": "2026-08-21"
+      "veces": 26,
+      "ultima_fecha": "2026-08-24"
     },
     {
       "ticker": "MP",
@@ -32,6 +32,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 6,
       "ultima_fecha": "2026-08-10"
+    },
+    {
+      "ticker": "CP",
+      "nombre": "Canadian Pacific Kansas City",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 6,
+      "ultima_fecha": "2026-08-24"
     },
     {
       "ticker": "LUG.TO",
@@ -74,14 +82,6 @@
       "ultima_fecha": "2026-07-31"
     },
     {
-      "ticker": "CP",
-      "nombre": "Canadian Pacific Kansas City",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 5,
-      "ultima_fecha": "2026-08-21"
-    },
-    {
       "ticker": "EWW",
       "nombre": "iShares MSCI Mexico ETF",
       "teatro": "Américas",
@@ -104,6 +104,14 @@
       "conflicto": "China - Taiwán",
       "veces": 5,
       "ultima_fecha": "2026-08-01"
+    },
+    {
+      "ticker": "KC=F",
+      "nombre": "Futuros de Café (Arábica)",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
+      "veces": 5,
+      "ultima_fecha": "2026-08-24"
     },
     {
       "ticker": "LNG",
@@ -192,14 +200,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 4,
       "ultima_fecha": "2026-08-19"
-    },
-    {
-      "ticker": "KC=F",
-      "nombre": "Futuros de Café (Arábica)",
-      "teatro": "Américas",
-      "conflicto": "Colombia",
-      "veces": 4,
-      "ultima_fecha": "2026-08-21"
     },
     {
       "ticker": "MOS",
@@ -435,6 +435,39 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-08-24",
+      "actualizado_utc": "2026-08-24 22:30:53 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.46,
+          "var_30d_pct": 10.93,
+          "z_score": 3.24
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -4.72,
+          "var_30d_pct": 8.92,
+          "z_score": -1.72
+        },
+        {
+          "ticker": "CP",
+          "nombre": "Canadian Pacific Kansas City",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": -2.08,
+          "var_30d_pct": 2.51,
+          "z_score": -1.54
+        }
+      ]
+    },
     {
       "fecha": "2026-08-21",
       "actualizado_utc": "2026-08-21 22:29:11 UTC",
