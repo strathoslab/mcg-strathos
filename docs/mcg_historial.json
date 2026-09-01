@@ -2,7 +2,7 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-01 01:07:13 UTC",
+    "actualizado_utc": "2026-09-01 23:53:39 UTC",
     "dias_registrados": 34,
     "desde": "2026-07-15",
     "hasta": "2026-09-01",
@@ -26,6 +26,14 @@
       "ultima_fecha": "2026-09-01"
     },
     {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 8,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
       "ticker": "MP",
       "nombre": "MP Materials",
       "teatro": "Indo-Pacífico",
@@ -34,12 +42,20 @@
       "ultima_fecha": "2026-08-21"
     },
     {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
+      "ticker": "CP",
+      "nombre": "Canadian Pacific Kansas City",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 7,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "ZS=F",
+      "nombre": "Futuros de Soja",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 7,
-      "ultima_fecha": "2026-08-29"
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "ZW=F",
@@ -58,12 +74,20 @@
       "ultima_fecha": "2026-08-29"
     },
     {
-      "ticker": "CP",
-      "nombre": "Canadian Pacific Kansas City",
-      "teatro": "Américas",
-      "conflicto": "México",
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 6,
-      "ultima_fecha": "2026-08-24"
+      "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 6,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "GC=F",
@@ -72,14 +96,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 6,
       "ultima_fecha": "2026-08-29"
-    },
-    {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "LUG.TO",
@@ -98,28 +114,12 @@
       "ultima_fecha": "2026-08-05"
     },
     {
-      "ticker": "ZS=F",
-      "nombre": "Futuros de Soja",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-08-29"
-    },
-    {
       "ticker": "ALI=F",
       "nombre": "Futuros de Aluminio",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-08-21"
-    },
-    {
-      "ticker": "CF",
-      "nombre": "CF Industries",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 5,
-      "ultima_fecha": "2026-08-20"
     },
     {
       "ticker": "CHKP",
@@ -130,14 +130,6 @@
       "ultima_fecha": "2026-07-31"
     },
     {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 5,
-      "ultima_fecha": "2026-08-25"
-    },
-    {
       "ticker": "EWW",
       "nombre": "iShares MSCI Mexico ETF",
       "teatro": "Américas",
@@ -146,12 +138,28 @@
       "ultima_fecha": "2026-08-21"
     },
     {
+      "ticker": "GIL",
+      "nombre": "Gildan Activewear",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 5,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
       "ticker": "JPY=X",
       "nombre": "Yen Japonés",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 5,
       "ultima_fecha": "2026-08-01"
+    },
+    {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 5,
+      "ultima_fecha": "2026-08-10"
     },
     {
       "ticker": "URA",
@@ -194,28 +202,12 @@
       "ultima_fecha": "2026-08-19"
     },
     {
-      "ticker": "E",
-      "nombre": "Eni SpA (ADR)",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 4,
-      "ultima_fecha": "2026-09-01"
-    },
-    {
       "ticker": "FXI",
       "nombre": "iShares China Large-Cap",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 4,
       "ultima_fecha": "2026-08-19"
-    },
-    {
-      "ticker": "GIL",
-      "nombre": "Gildan Activewear",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 4,
-      "ultima_fecha": "2026-08-04"
     },
     {
       "ticker": "GLNCY",
@@ -240,22 +232,6 @@
       "conflicto": "China - Taiwán",
       "veces": 4,
       "ultima_fecha": "2026-08-29"
-    },
-    {
-      "ticker": "TTE",
-      "nombre": "TotalEnergies",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 4,
-      "ultima_fecha": "2026-09-01"
-    },
-    {
-      "ticker": "XOM",
-      "nombre": "ExxonMobil",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 4,
-      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "ZIM",
@@ -288,6 +264,14 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 3,
       "ultima_fecha": "2026-08-21"
+    },
+    {
+      "ticker": "E",
+      "nombre": "Eni SpA (ADR)",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 3,
+      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "ESLT",
@@ -370,12 +354,52 @@
       "ultima_fecha": "2026-08-18"
     },
     {
+      "ticker": "TTE",
+      "nombre": "TotalEnergies",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 3,
+      "ultima_fecha": "2026-07-30"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 3,
+      "ultima_fecha": "2026-08-18"
+    },
+    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
       "conflicto": "Disputas marítimas",
       "veces": 2,
       "ultima_fecha": "2026-08-17"
+    },
+    {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 2,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "CVX",
+      "nombre": "Chevron",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 2,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "EC",
+      "nombre": "Ecopetrol",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
+      "veces": 2,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "FRO",
@@ -418,105 +442,135 @@
       "ultima_fecha": "2026-08-29"
     },
     {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 1,
-      "ultima_fecha": "2026-07-23"
-    },
-    {
-      "ticker": "CVX",
-      "nombre": "Chevron",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 1,
-      "ultima_fecha": "2026-08-10"
-    },
-    {
-      "ticker": "EC",
-      "nombre": "Ecopetrol",
-      "teatro": "Américas",
-      "conflicto": "Colombia",
-      "veces": 1,
-      "ultima_fecha": "2026-08-07"
-    },
-    {
       "ticker": "RHM.DE",
       "nombre": "Rheinmetall",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 1,
-      "ultima_fecha": "2026-08-04"
+      "veces": 2,
+      "ultima_fecha": "2026-09-01"
     }
   ],
   "dias": [
     {
       "fecha": "2026-09-01",
-      "actualizado_utc": "2026-09-01 01:07:13 UTC",
+      "actualizado_utc": "2026-09-01 23:53:39 UTC",
       "senales": [
-        {
-          "ticker": "KC=F",
-          "nombre": "Futuros de Café (Arábica)",
-          "teatro": "Américas",
-          "conflicto": "Colombia",
-          "var_1d_pct": -9.21,
-          "var_30d_pct": -5.45,
-          "z_score": -2.77
-        },
         {
           "ticker": "ZC=F",
           "nombre": "Futuros de Maíz",
           "teatro": "Rusia–Ucrania",
           "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 4.93,
-          "var_30d_pct": 21.89,
-          "z_score": 2.71
+          "var_1d_pct": 5.92,
+          "var_30d_pct": 21.42,
+          "z_score": 3.11
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -10.34,
+          "var_30d_pct": -3.49,
+          "z_score": -3.01
+        },
+        {
+          "ticker": "CP",
+          "nombre": "Canadian Pacific Kansas City",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": -4.01,
+          "var_30d_pct": 0.09,
+          "z_score": -2.83
+        },
+        {
+          "ticker": "ZS=F",
+          "nombre": "Futuros de Soja",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.39,
+          "var_30d_pct": 12.81,
+          "z_score": 2.53
+        },
+        {
+          "ticker": "EC",
+          "nombre": "Ecopetrol",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": 4.68,
+          "var_30d_pct": 4.05,
+          "z_score": 2.01
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.01,
+          "var_30d_pct": 9.0,
+          "z_score": 1.98
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -0.72,
+          "var_30d_pct": -0.17,
+          "z_score": -1.95
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.79,
+          "var_30d_pct": -2.56,
+          "z_score": -1.69
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.84,
+          "var_30d_pct": 12.98,
+          "z_score": 1.69
         },
         {
           "ticker": "AGRO",
           "nombre": "Adecoagro",
           "teatro": "Rusia–Ucrania",
           "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 5.96,
-          "var_30d_pct": 14.14,
-          "z_score": 1.74
+          "var_1d_pct": 5.62,
+          "var_30d_pct": 20.56,
+          "z_score": 1.57
         },
         {
-          "ticker": "E",
-          "nombre": "Eni SpA (ADR)",
-          "teatro": "África de Recursos Críticos",
-          "conflicto": "Mozambique (Cabo Delgado)",
-          "var_1d_pct": 3.77,
-          "var_30d_pct": -1.37,
-          "z_score": 1.72
+          "ticker": "GIL",
+          "nombre": "Gildan Activewear",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -3.57,
+          "var_30d_pct": -8.83,
+          "z_score": -1.54
         },
         {
-          "ticker": "XOM",
-          "nombre": "ExxonMobil",
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 4.28,
+          "var_30d_pct": 8.87,
+          "z_score": 1.54
+        },
+        {
+          "ticker": "CVX",
+          "nombre": "Chevron",
           "teatro": "Américas",
           "conflicto": "Venezuela - Guyana",
-          "var_1d_pct": 2.71,
-          "var_30d_pct": 4.22,
-          "z_score": 1.7
-        },
-        {
-          "ticker": "LNG",
-          "nombre": "Cheniere Energy",
-          "teatro": "Rusia–Ucrania",
-          "conflicto": "Rusia - Ucrania",
-          "var_1d_pct": 3.32,
-          "var_30d_pct": 10.91,
-          "z_score": 1.55
-        },
-        {
-          "ticker": "TTE",
-          "nombre": "TotalEnergies",
-          "teatro": "África de Recursos Críticos",
-          "conflicto": "Mozambique (Cabo Delgado)",
-          "var_1d_pct": 2.27,
-          "var_30d_pct": 0.51,
-          "z_score": 1.5
+          "var_1d_pct": 2.38,
+          "var_30d_pct": 10.2,
+          "z_score": 1.51
         }
       ]
     },
