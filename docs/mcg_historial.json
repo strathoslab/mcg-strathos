@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-08-29 03:35:16 UTC",
-    "dias_registrados": 33,
+    "actualizado_utc": "2026-09-01 01:07:13 UTC",
+    "dias_registrados": 34,
     "desde": "2026-07-15",
-    "hasta": "2026-08-29",
+    "hasta": "2026-09-01",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,16 +14,16 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 30,
-      "ultima_fecha": "2026-08-29"
+      "veces": 31,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "KC=F",
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 9,
-      "ultima_fecha": "2026-08-29"
+      "veces": 10,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "MP",
@@ -72,6 +72,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 6,
       "ultima_fecha": "2026-08-29"
+    },
+    {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 6,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "LUG.TO",
@@ -146,14 +154,6 @@
       "ultima_fecha": "2026-08-01"
     },
     {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-08-10"
-    },
-    {
       "ticker": "URA",
       "nombre": "Global X Uranium ETF",
       "teatro": "África de Recursos Críticos",
@@ -192,6 +192,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 4,
       "ultima_fecha": "2026-08-19"
+    },
+    {
+      "ticker": "E",
+      "nombre": "Eni SpA (ADR)",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 4,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "FXI",
@@ -234,12 +242,36 @@
       "ultima_fecha": "2026-08-29"
     },
     {
+      "ticker": "TTE",
+      "nombre": "TotalEnergies",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 4,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 4,
+      "ultima_fecha": "2026-09-01"
+    },
+    {
       "ticker": "ZIM",
       "nombre": "Zim Integrated Shipping",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 4,
       "ultima_fecha": "2026-08-14"
+    },
+    {
+      "ticker": "AGRO",
+      "nombre": "Adecoagro",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 3,
+      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "BZ=F",
@@ -256,14 +288,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 3,
       "ultima_fecha": "2026-08-21"
-    },
-    {
-      "ticker": "E",
-      "nombre": "Eni SpA (ADR)",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 3,
-      "ultima_fecha": "2026-07-30"
     },
     {
       "ticker": "ESLT",
@@ -344,30 +368,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
       "ultima_fecha": "2026-08-18"
-    },
-    {
-      "ticker": "TTE",
-      "nombre": "TotalEnergies",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 3,
-      "ultima_fecha": "2026-07-30"
-    },
-    {
-      "ticker": "XOM",
-      "nombre": "ExxonMobil",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 3,
-      "ultima_fecha": "2026-08-18"
-    },
-    {
-      "ticker": "AGRO",
-      "nombre": "Adecoagro",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-08-19"
     },
     {
       "ticker": "AMKBY",
@@ -451,6 +451,75 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-01",
+      "actualizado_utc": "2026-09-01 01:07:13 UTC",
+      "senales": [
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -9.21,
+          "var_30d_pct": -5.45,
+          "z_score": -2.77
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.93,
+          "var_30d_pct": 21.89,
+          "z_score": 2.71
+        },
+        {
+          "ticker": "AGRO",
+          "nombre": "Adecoagro",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.96,
+          "var_30d_pct": 14.14,
+          "z_score": 1.74
+        },
+        {
+          "ticker": "E",
+          "nombre": "Eni SpA (ADR)",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 3.77,
+          "var_30d_pct": -1.37,
+          "z_score": 1.72
+        },
+        {
+          "ticker": "XOM",
+          "nombre": "ExxonMobil",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.71,
+          "var_30d_pct": 4.22,
+          "z_score": 1.7
+        },
+        {
+          "ticker": "LNG",
+          "nombre": "Cheniere Energy",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.32,
+          "var_30d_pct": 10.91,
+          "z_score": 1.55
+        },
+        {
+          "ticker": "TTE",
+          "nombre": "TotalEnergies",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 2.27,
+          "var_30d_pct": 0.51,
+          "z_score": 1.5
+        }
+      ]
+    },
     {
       "fecha": "2026-08-29",
       "actualizado_utc": "2026-08-29 03:35:16 UTC",
