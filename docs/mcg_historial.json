@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-04 23:50:02 UTC",
-    "dias_registrados": 37,
+    "actualizado_utc": "2026-09-08 00:05:20 UTC",
+    "dias_registrados": 38,
     "desde": "2026-07-15",
-    "hasta": "2026-09-04",
+    "hasta": "2026-09-08",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -32,6 +32,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 8,
       "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "JPY=X",
+      "nombre": "Yen Japonés",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 8,
+      "ultima_fecha": "2026-09-08"
     },
     {
       "ticker": "MP",
@@ -66,14 +74,6 @@
       "ultima_fecha": "2026-09-03"
     },
     {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 7,
-      "ultima_fecha": "2026-09-04"
-    },
-    {
       "ticker": "ZS=F",
       "nombre": "Futuros de Soja",
       "teatro": "Rusia–Ucrania",
@@ -90,6 +90,14 @@
       "ultima_fecha": "2026-08-29"
     },
     {
+      "ticker": "ASML",
+      "nombre": "ASML Holding",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-09-08"
+    },
+    {
       "ticker": "CF",
       "nombre": "CF Industries",
       "teatro": "Complejo Israel–Irán",
@@ -104,6 +112,14 @@
       "conflicto": "Ecuador",
       "veces": 6,
       "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "FXI",
+      "nombre": "iShares China Large-Cap",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-09-08"
     },
     {
       "ticker": "GIL",
@@ -138,14 +154,6 @@
       "ultima_fecha": "2026-08-21"
     },
     {
-      "ticker": "ASML",
-      "nombre": "ASML Holding",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-09-04"
-    },
-    {
       "ticker": "CHKP",
       "nombre": "Check Point Software",
       "teatro": "Complejo Israel–Irán",
@@ -162,14 +170,6 @@
       "ultima_fecha": "2026-08-21"
     },
     {
-      "ticker": "FXI",
-      "nombre": "iShares China Large-Cap",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-09-04"
-    },
-    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
@@ -184,6 +184,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 5,
       "ultima_fecha": "2026-09-02"
+    },
+    {
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 5,
+      "ultima_fecha": "2026-09-08"
     },
     {
       "ticker": "URA",
@@ -232,14 +240,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 4,
       "ultima_fecha": "2026-09-02"
-    },
-    {
-      "ticker": "NOC",
-      "nombre": "Northrop Grumman",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 4,
-      "ultima_fecha": "2026-09-04"
     },
     {
       "ticker": "NTR",
@@ -451,6 +451,48 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-08",
+      "actualizado_utc": "2026-09-08 00:05:20 UTC",
+      "senales": [
+        {
+          "ticker": "JPY=X",
+          "nombre": "Yen Japonés",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -1.55,
+          "var_30d_pct": -2.61,
+          "z_score": -2.18
+        },
+        {
+          "ticker": "FXI",
+          "nombre": "iShares China Large-Cap",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 1.53,
+          "var_30d_pct": -0.19,
+          "z_score": 1.6
+        },
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -2.51,
+          "var_30d_pct": -8.88,
+          "z_score": -1.59
+        },
+        {
+          "ticker": "ASML",
+          "nombre": "ASML Holding",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 4.17,
+          "var_30d_pct": 0.62,
+          "z_score": 1.54
+        }
+      ]
+    },
     {
       "fecha": "2026-09-04",
       "actualizado_utc": "2026-09-04 23:50:02 UTC",
