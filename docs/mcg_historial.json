@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-08 23:57:02 UTC",
-    "dias_registrados": 38,
+    "actualizado_utc": "2026-09-09 23:56:08 UTC",
+    "dias_registrados": 39,
     "desde": "2026-07-15",
-    "hasta": "2026-09-08",
+    "hasta": "2026-09-09",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,16 +14,16 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 35,
-      "ultima_fecha": "2026-09-08"
+      "veces": 36,
+      "ultima_fecha": "2026-09-09"
     },
     {
       "ticker": "KC=F",
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 14,
-      "ultima_fecha": "2026-09-08"
+      "veces": 15,
+      "ultima_fecha": "2026-09-09"
     },
     {
       "ticker": "ADM",
@@ -194,6 +194,14 @@
       "ultima_fecha": "2026-09-02"
     },
     {
+      "ticker": "NG=F",
+      "nombre": "Gas Natural",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 5,
+      "ultima_fecha": "2026-09-09"
+    },
+    {
       "ticker": "URA",
       "nombre": "Global X Uranium ETF",
       "teatro": "África de Recursos Críticos",
@@ -242,14 +250,6 @@
       "ultima_fecha": "2026-09-08"
     },
     {
-      "ticker": "NG=F",
-      "nombre": "Gas Natural",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-09-02"
-    },
-    {
       "ticker": "NOC",
       "nombre": "Northrop Grumman",
       "teatro": "Indo-Pacífico",
@@ -296,6 +296,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
       "ultima_fecha": "2026-08-25"
+    },
+    {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 3,
+      "ultima_fecha": "2026-09-09"
     },
     {
       "ticker": "E",
@@ -386,14 +394,6 @@
       "ultima_fecha": "2026-08-17"
     },
     {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 2,
-      "ultima_fecha": "2026-09-01"
-    },
-    {
       "ticker": "CVX",
       "nombre": "Chevron",
       "teatro": "Américas",
@@ -451,6 +451,48 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-09",
+      "actualizado_utc": "2026-09-09 23:56:08 UTC",
+      "senales": [
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -8.57,
+          "var_30d_pct": -12.38,
+          "z_score": -2.84
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.38,
+          "var_30d_pct": 20.54,
+          "z_score": 2.09
+        },
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.74,
+          "var_30d_pct": 0.47,
+          "z_score": -1.78
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 4.44,
+          "var_30d_pct": 18.3,
+          "z_score": 1.6
+        }
+      ]
+    },
     {
       "fecha": "2026-09-08",
       "actualizado_utc": "2026-09-08 23:57:02 UTC",
