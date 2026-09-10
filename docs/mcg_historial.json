@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-09 23:56:08 UTC",
-    "dias_registrados": 39,
+    "actualizado_utc": "2026-09-10 23:51:43 UTC",
+    "dias_registrados": 40,
     "desde": "2026-07-15",
-    "hasta": "2026-09-09",
+    "hasta": "2026-09-10",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,16 +14,32 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 36,
-      "ultima_fecha": "2026-09-09"
+      "veces": 37,
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "KC=F",
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 15,
-      "ultima_fecha": "2026-09-09"
+      "veces": 16,
+      "ultima_fecha": "2026-09-10"
+    },
+    {
+      "ticker": "ZS=F",
+      "nombre": "Futuros de Soja",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 9,
+      "ultima_fecha": "2026-09-10"
+    },
+    {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 9,
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "ADM",
@@ -42,22 +58,6 @@
       "ultima_fecha": "2026-08-21"
     },
     {
-      "ticker": "ZS=F",
-      "nombre": "Futuros de Soja",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 8,
-      "ultima_fecha": "2026-09-08"
-    },
-    {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 8,
-      "ultima_fecha": "2026-09-08"
-    },
-    {
       "ticker": "CCJ",
       "nombre": "Cameco",
       "teatro": "Rusia–Ucrania",
@@ -72,6 +72,14 @@
       "conflicto": "México",
       "veces": 7,
       "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 7,
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "GC=F",
@@ -114,12 +122,12 @@
       "ultima_fecha": "2026-09-01"
     },
     {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
       "teatro": "Américas",
-      "conflicto": "Ecuador",
+      "conflicto": "México",
       "veces": 6,
-      "ultima_fecha": "2026-09-01"
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "FXI",
@@ -128,6 +136,14 @@
       "conflicto": "China - Taiwán",
       "veces": 6,
       "ultima_fecha": "2026-09-08"
+    },
+    {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 6,
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "LNG",
@@ -154,6 +170,14 @@
       "ultima_fecha": "2026-08-05"
     },
     {
+      "ticker": "AAPL",
+      "nombre": "Apple",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 5,
+      "ultima_fecha": "2026-09-10"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
@@ -170,20 +194,12 @@
       "ultima_fecha": "2026-07-31"
     },
     {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 5,
-      "ultima_fecha": "2026-08-21"
-    },
-    {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
+      "ticker": "COPX",
+      "nombre": "Global X Copper Miners ETF",
       "teatro": "África de Recursos Críticos",
       "conflicto": "Rep. Dem. del Congo",
       "veces": 5,
-      "ultima_fecha": "2026-09-08"
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "MOS",
@@ -226,14 +242,6 @@
       "ultima_fecha": "2026-08-13"
     },
     {
-      "ticker": "AAPL",
-      "nombre": "Apple",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 4,
-      "ultima_fecha": "2026-08-04"
-    },
-    {
       "ticker": "ATI",
       "nombre": "ATI Inc",
       "teatro": "Rusia–Ucrania",
@@ -242,12 +250,20 @@
       "ultima_fecha": "2026-08-19"
     },
     {
-      "ticker": "COPX",
-      "nombre": "Global X Copper Miners ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 4,
-      "ultima_fecha": "2026-09-08"
+      "ultima_fecha": "2026-09-10"
+    },
+    {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 4,
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "NOC",
@@ -274,6 +290,14 @@
       "ultima_fecha": "2026-08-29"
     },
     {
+      "ticker": "PA=F",
+      "nombre": "Futuros de Paladio",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 4,
+      "ultima_fecha": "2026-09-10"
+    },
+    {
       "ticker": "PANW",
       "nombre": "Palo Alto Networks",
       "teatro": "Complejo Israel–Irán",
@@ -282,28 +306,20 @@
       "ultima_fecha": "2026-09-02"
     },
     {
+      "ticker": "REMX",
+      "nombre": "VanEck Rare Earth ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 4,
+      "ultima_fecha": "2026-09-10"
+    },
+    {
       "ticker": "AGRO",
       "nombre": "Adecoagro",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
       "ultima_fecha": "2026-09-01"
-    },
-    {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 3,
-      "ultima_fecha": "2026-08-25"
-    },
-    {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 3,
-      "ultima_fecha": "2026-09-09"
     },
     {
       "ticker": "E",
@@ -330,6 +346,14 @@
       "ultima_fecha": "2026-07-31"
     },
     {
+      "ticker": "LIT",
+      "nombre": "Global X Lithium & Battery Tech ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 3,
+      "ultima_fecha": "2026-09-10"
+    },
+    {
       "ticker": "MATX",
       "nombre": "Matson Inc",
       "teatro": "Indo-Pacífico",
@@ -338,20 +362,12 @@
       "ultima_fecha": "2026-08-13"
     },
     {
-      "ticker": "PA=F",
-      "nombre": "Futuros de Paladio",
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
-      "ultima_fecha": "2026-09-03"
-    },
-    {
-      "ticker": "REMX",
-      "nombre": "VanEck Rare Earth ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 3,
-      "ultima_fecha": "2026-08-21"
+      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "RTX",
@@ -426,31 +442,156 @@
       "ultima_fecha": "2026-08-28"
     },
     {
-      "ticker": "LIT",
-      "nombre": "Global X Lithium & Battery Tech ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 2,
-      "ultima_fecha": "2026-08-05"
-    },
-    {
       "ticker": "LMT",
       "nombre": "Lockheed Martin",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 2,
       "ultima_fecha": "2026-07-24"
-    },
-    {
-      "ticker": "RHM.DE",
-      "nombre": "Rheinmetall",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 2,
-      "ultima_fecha": "2026-09-01"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-10",
+      "actualizado_utc": "2026-09-10 23:51:43 UTC",
+      "senales": [
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -9.16,
+          "var_30d_pct": -13.64,
+          "z_score": -3.05
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.07,
+          "var_30d_pct": 22.15,
+          "z_score": 3.0
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 8.36,
+          "var_30d_pct": 25.1,
+          "z_score": 2.9
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 7.91,
+          "var_30d_pct": 22.84,
+          "z_score": 2.64
+        },
+        {
+          "ticker": "ZS=F",
+          "nombre": "Futuros de Soja",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 2.82,
+          "var_30d_pct": 16.06,
+          "z_score": 2.62
+        },
+        {
+          "ticker": "COPX",
+          "nombre": "Global X Copper Miners ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -6.99,
+          "var_30d_pct": 0.02,
+          "z_score": -2.53
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -0.81,
+          "var_30d_pct": -1.07,
+          "z_score": -2.43
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -5.24,
+          "var_30d_pct": 6.62,
+          "z_score": -2.32
+        },
+        {
+          "ticker": "REMX",
+          "nombre": "VanEck Rare Earth ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -5.13,
+          "var_30d_pct": -5.6,
+          "z_score": -2.01
+        },
+        {
+          "ticker": "ZW=F",
+          "nombre": "Futuros de Trigo",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.25,
+          "var_30d_pct": 17.65,
+          "z_score": 1.82
+        },
+        {
+          "ticker": "AAPL",
+          "nombre": "Apple",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 3.56,
+          "var_30d_pct": 7.1,
+          "z_score": 1.81
+        },
+        {
+          "ticker": "PA=F",
+          "nombre": "Futuros de Paladio",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.54,
+          "var_30d_pct": -5.46,
+          "z_score": -1.72
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": -1.63,
+          "var_30d_pct": -1.3,
+          "z_score": -1.72
+        },
+        {
+          "ticker": "LIT",
+          "nombre": "Global X Lithium & Battery Tech ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -2.66,
+          "var_30d_pct": -3.1,
+          "z_score": -1.61
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.75,
+          "var_30d_pct": -11.36,
+          "z_score": -1.55
+        }
+      ]
+    },
     {
       "fecha": "2026-09-09",
       "actualizado_utc": "2026-09-09 23:56:08 UTC",
