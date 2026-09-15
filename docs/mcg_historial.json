@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-11 23:59:35 UTC",
-    "dias_registrados": 41,
+    "actualizado_utc": "2026-09-15 00:24:32 UTC",
+    "dias_registrados": 42,
     "desde": "2026-07-15",
-    "hasta": "2026-09-11",
+    "hasta": "2026-09-15",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,16 +14,16 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 38,
-      "ultima_fecha": "2026-09-11"
+      "veces": 39,
+      "ultima_fecha": "2026-09-15"
     },
     {
       "ticker": "KC=F",
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 17,
-      "ultima_fecha": "2026-09-11"
+      "veces": 18,
+      "ultima_fecha": "2026-09-15"
     },
     {
       "ticker": "ZS=F",
@@ -451,6 +451,30 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-15",
+      "actualizado_utc": "2026-09-15 00:24:32 UTC",
+      "senales": [
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -7.78,
+          "var_30d_pct": -13.16,
+          "z_score": -2.77
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.31,
+          "var_30d_pct": 18.81,
+          "z_score": 2.7
+        }
+      ]
+    },
     {
       "fecha": "2026-09-11",
       "actualizado_utc": "2026-09-11 23:59:35 UTC",
