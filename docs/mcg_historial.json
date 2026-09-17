@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-16 00:03:46 UTC",
-    "dias_registrados": 43,
+    "actualizado_utc": "2026-09-17 00:13:33 UTC",
+    "dias_registrados": 44,
     "desde": "2026-07-15",
-    "hasta": "2026-09-16",
+    "hasta": "2026-09-17",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -22,8 +22,8 @@
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 19,
-      "ultima_fecha": "2026-09-16"
+      "veces": 20,
+      "ultima_fecha": "2026-09-17"
     },
     {
       "ticker": "ZS=F",
@@ -48,6 +48,14 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 8,
       "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "GIL",
+      "nombre": "Gildan Activewear",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 8,
+      "ultima_fecha": "2026-09-17"
     },
     {
       "ticker": "MP",
@@ -88,14 +96,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 7,
       "ultima_fecha": "2026-09-03"
-    },
-    {
-      "ticker": "GIL",
-      "nombre": "Gildan Activewear",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 7,
-      "ultima_fecha": "2026-09-08"
     },
     {
       "ticker": "JPY=X",
@@ -202,6 +202,14 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 5,
+      "ultima_fecha": "2026-09-17"
+    },
+    {
       "ticker": "COPX",
       "nombre": "Global X Copper Miners ETF",
       "teatro": "África de Recursos Críticos",
@@ -262,14 +270,6 @@
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-09-10"
-    },
-    {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 4,
       "ultima_fecha": "2026-09-10"
     },
@@ -338,12 +338,36 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "TTE",
+      "nombre": "TotalEnergies",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 4,
+      "ultima_fecha": "2026-09-17"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 4,
+      "ultima_fecha": "2026-09-17"
+    },
+    {
       "ticker": "AGRO",
       "nombre": "Adecoagro",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 3,
       "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "CVX",
+      "nombre": "Chevron",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 3,
+      "ultima_fecha": "2026-09-17"
     },
     {
       "ticker": "E",
@@ -386,36 +410,12 @@
       "ultima_fecha": "2026-08-20"
     },
     {
-      "ticker": "TTE",
-      "nombre": "TotalEnergies",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 3,
-      "ultima_fecha": "2026-07-30"
-    },
-    {
-      "ticker": "XOM",
-      "nombre": "ExxonMobil",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 3,
-      "ultima_fecha": "2026-08-18"
-    },
-    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
       "conflicto": "Disputas marítimas",
       "veces": 2,
       "ultima_fecha": "2026-08-17"
-    },
-    {
-      "ticker": "CVX",
-      "nombre": "Chevron",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 2,
-      "ultima_fecha": "2026-09-01"
     },
     {
       "ticker": "EC",
@@ -451,6 +451,66 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-17",
+      "actualizado_utc": "2026-09-17 00:13:33 UTC",
+      "senales": [
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -6.64,
+          "var_30d_pct": -18.94,
+          "z_score": -2.49
+        },
+        {
+          "ticker": "CVX",
+          "nombre": "Chevron",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.64,
+          "var_30d_pct": 9.84,
+          "z_score": 1.81
+        },
+        {
+          "ticker": "TTE",
+          "nombre": "TotalEnergies",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 2.17,
+          "var_30d_pct": 5.42,
+          "z_score": 1.67
+        },
+        {
+          "ticker": "GIL",
+          "nombre": "Gildan Activewear",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -3.27,
+          "var_30d_pct": -18.74,
+          "z_score": -1.61
+        },
+        {
+          "ticker": "XOM",
+          "nombre": "ExxonMobil",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.57,
+          "var_30d_pct": 6.44,
+          "z_score": 1.61
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.03,
+          "var_30d_pct": 20.2,
+          "z_score": -1.6
+        }
+      ]
+    },
     {
       "fecha": "2026-09-16",
       "actualizado_utc": "2026-09-16 00:03:46 UTC",
