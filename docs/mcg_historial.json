@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-18 00:00:22 UTC",
-    "dias_registrados": 45,
+    "actualizado_utc": "2026-09-19 00:01:20 UTC",
+    "dias_registrados": 46,
     "desde": "2026-07-15",
-    "hasta": "2026-09-18",
+    "hasta": "2026-09-19",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -22,8 +22,8 @@
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 21,
-      "ultima_fecha": "2026-09-18"
+      "veces": 22,
+      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "ZS=F",
@@ -34,6 +34,14 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 9,
+      "ultima_fecha": "2026-09-19"
+    },
+    {
       "ticker": "ZW=F",
       "nombre": "Futuros de Trigo",
       "teatro": "Rusia–Ucrania",
@@ -42,12 +50,20 @@
       "ultima_fecha": "2026-09-10"
     },
     {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
       "veces": 8,
-      "ultima_fecha": "2026-09-01"
+      "ultima_fecha": "2026-09-19"
+    },
+    {
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 8,
+      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "GIL",
@@ -82,28 +98,20 @@
       "ultima_fecha": "2026-09-01"
     },
     {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 7,
-      "ultima_fecha": "2026-09-10"
-    },
-    {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 7,
-      "ultima_fecha": "2026-09-18"
-    },
-    {
       "ticker": "GC=F",
       "nombre": "Futuros de Oro",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 7,
       "ultima_fecha": "2026-09-03"
+    },
+    {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 7,
+      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "JPY=X",
@@ -146,20 +154,20 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 6,
+      "ultima_fecha": "2026-09-19"
+    },
+    {
       "ticker": "FXI",
       "nombre": "iShares China Large-Cap",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 6,
       "ultima_fecha": "2026-09-08"
-    },
-    {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 6,
-      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "LNG",
@@ -202,12 +210,12 @@
       "ultima_fecha": "2026-09-16"
     },
     {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 5,
-      "ultima_fecha": "2026-09-17"
+      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "COPX",
@@ -240,6 +248,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-09-16"
+    },
+    {
+      "ticker": "TSM",
+      "nombre": "TSMC",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 5,
+      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "TTE",
@@ -280,14 +296,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 4,
       "ultima_fecha": "2026-08-13"
-    },
-    {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "CVX",
@@ -352,14 +360,6 @@
       "conflicto": "China - Taiwán",
       "veces": 4,
       "ultima_fecha": "2026-09-10"
-    },
-    {
-      "ticker": "TSM",
-      "nombre": "TSMC",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-09-16"
     },
     {
       "ticker": "AGRO",
@@ -451,6 +451,84 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-19",
+      "actualizado_utc": "2026-09-19 00:01:20 UTC",
+      "senales": [
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -6.32,
+          "var_30d_pct": 11.23,
+          "z_score": -2.28
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.77,
+          "var_30d_pct": 7.8,
+          "z_score": -2.19
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.64,
+          "var_30d_pct": 7.52,
+          "z_score": 2.02
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": 0.64,
+          "var_30d_pct": -0.6,
+          "z_score": 1.99
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": 1.92,
+          "var_30d_pct": -0.23,
+          "z_score": 1.94
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -4.59,
+          "var_30d_pct": -22.89,
+          "z_score": -1.82
+        },
+        {
+          "ticker": "TSM",
+          "nombre": "TSMC",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.0,
+          "var_30d_pct": 4.36,
+          "z_score": 1.74
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -3.69,
+          "var_30d_pct": -3.21,
+          "z_score": -1.71
+        }
+      ]
+    },
     {
       "fecha": "2026-09-18",
       "actualizado_utc": "2026-09-18 00:00:22 UTC",
