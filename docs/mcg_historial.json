@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-19 00:01:20 UTC",
-    "dias_registrados": 46,
+    "actualizado_utc": "2026-09-22 00:39:53 UTC",
+    "dias_registrados": 47,
     "desde": "2026-07-15",
-    "hasta": "2026-09-19",
+    "hasta": "2026-09-22",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,16 +14,24 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 40,
-      "ultima_fecha": "2026-09-16"
+      "veces": 41,
+      "ultima_fecha": "2026-09-22"
     },
     {
       "ticker": "KC=F",
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 22,
-      "ultima_fecha": "2026-09-19"
+      "veces": 23,
+      "ultima_fecha": "2026-09-22"
+    },
+    {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 10,
+      "ultima_fecha": "2026-09-22"
     },
     {
       "ticker": "ZS=F",
@@ -32,14 +40,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 10,
       "ultima_fecha": "2026-09-16"
-    },
-    {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 9,
-      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "ZW=F",
@@ -90,6 +90,22 @@
       "ultima_fecha": "2026-09-03"
     },
     {
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 7,
+      "ultima_fecha": "2026-09-22"
+    },
+    {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 7,
+      "ultima_fecha": "2026-09-22"
+    },
+    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
@@ -122,6 +138,14 @@
       "ultima_fecha": "2026-09-04"
     },
     {
+      "ticker": "WU",
+      "nombre": "Western Union",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 7,
+      "ultima_fecha": "2026-09-22"
+    },
+    {
       "ticker": "ALI=F",
       "nombre": "Futuros de Aluminio",
       "teatro": "Complejo Israel–Irán",
@@ -138,12 +162,20 @@
       "ultima_fecha": "2026-09-16"
     },
     {
-      "ticker": "CF",
-      "nombre": "CF Industries",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 6,
-      "ultima_fecha": "2026-09-01"
+      "ultima_fecha": "2026-09-22"
+    },
+    {
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 6,
+      "ultima_fecha": "2026-09-22"
     },
     {
       "ticker": "CHKP",
@@ -152,14 +184,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 6,
       "ultima_fecha": "2026-09-16"
-    },
-    {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 6,
-      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "FXI",
@@ -186,12 +210,12 @@
       "ultima_fecha": "2026-08-19"
     },
     {
-      "ticker": "WU",
-      "nombre": "Western Union",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 6,
-      "ultima_fecha": "2026-08-05"
+      "ticker": "AA",
+      "nombre": "Alcoa Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 5,
+      "ultima_fecha": "2026-09-22"
     },
     {
       "ticker": "AAPL",
@@ -200,22 +224,6 @@
       "conflicto": "China - Taiwán",
       "veces": 5,
       "ultima_fecha": "2026-09-10"
-    },
-    {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-09-16"
-    },
-    {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "COPX",
@@ -288,14 +296,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-09-08"
-    },
-    {
-      "ticker": "AA",
-      "nombre": "Alcoa Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 4,
-      "ultima_fecha": "2026-08-13"
     },
     {
       "ticker": "CVX",
@@ -451,6 +451,93 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-22",
+      "actualizado_utc": "2026-09-22 00:39:53 UTC",
+      "senales": [
+        {
+          "ticker": "WU",
+          "nombre": "Western Union",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -5.36,
+          "var_30d_pct": -11.12,
+          "z_score": -2.84
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -6.81,
+          "var_30d_pct": -24.5,
+          "z_score": -2.68
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -7.77,
+          "var_30d_pct": 5.33,
+          "z_score": -2.64
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -7.11,
+          "var_30d_pct": 2.88,
+          "z_score": -2.57
+        },
+        {
+          "ticker": "ATI",
+          "nombre": "ATI Inc",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.35,
+          "var_30d_pct": -11.28,
+          "z_score": 1.9
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 2.94,
+          "var_30d_pct": 13.42,
+          "z_score": 1.82
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.3,
+          "var_30d_pct": 5.47,
+          "z_score": -1.71
+        },
+        {
+          "ticker": "AA",
+          "nombre": "Alcoa Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -5.41,
+          "var_30d_pct": -13.8,
+          "z_score": -1.71
+        },
+        {
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.57,
+          "var_30d_pct": 7.29,
+          "z_score": -1.68
+        }
+      ]
+    },
     {
       "fecha": "2026-09-19",
       "actualizado_utc": "2026-09-19 00:01:20 UTC",
