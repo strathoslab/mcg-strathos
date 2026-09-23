@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-22 00:39:53 UTC",
-    "dias_registrados": 47,
+    "actualizado_utc": "2026-09-23 00:10:24 UTC",
+    "dias_registrados": 48,
     "desde": "2026-07-15",
-    "hasta": "2026-09-22",
+    "hasta": "2026-09-23",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -42,12 +42,28 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "MP",
+      "nombre": "MP Materials",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 9,
+      "ultima_fecha": "2026-09-23"
+    },
+    {
       "ticker": "ZW=F",
       "nombre": "Futuros de Trigo",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 9,
       "ultima_fecha": "2026-09-10"
+    },
+    {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 8,
+      "ultima_fecha": "2026-09-23"
     },
     {
       "ticker": "EMB",
@@ -74,12 +90,12 @@
       "ultima_fecha": "2026-09-17"
     },
     {
-      "ticker": "MP",
-      "nombre": "MP Materials",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 8,
-      "ultima_fecha": "2026-08-21"
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 7,
+      "ultima_fecha": "2026-09-23"
     },
     {
       "ticker": "CCJ",
@@ -98,20 +114,20 @@
       "ultima_fecha": "2026-09-22"
     },
     {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 7,
-      "ultima_fecha": "2026-09-22"
-    },
-    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
       "conflicto": "México",
       "veces": 7,
       "ultima_fecha": "2026-09-01"
+    },
+    {
+      "ticker": "FXI",
+      "nombre": "iShares China Large-Cap",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 7,
+      "ultima_fecha": "2026-09-23"
     },
     {
       "ticker": "GC=F",
@@ -146,14 +162,6 @@
       "ultima_fecha": "2026-09-22"
     },
     {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 6,
-      "ultima_fecha": "2026-09-08"
-    },
-    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
@@ -186,14 +194,6 @@
       "ultima_fecha": "2026-09-16"
     },
     {
-      "ticker": "FXI",
-      "nombre": "iShares China Large-Cap",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 6,
-      "ultima_fecha": "2026-09-08"
-    },
-    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
@@ -208,6 +208,22 @@
       "conflicto": "Ecuador",
       "veces": 6,
       "ultima_fecha": "2026-08-19"
+    },
+    {
+      "ticker": "NG=F",
+      "nombre": "Gas Natural",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 6,
+      "ultima_fecha": "2026-09-23"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 6,
+      "ultima_fecha": "2026-09-23"
     },
     {
       "ticker": "AA",
@@ -234,6 +250,22 @@
       "ultima_fecha": "2026-09-10"
     },
     {
+      "ticker": "CVX",
+      "nombre": "Chevron",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 5,
+      "ultima_fecha": "2026-09-23"
+    },
+    {
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 5,
+      "ultima_fecha": "2026-09-23"
+    },
+    {
       "ticker": "MOS",
       "nombre": "Mosaic Company",
       "teatro": "Rusia–Ucrania",
@@ -242,12 +274,12 @@
       "ultima_fecha": "2026-09-02"
     },
     {
-      "ticker": "NG=F",
-      "nombre": "Gas Natural",
+      "ticker": "NTR",
+      "nombre": "Nutrien",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 5,
-      "ultima_fecha": "2026-09-09"
+      "ultima_fecha": "2026-09-23"
     },
     {
       "ticker": "PANW",
@@ -282,14 +314,6 @@
       "ultima_fecha": "2026-08-29"
     },
     {
-      "ticker": "XOM",
-      "nombre": "ExxonMobil",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 5,
-      "ultima_fecha": "2026-09-18"
-    },
-    {
       "ticker": "ZIM",
       "nombre": "Zim Integrated Shipping",
       "teatro": "Complejo Israel–Irán",
@@ -298,20 +322,12 @@
       "ultima_fecha": "2026-09-08"
     },
     {
-      "ticker": "CVX",
-      "nombre": "Chevron",
+      "ticker": "EC",
+      "nombre": "Ecopetrol",
       "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
+      "conflicto": "Colombia",
       "veces": 4,
-      "ultima_fecha": "2026-09-18"
-    },
-    {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 4,
-      "ultima_fecha": "2026-09-16"
+      "ultima_fecha": "2026-09-23"
     },
     {
       "ticker": "MATX",
@@ -328,14 +344,6 @@
       "conflicto": "China - Taiwán",
       "veces": 4,
       "ultima_fecha": "2026-09-04"
-    },
-    {
-      "ticker": "NTR",
-      "nombre": "Nutrien",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-09-02"
     },
     {
       "ticker": "NVDA",
@@ -376,14 +384,6 @@
       "conflicto": "Mozambique (Cabo Delgado)",
       "veces": 3,
       "ultima_fecha": "2026-07-30"
-    },
-    {
-      "ticker": "EC",
-      "nombre": "Ecopetrol",
-      "teatro": "Américas",
-      "conflicto": "Colombia",
-      "veces": 3,
-      "ultima_fecha": "2026-09-18"
     },
     {
       "ticker": "ESLT",
@@ -451,6 +451,102 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-23",
+      "actualizado_utc": "2026-09-23 00:10:24 UTC",
+      "senales": [
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 12.02,
+          "var_30d_pct": 14.57,
+          "z_score": 4.29
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -6.48,
+          "var_30d_pct": 2.88,
+          "z_score": -2.28
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 3.58,
+          "var_30d_pct": 11.12,
+          "z_score": 2.22
+        },
+        {
+          "ticker": "EC",
+          "nombre": "Ecopetrol",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -4.21,
+          "var_30d_pct": -4.59,
+          "z_score": -2.08
+        },
+        {
+          "ticker": "XOM",
+          "nombre": "ExxonMobil",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": -3.2,
+          "var_30d_pct": -4.72,
+          "z_score": -1.81
+        },
+        {
+          "ticker": "CVX",
+          "nombre": "Chevron",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": -2.79,
+          "var_30d_pct": -1.02,
+          "z_score": -1.79
+        },
+        {
+          "ticker": "NTR",
+          "nombre": "Nutrien",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.31,
+          "var_30d_pct": 1.94,
+          "z_score": -1.72
+        },
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 5.8,
+          "var_30d_pct": -9.16,
+          "z_score": 1.6
+        },
+        {
+          "ticker": "FXI",
+          "nombre": "iShares China Large-Cap",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 1.72,
+          "var_30d_pct": -2.13,
+          "z_score": 1.6
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 2.48,
+          "var_30d_pct": 0.8,
+          "z_score": 1.56
+        }
+      ]
+    },
     {
       "fecha": "2026-09-22",
       "actualizado_utc": "2026-09-22 00:39:53 UTC",
