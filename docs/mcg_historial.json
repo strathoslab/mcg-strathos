@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-25 00:21:48 UTC",
-    "dias_registrados": 50,
+    "actualizado_utc": "2026-09-26 00:27:05 UTC",
+    "dias_registrados": 51,
     "desde": "2026-07-15",
-    "hasta": "2026-09-25",
+    "hasta": "2026-09-26",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -50,6 +50,14 @@
       "ultima_fecha": "2026-09-25"
     },
     {
+      "ticker": "GIL",
+      "nombre": "Gildan Activewear",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 9,
+      "ultima_fecha": "2026-09-26"
+    },
+    {
       "ticker": "MP",
       "nombre": "MP Materials",
       "teatro": "Indo-Pacífico",
@@ -90,14 +98,6 @@
       "ultima_fecha": "2026-09-24"
     },
     {
-      "ticker": "GIL",
-      "nombre": "Gildan Activewear",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 8,
-      "ultima_fecha": "2026-09-17"
-    },
-    {
       "ticker": "NG=F",
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
@@ -112,6 +112,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 7,
       "ultima_fecha": "2026-09-23"
+    },
+    {
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 7,
+      "ultima_fecha": "2026-09-26"
     },
     {
       "ticker": "CCJ",
@@ -204,14 +212,6 @@
     {
       "ticker": "ATI",
       "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-09-22"
-    },
-    {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 6,
@@ -322,6 +322,14 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 5,
+      "ultima_fecha": "2026-09-26"
+    },
+    {
       "ticker": "TSM",
       "nombre": "TSMC",
       "teatro": "Rusia–Ucrania",
@@ -386,12 +394,12 @@
       "ultima_fecha": "2026-09-10"
     },
     {
-      "ticker": "RHM.DE",
-      "nombre": "Rheinmetall",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 4,
-      "ultima_fecha": "2026-09-25"
+      "ultima_fecha": "2026-09-26"
     },
     {
       "ticker": "AGRO",
@@ -426,14 +434,6 @@
       "ultima_fecha": "2026-09-10"
     },
     {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 3,
-      "ultima_fecha": "2026-08-20"
-    },
-    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
@@ -451,6 +451,48 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-26",
+      "actualizado_utc": "2026-09-26 00:27:05 UTC",
+      "senales": [
+        {
+          "ticker": "GIL",
+          "nombre": "Gildan Activewear",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -12.04,
+          "var_30d_pct": -25.57,
+          "z_score": -4.3
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -8.56,
+          "var_30d_pct": 10.96,
+          "z_score": -2.89
+        },
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -1.86,
+          "var_30d_pct": -10.31,
+          "z_score": -1.54
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.41,
+          "var_30d_pct": -13.07,
+          "z_score": -1.52
+        }
+      ]
+    },
     {
       "fecha": "2026-09-25",
       "actualizado_utc": "2026-09-25 00:21:48 UTC",
