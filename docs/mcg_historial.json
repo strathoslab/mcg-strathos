@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-29 01:38:06 UTC",
-    "dias_registrados": 52,
+    "actualizado_utc": "2026-09-30 01:09:48 UTC",
+    "dias_registrados": 53,
     "desde": "2026-07-15",
-    "hasta": "2026-09-29",
+    "hasta": "2026-09-30",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -26,6 +26,14 @@
       "ultima_fecha": "2026-09-22"
     },
     {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 11,
+      "ultima_fecha": "2026-09-30"
+    },
+    {
       "ticker": "ZS=F",
       "nombre": "Futuros de Soja",
       "teatro": "Rusia–Ucrania",
@@ -42,12 +50,20 @@
       "ultima_fecha": "2026-09-22"
     },
     {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 10,
-      "ultima_fecha": "2026-09-29"
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 9,
+      "ultima_fecha": "2026-09-30"
+    },
+    {
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 9,
+      "ultima_fecha": "2026-09-30"
     },
     {
       "ticker": "GIL",
@@ -74,14 +90,6 @@
       "ultima_fecha": "2026-09-10"
     },
     {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 8,
-      "ultima_fecha": "2026-09-29"
-    },
-    {
       "ticker": "CL=F",
       "nombre": "Petróleo WTI",
       "teatro": "Complejo Israel–Irán",
@@ -104,14 +112,6 @@
       "conflicto": "China - Taiwán",
       "veces": 8,
       "ultima_fecha": "2026-09-24"
-    },
-    {
-      "ticker": "GC=F",
-      "nombre": "Futuros de Oro",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 8,
-      "ultima_fecha": "2026-09-29"
     },
     {
       "ticker": "NG=F",
@@ -250,6 +250,14 @@
       "ultima_fecha": "2026-09-24"
     },
     {
+      "ticker": "REMX",
+      "nombre": "VanEck Rare Earth ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-09-30"
+    },
+    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
@@ -290,6 +298,14 @@
       "ultima_fecha": "2026-09-24"
     },
     {
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 5,
+      "ultima_fecha": "2026-09-30"
+    },
+    {
       "ticker": "MATX",
       "nombre": "Matson Inc",
       "teatro": "Indo-Pacífico",
@@ -320,14 +336,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-09-16"
-    },
-    {
-      "ticker": "REMX",
-      "nombre": "VanEck Rare Earth ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-09-29"
     },
     {
       "ticker": "RHM.DE",
@@ -368,14 +376,6 @@
       "conflicto": "Mozambique (Cabo Delgado)",
       "veces": 4,
       "ultima_fecha": "2026-09-25"
-    },
-    {
-      "ticker": "ESLT",
-      "nombre": "Elbit Systems",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 4,
-      "ultima_fecha": "2026-09-29"
     },
     {
       "ticker": "FRO",
@@ -451,6 +451,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-09-30",
+      "actualizado_utc": "2026-09-30 01:09:48 UTC",
+      "senales": [
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -8.66,
+          "var_30d_pct": 7.67,
+          "z_score": -2.92
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.18,
+          "var_30d_pct": -2.01,
+          "z_score": -2.74
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -0.91,
+          "var_30d_pct": -3.56,
+          "z_score": -2.27
+        },
+        {
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.6,
+          "var_30d_pct": -9.76,
+          "z_score": -1.88
+        },
+        {
+          "ticker": "REMX",
+          "nombre": "VanEck Rare Earth ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -3.29,
+          "var_30d_pct": -18.65,
+          "z_score": -1.51
+        }
+      ]
+    },
     {
       "fecha": "2026-09-29",
       "actualizado_utc": "2026-09-29 01:38:06 UTC",
