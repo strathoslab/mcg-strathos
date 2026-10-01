@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-09-30 01:09:48 UTC",
-    "dias_registrados": 53,
+    "actualizado_utc": "2026-10-01 01:09:44 UTC",
+    "dias_registrados": 54,
     "desde": "2026-07-15",
-    "hasta": "2026-09-30",
+    "hasta": "2026-10-01",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 41,
-      "ultima_fecha": "2026-09-22"
+      "veces": 42,
+      "ultima_fecha": "2026-10-01"
     },
     {
       "ticker": "KC=F",
@@ -54,8 +54,8 @@
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 9,
-      "ultima_fecha": "2026-09-30"
+      "veces": 10,
+      "ultima_fecha": "2026-10-01"
     },
     {
       "ticker": "GC=F",
@@ -130,6 +130,14 @@
       "ultima_fecha": "2026-09-23"
     },
     {
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 7,
+      "ultima_fecha": "2026-10-01"
+    },
+    {
       "ticker": "CCJ",
       "nombre": "Cameco",
       "teatro": "Rusia–Ucrania",
@@ -194,6 +202,14 @@
       "ultima_fecha": "2026-09-29"
     },
     {
+      "ticker": "TTE",
+      "nombre": "TotalEnergies",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 7,
+      "ultima_fecha": "2026-10-01"
+    },
+    {
       "ticker": "WU",
       "nombre": "Western Union",
       "teatro": "Américas",
@@ -210,20 +226,20 @@
       "ultima_fecha": "2026-09-24"
     },
     {
+      "ticker": "AAPL",
+      "nombre": "Apple",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-10-01"
+    },
+    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 6,
       "ultima_fecha": "2026-09-16"
-    },
-    {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-09-22"
     },
     {
       "ticker": "CVX",
@@ -258,28 +274,12 @@
       "ultima_fecha": "2026-09-30"
     },
     {
-      "ticker": "TTE",
-      "nombre": "TotalEnergies",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 6,
-      "ultima_fecha": "2026-09-25"
-    },
-    {
       "ticker": "AA",
       "nombre": "Alcoa Corp",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-09-22"
-    },
-    {
-      "ticker": "AAPL",
-      "nombre": "Apple",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "COPX",
@@ -451,6 +451,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-01",
+      "actualizado_utc": "2026-10-01 01:09:44 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.78,
+          "var_30d_pct": -2.48,
+          "z_score": -2.37
+        },
+        {
+          "ticker": "TTE",
+          "nombre": "TotalEnergies",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": -2.91,
+          "var_30d_pct": 1.57,
+          "z_score": -2.12
+        },
+        {
+          "ticker": "ATI",
+          "nombre": "ATI Inc",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.58,
+          "var_30d_pct": -10.35,
+          "z_score": 1.88
+        },
+        {
+          "ticker": "AAPL",
+          "nombre": "Apple",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -2.66,
+          "var_30d_pct": 3.03,
+          "z_score": -1.87
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -4.17,
+          "var_30d_pct": 8.64,
+          "z_score": -1.57
+        }
+      ]
+    },
     {
       "fecha": "2026-09-30",
       "actualizado_utc": "2026-09-30 01:09:48 UTC",
