@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-01 01:09:44 UTC",
-    "dias_registrados": 54,
+    "actualizado_utc": "2026-10-02 01:26:45 UTC",
+    "dias_registrados": 55,
     "desde": "2026-07-15",
-    "hasta": "2026-10-01",
+    "hasta": "2026-10-02",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -250,12 +250,36 @@
       "ultima_fecha": "2026-09-24"
     },
     {
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 6,
+      "ultima_fecha": "2026-10-02"
+    },
+    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 6,
       "ultima_fecha": "2026-09-08"
+    },
+    {
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 6,
+      "ultima_fecha": "2026-10-02"
+    },
+    {
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-10-02"
     },
     {
       "ticker": "NTR",
@@ -298,36 +322,12 @@
       "ultima_fecha": "2026-09-24"
     },
     {
-      "ticker": "ESLT",
-      "nombre": "Elbit Systems",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 5,
-      "ultima_fecha": "2026-09-30"
-    },
-    {
-      "ticker": "MATX",
-      "nombre": "Matson Inc",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 5,
-      "ultima_fecha": "2026-09-25"
-    },
-    {
       "ticker": "MOS",
       "nombre": "Mosaic Company",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 5,
       "ultima_fecha": "2026-09-02"
-    },
-    {
-      "ticker": "NOC",
-      "nombre": "Northrop Grumman",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-09-25"
     },
     {
       "ticker": "PANW",
@@ -451,6 +451,39 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-02",
+      "actualizado_utc": "2026-10-02 01:26:45 UTC",
+      "senales": [
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.19,
+          "var_30d_pct": -10.42,
+          "z_score": -2.95
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -3.0,
+          "var_30d_pct": -2.3,
+          "z_score": -1.98
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -3.04,
+          "var_30d_pct": -2.64,
+          "z_score": -1.96
+        }
+      ]
+    },
     {
       "fecha": "2026-10-01",
       "actualizado_utc": "2026-10-01 01:09:44 UTC",
