@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-02 01:26:45 UTC",
-    "dias_registrados": 55,
+    "actualizado_utc": "2026-10-03 01:00:14 UTC",
+    "dias_registrados": 56,
     "desde": "2026-07-15",
-    "hasta": "2026-10-02",
+    "hasta": "2026-10-03",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -58,6 +58,14 @@
       "ultima_fecha": "2026-10-01"
     },
     {
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 9,
+      "ultima_fecha": "2026-10-03"
+    },
+    {
       "ticker": "GC=F",
       "nombre": "Futuros de Oro",
       "teatro": "Complejo Israel–Irán",
@@ -98,20 +106,20 @@
       "ultima_fecha": "2026-09-23"
     },
     {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 8,
-      "ultima_fecha": "2026-09-19"
-    },
-    {
       "ticker": "FXI",
       "nombre": "iShares China Large-Cap",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 8,
       "ultima_fecha": "2026-09-24"
+    },
+    {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 8,
+      "ultima_fecha": "2026-10-03"
     },
     {
       "ticker": "NG=F",
@@ -170,20 +178,20 @@
       "ultima_fecha": "2026-09-01"
     },
     {
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 7,
+      "ultima_fecha": "2026-10-03"
+    },
+    {
       "ticker": "EWT",
       "nombre": "iShares MSCI Taiwan ETF",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 7,
       "ultima_fecha": "2026-09-25"
-    },
-    {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 7,
-      "ultima_fecha": "2026-09-19"
     },
     {
       "ticker": "JPY=X",
@@ -200,6 +208,14 @@
       "conflicto": "Ecuador",
       "veces": 7,
       "ultima_fecha": "2026-09-29"
+    },
+    {
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 7,
+      "ultima_fecha": "2026-10-03"
     },
     {
       "ticker": "TTE",
@@ -250,28 +266,12 @@
       "ultima_fecha": "2026-09-24"
     },
     {
-      "ticker": "ESLT",
-      "nombre": "Elbit Systems",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 6,
-      "ultima_fecha": "2026-10-02"
-    },
-    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 6,
       "ultima_fecha": "2026-09-08"
-    },
-    {
-      "ticker": "MATX",
-      "nombre": "Matson Inc",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 6,
-      "ultima_fecha": "2026-10-02"
     },
     {
       "ticker": "NOC",
@@ -320,6 +320,14 @@
       "conflicto": "Colombia",
       "veces": 5,
       "ultima_fecha": "2026-09-24"
+    },
+    {
+      "ticker": "FRO",
+      "nombre": "Frontline plc",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 5,
+      "ultima_fecha": "2026-10-03"
     },
     {
       "ticker": "MOS",
@@ -378,12 +386,12 @@
       "ultima_fecha": "2026-09-25"
     },
     {
-      "ticker": "FRO",
-      "nombre": "Frontline plc",
+      "ticker": "INSW",
+      "nombre": "International Seaways",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 4,
-      "ultima_fecha": "2026-09-25"
+      "ultima_fecha": "2026-10-03"
     },
     {
       "ticker": "NVDA",
@@ -418,12 +426,12 @@
       "ultima_fecha": "2026-09-01"
     },
     {
-      "ticker": "INSW",
-      "nombre": "International Seaways",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "AMKBY",
+      "nombre": "A.P. Møller-Mærsk (ADR)",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
       "veces": 3,
-      "ultima_fecha": "2026-09-25"
+      "ultima_fecha": "2026-10-03"
     },
     {
       "ticker": "LIT",
@@ -432,14 +440,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 3,
       "ultima_fecha": "2026-09-10"
-    },
-    {
-      "ticker": "AMKBY",
-      "nombre": "A.P. Møller-Mærsk (ADR)",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 2,
-      "ultima_fecha": "2026-08-17"
     },
     {
       "ticker": "LMT",
@@ -451,6 +451,75 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-03",
+      "actualizado_utc": "2026-10-03 01:00:14 UTC",
+      "senales": [
+        {
+          "ticker": "FRO",
+          "nombre": "Frontline plc",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 4.61,
+          "var_30d_pct": 24.12,
+          "z_score": 1.95
+        },
+        {
+          "ticker": "INSW",
+          "nombre": "International Seaways",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 4.05,
+          "var_30d_pct": 20.7,
+          "z_score": 1.79
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": 2.67,
+          "var_30d_pct": 2.85,
+          "z_score": 1.68
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": -1.86,
+          "var_30d_pct": -7.78,
+          "z_score": -1.67
+        },
+        {
+          "ticker": "AMKBY",
+          "nombre": "A.P. Møller-Mærsk (ADR)",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": 4.17,
+          "var_30d_pct": 11.22,
+          "z_score": 1.67
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 2.0,
+          "var_30d_pct": -1.84,
+          "z_score": 1.53
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": 2.97,
+          "var_30d_pct": -7.1,
+          "z_score": 1.51
+        }
+      ]
+    },
     {
       "fecha": "2026-10-02",
       "actualizado_utc": "2026-10-02 01:26:45 UTC",
