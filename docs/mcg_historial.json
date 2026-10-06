@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-03 01:00:14 UTC",
-    "dias_registrados": 56,
+    "actualizado_utc": "2026-10-06 02:07:58 UTC",
+    "dias_registrados": 57,
     "desde": "2026-07-15",
-    "hasta": "2026-10-03",
+    "hasta": "2026-10-06",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -66,6 +66,14 @@
       "ultima_fecha": "2026-10-03"
     },
     {
+      "ticker": "FXI",
+      "nombre": "iShares China Large-Cap",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 9,
+      "ultima_fecha": "2026-10-06"
+    },
+    {
       "ticker": "GC=F",
       "nombre": "Futuros de Oro",
       "teatro": "Complejo Israel–Irán",
@@ -104,14 +112,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 8,
       "ultima_fecha": "2026-09-23"
-    },
-    {
-      "ticker": "FXI",
-      "nombre": "iShares China Large-Cap",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 8,
-      "ultima_fecha": "2026-09-24"
     },
     {
       "ticker": "GLNCY",
@@ -242,6 +242,14 @@
       "ultima_fecha": "2026-09-24"
     },
     {
+      "ticker": "AA",
+      "nombre": "Alcoa Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 6,
+      "ultima_fecha": "2026-10-06"
+    },
+    {
       "ticker": "AAPL",
       "nombre": "Apple",
       "teatro": "Indo-Pacífico",
@@ -264,6 +272,14 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 6,
       "ultima_fecha": "2026-09-24"
+    },
+    {
+      "ticker": "EC",
+      "nombre": "Ecopetrol",
+      "teatro": "Américas",
+      "conflicto": "Colombia",
+      "veces": 6,
+      "ultima_fecha": "2026-10-06"
     },
     {
       "ticker": "LNG",
@@ -298,12 +314,12 @@
       "ultima_fecha": "2026-09-30"
     },
     {
-      "ticker": "AA",
-      "nombre": "Alcoa Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 5,
-      "ultima_fecha": "2026-09-22"
+      "ticker": "TSM",
+      "nombre": "TSMC",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 6,
+      "ultima_fecha": "2026-10-06"
     },
     {
       "ticker": "COPX",
@@ -312,14 +328,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 5,
       "ultima_fecha": "2026-09-10"
-    },
-    {
-      "ticker": "EC",
-      "nombre": "Ecopetrol",
-      "teatro": "Américas",
-      "conflicto": "Colombia",
-      "veces": 5,
-      "ultima_fecha": "2026-09-24"
     },
     {
       "ticker": "FRO",
@@ -354,14 +362,6 @@
       "ultima_fecha": "2026-09-26"
     },
     {
-      "ticker": "TSM",
-      "nombre": "TSMC",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-09-19"
-    },
-    {
       "ticker": "URA",
       "nombre": "Global X Uranium ETF",
       "teatro": "África de Recursos Críticos",
@@ -376,6 +376,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-09-08"
+    },
+    {
+      "ticker": "AGRO",
+      "nombre": "Adecoagro",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 4,
+      "ultima_fecha": "2026-10-06"
     },
     {
       "ticker": "E",
@@ -418,14 +426,6 @@
       "ultima_fecha": "2026-09-26"
     },
     {
-      "ticker": "AGRO",
-      "nombre": "Adecoagro",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 3,
-      "ultima_fecha": "2026-09-01"
-    },
-    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
@@ -451,6 +451,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-06",
+      "actualizado_utc": "2026-10-06 02:07:58 UTC",
+      "senales": [
+        {
+          "ticker": "AGRO",
+          "nombre": "Adecoagro",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.44,
+          "var_30d_pct": -7.33,
+          "z_score": 2.27
+        },
+        {
+          "ticker": "EC",
+          "nombre": "Ecopetrol",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": 3.92,
+          "var_30d_pct": 0.29,
+          "z_score": 1.84
+        },
+        {
+          "ticker": "FXI",
+          "nombre": "iShares China Large-Cap",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 1.99,
+          "var_30d_pct": -4.22,
+          "z_score": 1.81
+        },
+        {
+          "ticker": "TSM",
+          "nombre": "TSMC",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 2.75,
+          "var_30d_pct": 16.81,
+          "z_score": 1.63
+        },
+        {
+          "ticker": "AA",
+          "nombre": "Alcoa Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.67,
+          "var_30d_pct": -14.81,
+          "z_score": 1.54
+        }
+      ]
+    },
     {
       "fecha": "2026-10-03",
       "actualizado_utc": "2026-10-03 01:00:14 UTC",
