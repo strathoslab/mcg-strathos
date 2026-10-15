@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-14 00:59:48 UTC",
-    "dias_registrados": 63,
+    "actualizado_utc": "2026-10-15 00:21:39 UTC",
+    "dias_registrados": 64,
     "desde": "2026-07-15",
-    "hasta": "2026-10-14",
+    "hasta": "2026-10-15",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -24,6 +24,14 @@
       "conflicto": "Colombia",
       "veces": 26,
       "ultima_fecha": "2026-10-09"
+    },
+    {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 12,
+      "ultima_fecha": "2026-10-15"
     },
     {
       "ticker": "EMB",
@@ -48,14 +56,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 12,
       "ultima_fecha": "2026-10-07"
-    },
-    {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 11,
-      "ultima_fecha": "2026-10-10"
     },
     {
       "ticker": "EWW",
@@ -138,6 +138,14 @@
       "ultima_fecha": "2026-10-13"
     },
     {
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 9,
+      "ultima_fecha": "2026-10-15"
+    },
+    {
       "ticker": "REMX",
       "nombre": "VanEck Rare Earth ETF",
       "teatro": "Indo-Pacífico",
@@ -192,14 +200,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 8,
       "ultima_fecha": "2026-10-03"
-    },
-    {
-      "ticker": "MATX",
-      "nombre": "Matson Inc",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 8,
-      "ultima_fecha": "2026-10-07"
     },
     {
       "ticker": "XOM",
@@ -306,6 +306,14 @@
       "ultima_fecha": "2026-10-10"
     },
     {
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 7,
+      "ultima_fecha": "2026-10-15"
+    },
+    {
       "ticker": "TSM",
       "nombre": "TSMC",
       "teatro": "Rusia–Ucrania",
@@ -368,14 +376,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 6,
       "ultima_fecha": "2026-09-08"
-    },
-    {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 6,
-      "ultima_fecha": "2026-10-09"
     },
     {
       "ticker": "E",
@@ -451,6 +451,39 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-15",
+      "actualizado_utc": "2026-10-15 00:21:39 UTC",
+      "senales": [
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -1.95,
+          "var_30d_pct": -6.31,
+          "z_score": -1.93
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.46,
+          "var_30d_pct": -3.75,
+          "z_score": 1.92
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": 3.31,
+          "var_30d_pct": -0.59,
+          "z_score": 1.84
+        }
+      ]
+    },
     {
       "fecha": "2026-10-14",
       "actualizado_utc": "2026-10-14 00:59:48 UTC",
