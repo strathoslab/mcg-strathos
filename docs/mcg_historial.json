@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-16 00:09:34 UTC",
-    "dias_registrados": 65,
+    "actualizado_utc": "2026-10-17 00:13:14 UTC",
+    "dias_registrados": 66,
     "desde": "2026-07-15",
-    "hasta": "2026-10-16",
+    "hasta": "2026-10-17",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -26,6 +26,14 @@
       "ultima_fecha": "2026-10-09"
     },
     {
+      "ticker": "EMB",
+      "nombre": "iShares J.P. Morgan EM Bond ETF",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 13,
+      "ultima_fecha": "2026-10-17"
+    },
+    {
       "ticker": "MP",
       "nombre": "MP Materials",
       "teatro": "Indo-Pacífico",
@@ -42,20 +50,20 @@
       "ultima_fecha": "2026-10-15"
     },
     {
-      "ticker": "EMB",
-      "nombre": "iShares J.P. Morgan EM Bond ETF",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
-      "veces": 12,
-      "ultima_fecha": "2026-10-07"
-    },
-    {
       "ticker": "ZS=F",
       "nombre": "Futuros de Soja",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 12,
       "ultima_fecha": "2026-10-07"
+    },
+    {
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 11,
+      "ultima_fecha": "2026-10-17"
     },
     {
       "ticker": "EWW",
@@ -82,12 +90,12 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "ESLT",
-      "nombre": "Elbit Systems",
+      "ticker": "FRO",
+      "nombre": "Frontline plc",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 10,
-      "ultima_fecha": "2026-10-16"
+      "ultima_fecha": "2026-10-17"
     },
     {
       "ticker": "FXI",
@@ -122,12 +130,12 @@
       "ultima_fecha": "2026-10-14"
     },
     {
-      "ticker": "FRO",
-      "nombre": "Frontline plc",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 9,
-      "ultima_fecha": "2026-10-16"
+      "ticker": "WU",
+      "nombre": "Western Union",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 10,
+      "ultima_fecha": "2026-10-17"
     },
     {
       "ticker": "GC=F",
@@ -146,6 +154,14 @@
       "ultima_fecha": "2026-09-26"
     },
     {
+      "ticker": "INSW",
+      "nombre": "International Seaways",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 9,
+      "ultima_fecha": "2026-10-17"
+    },
+    {
       "ticker": "MATX",
       "nombre": "Matson Inc",
       "teatro": "Indo-Pacífico",
@@ -160,14 +176,6 @@
       "conflicto": "China - Taiwán",
       "veces": 9,
       "ultima_fecha": "2026-10-14"
-    },
-    {
-      "ticker": "WU",
-      "nombre": "Western Union",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 9,
-      "ultima_fecha": "2026-10-10"
     },
     {
       "ticker": "ZW=F",
@@ -208,14 +216,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 8,
       "ultima_fecha": "2026-10-03"
-    },
-    {
-      "ticker": "INSW",
-      "nombre": "International Seaways",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 8,
-      "ultima_fecha": "2026-10-16"
     },
     {
       "ticker": "NOC",
@@ -378,6 +378,14 @@
       "ultima_fecha": "2026-09-08"
     },
     {
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 6,
+      "ultima_fecha": "2026-10-17"
+    },
+    {
       "ticker": "E",
       "nombre": "Eni SpA (ADR)",
       "teatro": "África de Recursos Críticos",
@@ -408,14 +416,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 5,
       "ultima_fecha": "2026-09-16"
-    },
-    {
-      "ticker": "RHM.DE",
-      "nombre": "Rheinmetall",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-09-26"
     },
     {
       "ticker": "ZIM",
@@ -451,6 +451,66 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-17",
+      "actualizado_utc": "2026-10-17 00:13:14 UTC",
+      "senales": [
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.74,
+          "var_30d_pct": 0.62,
+          "z_score": 2.74
+        },
+        {
+          "ticker": "FRO",
+          "nombre": "Frontline plc",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -6.63,
+          "var_30d_pct": 4.49,
+          "z_score": -2.38
+        },
+        {
+          "ticker": "INSW",
+          "nombre": "International Seaways",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.74,
+          "var_30d_pct": 3.41,
+          "z_score": -1.99
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.34,
+          "var_30d_pct": 1.28,
+          "z_score": 1.93
+        },
+        {
+          "ticker": "EMB",
+          "nombre": "iShares J.P. Morgan EM Bond ETF",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": 0.67,
+          "var_30d_pct": -0.85,
+          "z_score": 1.58
+        },
+        {
+          "ticker": "WU",
+          "nombre": "Western Union",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": 2.98,
+          "var_30d_pct": -4.74,
+          "z_score": 1.57
+        }
+      ]
+    },
     {
       "fecha": "2026-10-16",
       "actualizado_utc": "2026-10-16 00:09:34 UTC",
