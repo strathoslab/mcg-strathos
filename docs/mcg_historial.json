@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-17 00:13:14 UTC",
-    "dias_registrados": 66,
+    "actualizado_utc": "2026-10-20 00:58:40 UTC",
+    "dias_registrados": 67,
     "desde": "2026-07-15",
-    "hasta": "2026-10-17",
+    "hasta": "2026-10-20",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -74,6 +74,14 @@
       "ultima_fecha": "2026-10-14"
     },
     {
+      "ticker": "TTE",
+      "nombre": "TotalEnergies",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 11,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
       "ticker": "BZ=F",
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
@@ -122,14 +130,6 @@
       "ultima_fecha": "2026-10-14"
     },
     {
-      "ticker": "TTE",
-      "nombre": "TotalEnergies",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 10,
-      "ultima_fecha": "2026-10-14"
-    },
-    {
       "ticker": "WU",
       "nombre": "Western Union",
       "teatro": "Américas",
@@ -154,6 +154,14 @@
       "ultima_fecha": "2026-09-26"
     },
     {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 9,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
       "ticker": "INSW",
       "nombre": "International Seaways",
       "teatro": "Complejo Israel–Irán",
@@ -170,12 +178,36 @@
       "ultima_fecha": "2026-10-15"
     },
     {
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 9,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
       "ticker": "REMX",
       "nombre": "VanEck Rare Earth ETF",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 9,
       "ultima_fecha": "2026-10-14"
+    },
+    {
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 9,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
+      "ticker": "XOM",
+      "nombre": "ExxonMobil",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
+      "veces": 9,
+      "ultima_fecha": "2026-10-20"
     },
     {
       "ticker": "ZW=F",
@@ -210,28 +242,20 @@
       "ultima_fecha": "2026-10-08"
     },
     {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
+      "ticker": "CVX",
+      "nombre": "Chevron",
+      "teatro": "Américas",
+      "conflicto": "Venezuela - Guyana",
       "veces": 8,
-      "ultima_fecha": "2026-10-03"
+      "ultima_fecha": "2026-10-20"
     },
     {
-      "ticker": "NOC",
-      "nombre": "Northrop Grumman",
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 8,
-      "ultima_fecha": "2026-10-16"
-    },
-    {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 8,
-      "ultima_fecha": "2026-10-16"
+      "ultima_fecha": "2026-10-20"
     },
     {
       "ticker": "TSM",
@@ -248,14 +272,6 @@
       "conflicto": "Níger",
       "veces": 8,
       "ultima_fecha": "2026-10-16"
-    },
-    {
-      "ticker": "XOM",
-      "nombre": "ExxonMobil",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 8,
-      "ultima_fecha": "2026-10-09"
     },
     {
       "ticker": "ALI=F",
@@ -298,28 +314,28 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "CVX",
-      "nombre": "Chevron",
-      "teatro": "Américas",
-      "conflicto": "Venezuela - Guyana",
-      "veces": 7,
-      "ultima_fecha": "2026-10-09"
-    },
-    {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 7,
-      "ultima_fecha": "2026-09-25"
-    },
-    {
       "ticker": "JPY=X",
       "nombre": "Yen Japonés",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 7,
       "ultima_fecha": "2026-09-04"
+    },
+    {
+      "ticker": "LIT",
+      "nombre": "Global X Lithium & Battery Tech ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 7,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 7,
+      "ultima_fecha": "2026-10-20"
     },
     {
       "ticker": "MOS",
@@ -338,6 +354,14 @@
       "ultima_fecha": "2026-10-10"
     },
     {
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 7,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
       "ticker": "AAPL",
       "nombre": "Apple",
       "teatro": "Indo-Pacífico",
@@ -354,6 +378,14 @@
       "ultima_fecha": "2026-09-16"
     },
     {
+      "ticker": "E",
+      "nombre": "Eni SpA (ADR)",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 6,
+      "ultima_fecha": "2026-10-20"
+    },
+    {
       "ticker": "EC",
       "nombre": "Ecopetrol",
       "teatro": "Américas",
@@ -362,36 +394,20 @@
       "ultima_fecha": "2026-10-06"
     },
     {
-      "ticker": "LIT",
-      "nombre": "Global X Lithium & Battery Tech ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
+      "ticker": "PANW",
+      "nombre": "Palo Alto Networks",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 6,
-      "ultima_fecha": "2026-10-14"
+      "ultima_fecha": "2026-10-20"
     },
     {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
+      "ticker": "LMT",
+      "nombre": "Lockheed Martin",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-09-08"
-    },
-    {
-      "ticker": "RHM.DE",
-      "nombre": "Rheinmetall",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-10-17"
-    },
-    {
-      "ticker": "E",
-      "nombre": "Eni SpA (ADR)",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
       "veces": 5,
-      "ultima_fecha": "2026-10-09"
+      "ultima_fecha": "2026-10-20"
     },
     {
       "ticker": "NVDA",
@@ -410,14 +426,6 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "PANW",
-      "nombre": "Palo Alto Networks",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 5,
-      "ultima_fecha": "2026-09-16"
-    },
-    {
       "ticker": "ZIM",
       "nombre": "Zim Integrated Shipping",
       "teatro": "Complejo Israel–Irán",
@@ -434,14 +442,6 @@
       "ultima_fecha": "2026-10-06"
     },
     {
-      "ticker": "LMT",
-      "nombre": "Lockheed Martin",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-10-16"
-    },
-    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
@@ -451,6 +451,129 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-20",
+      "actualizado_utc": "2026-10-20 00:58:40 UTC",
+      "senales": [
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.73,
+          "var_30d_pct": 0.2,
+          "z_score": 2.99
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.26,
+          "var_30d_pct": 7.28,
+          "z_score": 2.55
+        },
+        {
+          "ticker": "LMT",
+          "nombre": "Lockheed Martin",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.65,
+          "var_30d_pct": 2.6,
+          "z_score": 2.42
+        },
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 4.05,
+          "var_30d_pct": -0.79,
+          "z_score": 2.38
+        },
+        {
+          "ticker": "TTE",
+          "nombre": "TotalEnergies",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 3.22,
+          "var_30d_pct": 0.9,
+          "z_score": 2.2
+        },
+        {
+          "ticker": "LNG",
+          "nombre": "Cheniere Energy",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.68,
+          "var_30d_pct": 7.26,
+          "z_score": 2.09
+        },
+        {
+          "ticker": "PANW",
+          "nombre": "Palo Alto Networks",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -7.63,
+          "var_30d_pct": -8.81,
+          "z_score": -2.0
+        },
+        {
+          "ticker": "LIT",
+          "nombre": "Global X Lithium & Battery Tech ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -2.32,
+          "var_30d_pct": -9.66,
+          "z_score": -1.87
+        },
+        {
+          "ticker": "E",
+          "nombre": "Eni SpA (ADR)",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": 2.89,
+          "var_30d_pct": 7.86,
+          "z_score": 1.84
+        },
+        {
+          "ticker": "CVX",
+          "nombre": "Chevron",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.59,
+          "var_30d_pct": 6.34,
+          "z_score": 1.75
+        },
+        {
+          "ticker": "XOM",
+          "nombre": "ExxonMobil",
+          "teatro": "Américas",
+          "conflicto": "Venezuela - Guyana",
+          "var_1d_pct": 2.46,
+          "var_30d_pct": 9.62,
+          "z_score": 1.64
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -3.43,
+          "var_30d_pct": -0.2,
+          "z_score": -1.63
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -2.64,
+          "var_30d_pct": -3.96,
+          "z_score": -1.5
+        }
+      ]
+    },
     {
       "fecha": "2026-10-17",
       "actualizado_utc": "2026-10-17 00:13:14 UTC",
