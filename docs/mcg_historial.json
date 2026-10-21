@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-20 00:58:40 UTC",
-    "dias_registrados": 67,
+    "actualizado_utc": "2026-10-21 00:27:37 UTC",
+    "dias_registrados": 68,
     "desde": "2026-07-15",
-    "hasta": "2026-10-20",
+    "hasta": "2026-10-21",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -26,6 +26,14 @@
       "ultima_fecha": "2026-10-09"
     },
     {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 13,
+      "ultima_fecha": "2026-10-21"
+    },
+    {
       "ticker": "EMB",
       "nombre": "iShares J.P. Morgan EM Bond ETF",
       "teatro": "Américas",
@@ -40,14 +48,6 @@
       "conflicto": "China - Taiwán",
       "veces": 13,
       "ultima_fecha": "2026-10-16"
-    },
-    {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 12,
-      "ultima_fecha": "2026-10-15"
     },
     {
       "ticker": "ZS=F",
@@ -114,6 +114,14 @@
       "ultima_fecha": "2026-10-10"
     },
     {
+      "ticker": "INSW",
+      "nombre": "International Seaways",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 10,
+      "ultima_fecha": "2026-10-21"
+    },
+    {
       "ticker": "LUG.TO",
       "nombre": "Lundin Gold",
       "teatro": "Américas",
@@ -138,6 +146,14 @@
       "ultima_fecha": "2026-10-17"
     },
     {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 9,
+      "ultima_fecha": "2026-10-21"
+    },
+    {
       "ticker": "GC=F",
       "nombre": "Futuros de Oro",
       "teatro": "Complejo Israel–Irán",
@@ -160,14 +176,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 9,
       "ultima_fecha": "2026-10-20"
-    },
-    {
-      "ticker": "INSW",
-      "nombre": "International Seaways",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 9,
-      "ultima_fecha": "2026-10-17"
     },
     {
       "ticker": "MATX",
@@ -226,14 +234,6 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 8,
-      "ultima_fecha": "2026-09-23"
-    },
-    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
@@ -256,6 +256,22 @@
       "conflicto": "China - Taiwán",
       "veces": 8,
       "ultima_fecha": "2026-10-20"
+    },
+    {
+      "ticker": "MOS",
+      "nombre": "Mosaic Company",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 8,
+      "ultima_fecha": "2026-10-21"
+    },
+    {
+      "ticker": "NTR",
+      "nombre": "Nutrien",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 8,
+      "ultima_fecha": "2026-10-21"
     },
     {
       "ticker": "TSM",
@@ -338,22 +354,6 @@
       "ultima_fecha": "2026-10-20"
     },
     {
-      "ticker": "MOS",
-      "nombre": "Mosaic Company",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 7,
-      "ultima_fecha": "2026-10-10"
-    },
-    {
-      "ticker": "NTR",
-      "nombre": "Nutrien",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 7,
-      "ultima_fecha": "2026-10-10"
-    },
-    {
       "ticker": "RHM.DE",
       "nombre": "Rheinmetall",
       "teatro": "Rusia–Ucrania",
@@ -402,6 +402,14 @@
       "ultima_fecha": "2026-10-20"
     },
     {
+      "ticker": "AGRO",
+      "nombre": "Adecoagro",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 5,
+      "ultima_fecha": "2026-10-21"
+    },
+    {
       "ticker": "LMT",
       "nombre": "Lockheed Martin",
       "teatro": "Rusia–Ucrania",
@@ -434,14 +442,6 @@
       "ultima_fecha": "2026-09-08"
     },
     {
-      "ticker": "AGRO",
-      "nombre": "Adecoagro",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 4,
-      "ultima_fecha": "2026-10-06"
-    },
-    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
@@ -451,6 +451,66 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-21",
+      "actualizado_utc": "2026-10-21 00:27:37 UTC",
+      "senales": [
+        {
+          "ticker": "MOS",
+          "nombre": "Mosaic Company",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -4.78,
+          "var_30d_pct": -26.8,
+          "z_score": -2.19
+        },
+        {
+          "ticker": "INSW",
+          "nombre": "International Seaways",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.69,
+          "var_30d_pct": -5.69,
+          "z_score": -1.8
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -5.01,
+          "var_30d_pct": 2.81,
+          "z_score": -1.76
+        },
+        {
+          "ticker": "AGRO",
+          "nombre": "Adecoagro",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.89,
+          "var_30d_pct": -15.88,
+          "z_score": -1.59
+        },
+        {
+          "ticker": "NTR",
+          "nombre": "Nutrien",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -2.55,
+          "var_30d_pct": -9.23,
+          "z_score": -1.53
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -2.54,
+          "var_30d_pct": -5.48,
+          "z_score": -1.5
+        }
+      ]
+    },
     {
       "fecha": "2026-10-20",
       "actualizado_utc": "2026-10-20 00:58:40 UTC",
