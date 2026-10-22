@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-21 00:27:37 UTC",
-    "dias_registrados": 68,
+    "actualizado_utc": "2026-10-22 00:30:44 UTC",
+    "dias_registrados": 69,
     "desde": "2026-07-15",
-    "hasta": "2026-10-21",
+    "hasta": "2026-10-22",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -74,6 +74,14 @@
       "ultima_fecha": "2026-10-14"
     },
     {
+      "ticker": "NG=F",
+      "nombre": "Gas Natural",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 11,
+      "ultima_fecha": "2026-10-22"
+    },
+    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
@@ -130,12 +138,12 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "NG=F",
-      "nombre": "Gas Natural",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "NOC",
+      "nombre": "Northrop Grumman",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 10,
-      "ultima_fecha": "2026-10-14"
+      "ultima_fecha": "2026-10-22"
     },
     {
       "ticker": "WU",
@@ -144,6 +152,14 @@
       "conflicto": "Haití",
       "veces": 10,
       "ultima_fecha": "2026-10-17"
+    },
+    {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 10,
+      "ultima_fecha": "2026-10-22"
     },
     {
       "ticker": "CL=F",
@@ -186,14 +202,6 @@
       "ultima_fecha": "2026-10-15"
     },
     {
-      "ticker": "NOC",
-      "nombre": "Northrop Grumman",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 9,
-      "ultima_fecha": "2026-10-20"
-    },
-    {
       "ticker": "REMX",
       "nombre": "VanEck Rare Earth ETF",
       "teatro": "Indo-Pacífico",
@@ -216,14 +224,6 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 9,
       "ultima_fecha": "2026-10-20"
-    },
-    {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 9,
-      "ultima_fecha": "2026-09-10"
     },
     {
       "ticker": "AA",
@@ -451,6 +451,39 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-22",
+      "actualizado_utc": "2026-10-22 00:30:44 UTC",
+      "senales": [
+        {
+          "ticker": "NOC",
+          "nombre": "Northrop Grumman",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 4.57,
+          "var_30d_pct": 1.39,
+          "z_score": 2.45
+        },
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -6.14,
+          "var_30d_pct": -6.21,
+          "z_score": -1.97
+        },
+        {
+          "ticker": "ZW=F",
+          "nombre": "Futuros de Trigo",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -2.22,
+          "var_30d_pct": -12.3,
+          "z_score": -1.53
+        }
+      ]
+    },
     {
       "fecha": "2026-10-21",
       "actualizado_utc": "2026-10-21 00:27:37 UTC",
