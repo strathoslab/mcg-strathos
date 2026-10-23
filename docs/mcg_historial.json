@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-22 00:30:44 UTC",
-    "dias_registrados": 69,
+    "actualizado_utc": "2026-10-23 00:28:27 UTC",
+    "dias_registrados": 70,
     "desde": "2026-07-15",
-    "hasta": "2026-10-22",
+    "hasta": "2026-10-23",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -58,6 +58,14 @@
       "ultima_fecha": "2026-10-07"
     },
     {
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 11,
+      "ultima_fecha": "2026-10-23"
+    },
+    {
       "ticker": "ESLT",
       "nombre": "Elbit Systems",
       "teatro": "Complejo Israel–Irán",
@@ -72,6 +80,30 @@
       "conflicto": "México",
       "veces": 11,
       "ultima_fecha": "2026-10-14"
+    },
+    {
+      "ticker": "FXI",
+      "nombre": "iShares China Large-Cap",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 11,
+      "ultima_fecha": "2026-10-23"
+    },
+    {
+      "ticker": "INSW",
+      "nombre": "International Seaways",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 11,
+      "ultima_fecha": "2026-10-23"
+    },
+    {
+      "ticker": "LUG.TO",
+      "nombre": "Lundin Gold",
+      "teatro": "Américas",
+      "conflicto": "Ecuador",
+      "veces": 11,
+      "ultima_fecha": "2026-10-23"
     },
     {
       "ticker": "NG=F",
@@ -90,14 +122,6 @@
       "ultima_fecha": "2026-10-20"
     },
     {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 10,
-      "ultima_fecha": "2026-10-01"
-    },
-    {
       "ticker": "CCJ",
       "nombre": "Cameco",
       "teatro": "Rusia–Ucrania",
@@ -114,28 +138,20 @@
       "ultima_fecha": "2026-10-17"
     },
     {
-      "ticker": "FXI",
-      "nombre": "iShares China Large-Cap",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 10,
-      "ultima_fecha": "2026-10-10"
-    },
-    {
-      "ticker": "INSW",
-      "nombre": "International Seaways",
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 10,
-      "ultima_fecha": "2026-10-21"
+      "ultima_fecha": "2026-10-23"
     },
     {
-      "ticker": "LUG.TO",
-      "nombre": "Lundin Gold",
-      "teatro": "Américas",
-      "conflicto": "Ecuador",
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
       "veces": 10,
-      "ultima_fecha": "2026-10-16"
+      "ultima_fecha": "2026-10-23"
     },
     {
       "ticker": "NOC",
@@ -170,28 +186,12 @@
       "ultima_fecha": "2026-10-21"
     },
     {
-      "ticker": "GC=F",
-      "nombre": "Futuros de Oro",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 9,
-      "ultima_fecha": "2026-09-30"
-    },
-    {
       "ticker": "GIL",
       "nombre": "Gildan Activewear",
       "teatro": "Américas",
       "conflicto": "Haití",
       "veces": 9,
       "ultima_fecha": "2026-09-26"
-    },
-    {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 9,
-      "ultima_fecha": "2026-10-20"
     },
     {
       "ticker": "MATX",
@@ -234,6 +234,14 @@
       "ultima_fecha": "2026-10-16"
     },
     {
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 8,
+      "ultima_fecha": "2026-10-23"
+    },
+    {
       "ticker": "CP",
       "nombre": "Canadian Pacific Kansas City",
       "teatro": "Américas",
@@ -256,6 +264,14 @@
       "conflicto": "China - Taiwán",
       "veces": 8,
       "ultima_fecha": "2026-10-20"
+    },
+    {
+      "ticker": "JPY=X",
+      "nombre": "Yen Japonés",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 8,
+      "ultima_fecha": "2026-10-23"
     },
     {
       "ticker": "MOS",
@@ -290,14 +306,6 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 7,
-      "ultima_fecha": "2026-09-23"
-    },
-    {
       "ticker": "ATI",
       "nombre": "ATI Inc",
       "teatro": "Rusia–Ucrania",
@@ -328,14 +336,6 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 7,
       "ultima_fecha": "2026-10-16"
-    },
-    {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 7,
-      "ultima_fecha": "2026-09-04"
     },
     {
       "ticker": "LIT",
@@ -394,6 +394,22 @@
       "ultima_fecha": "2026-10-06"
     },
     {
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 6,
+      "ultima_fecha": "2026-10-23"
+    },
+    {
+      "ticker": "PA=F",
+      "nombre": "Futuros de Paladio",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 6,
+      "ultima_fecha": "2026-10-23"
+    },
+    {
       "ticker": "PANW",
       "nombre": "Palo Alto Networks",
       "teatro": "Complejo Israel–Irán",
@@ -418,22 +434,6 @@
       "ultima_fecha": "2026-10-20"
     },
     {
-      "ticker": "NVDA",
-      "nombre": "Nvidia",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 5,
-      "ultima_fecha": "2026-10-16"
-    },
-    {
-      "ticker": "PA=F",
-      "nombre": "Futuros de Paladio",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-10-16"
-    },
-    {
       "ticker": "ZIM",
       "nombre": "Zim Integrated Shipping",
       "teatro": "Complejo Israel–Irán",
@@ -446,11 +446,116 @@
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
       "conflicto": "Disputas marítimas",
-      "veces": 3,
-      "ultima_fecha": "2026-10-03"
+      "veces": 4,
+      "ultima_fecha": "2026-10-23"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-23",
+      "actualizado_utc": "2026-10-23 00:28:27 UTC",
+      "senales": [
+        {
+          "ticker": "JPY=X",
+          "nombre": "Yen Japonés",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -1.21,
+          "var_30d_pct": -1.29,
+          "z_score": -2.94
+        },
+        {
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.66,
+          "var_30d_pct": -6.46,
+          "z_score": -2.41
+        },
+        {
+          "ticker": "INSW",
+          "nombre": "International Seaways",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 6.1,
+          "var_30d_pct": 6.93,
+          "z_score": 2.17
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.71,
+          "var_30d_pct": -11.03,
+          "z_score": -2.11
+        },
+        {
+          "ticker": "AMKBY",
+          "nombre": "A.P. Møller-Mærsk (ADR)",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -4.09,
+          "var_30d_pct": -2.56,
+          "z_score": -1.9
+        },
+        {
+          "ticker": "PA=F",
+          "nombre": "Futuros de Paladio",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.2,
+          "var_30d_pct": -16.53,
+          "z_score": -1.81
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.85,
+          "var_30d_pct": 9.63,
+          "z_score": 1.8
+        },
+        {
+          "ticker": "LUG.TO",
+          "nombre": "Lundin Gold",
+          "teatro": "Américas",
+          "conflicto": "Ecuador",
+          "var_1d_pct": -5.61,
+          "var_30d_pct": -10.0,
+          "z_score": -1.74
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -2.84,
+          "var_30d_pct": -1.37,
+          "z_score": -1.57
+        },
+        {
+          "ticker": "NVDA",
+          "nombre": "Nvidia",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 2.54,
+          "var_30d_pct": -3.01,
+          "z_score": 1.52
+        },
+        {
+          "ticker": "FXI",
+          "nombre": "iShares China Large-Cap",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -1.7,
+          "var_30d_pct": -5.89,
+          "z_score": -1.51
+        }
+      ]
+    },
     {
       "fecha": "2026-10-22",
       "actualizado_utc": "2026-10-22 00:30:44 UTC",
