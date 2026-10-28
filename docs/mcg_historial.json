@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-27 01:18:37 UTC",
-    "dias_registrados": 72,
+    "actualizado_utc": "2026-10-28 01:03:08 UTC",
+    "dias_registrados": 73,
     "desde": "2026-07-15",
-    "hasta": "2026-10-27",
+    "hasta": "2026-10-28",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -26,12 +26,28 @@
       "ultima_fecha": "2026-10-09"
     },
     {
+      "ticker": "NG=F",
+      "nombre": "Gas Natural",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 14,
+      "ultima_fecha": "2026-10-28"
+    },
+    {
       "ticker": "ADM",
       "nombre": "Archer-Daniels-Midland",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 13,
       "ultima_fecha": "2026-10-21"
+    },
+    {
+      "ticker": "BZ=F",
+      "nombre": "Petróleo Brent",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 13,
+      "ultima_fecha": "2026-10-28"
     },
     {
       "ticker": "EMB",
@@ -50,20 +66,12 @@
       "ultima_fecha": "2026-10-16"
     },
     {
-      "ticker": "NG=F",
-      "nombre": "Gas Natural",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 13,
-      "ultima_fecha": "2026-10-27"
-    },
-    {
-      "ticker": "BZ=F",
-      "nombre": "Petróleo Brent",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 12,
-      "ultima_fecha": "2026-10-27"
+      "ultima_fecha": "2026-10-28"
     },
     {
       "ticker": "ZS=F",
@@ -72,14 +80,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 12,
       "ultima_fecha": "2026-10-07"
-    },
-    {
-      "ticker": "ESLT",
-      "nombre": "Elbit Systems",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 11,
-      "ultima_fecha": "2026-10-17"
     },
     {
       "ticker": "EWW",
@@ -186,6 +186,14 @@
       "ultima_fecha": "2026-10-24"
     },
     {
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 10,
+      "ultima_fecha": "2026-10-28"
+    },
+    {
       "ticker": "WU",
       "nombre": "Western Union",
       "teatro": "Américas",
@@ -224,6 +232,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 9,
       "ultima_fecha": "2026-10-27"
+    },
+    {
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 9,
+      "ultima_fecha": "2026-10-28"
     },
     {
       "ticker": "CHKP",
@@ -274,27 +290,11 @@
       "ultima_fecha": "2026-09-26"
     },
     {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 9,
-      "ultima_fecha": "2026-10-20"
-    },
-    {
       "ticker": "TSM",
       "nombre": "TSMC",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 9,
-      "ultima_fecha": "2026-10-24"
-    },
-    {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 8,
       "ultima_fecha": "2026-10-24"
     },
     {
@@ -304,6 +304,14 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 8,
       "ultima_fecha": "2026-10-24"
+    },
+    {
+      "ticker": "E",
+      "nombre": "Eni SpA (ADR)",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Mozambique (Cabo Delgado)",
+      "veces": 8,
+      "ultima_fecha": "2026-10-28"
     },
     {
       "ticker": "LIT",
@@ -362,20 +370,20 @@
       "ultima_fecha": "2026-09-22"
     },
     {
-      "ticker": "E",
-      "nombre": "Eni SpA (ADR)",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Mozambique (Cabo Delgado)",
-      "veces": 7,
-      "ultima_fecha": "2026-10-27"
-    },
-    {
       "ticker": "EC",
       "nombre": "Ecopetrol",
       "teatro": "Américas",
       "conflicto": "Colombia",
       "veces": 7,
       "ultima_fecha": "2026-10-27"
+    },
+    {
+      "ticker": "LMT",
+      "nombre": "Lockheed Martin",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 7,
+      "ultima_fecha": "2026-10-28"
     },
     {
       "ticker": "NVDA",
@@ -408,14 +416,6 @@
       "conflicto": "China - Taiwán",
       "veces": 6,
       "ultima_fecha": "2026-10-01"
-    },
-    {
-      "ticker": "LMT",
-      "nombre": "Lockheed Martin",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 6,
-      "ultima_fecha": "2026-10-24"
     },
     {
       "ticker": "PA=F",
@@ -451,6 +451,75 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-28",
+      "actualizado_utc": "2026-10-28 01:03:08 UTC",
+      "senales": [
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 17.83,
+          "var_30d_pct": 2.2,
+          "z_score": 3.85
+        },
+        {
+          "ticker": "LMT",
+          "nombre": "Lockheed Martin",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.13,
+          "var_30d_pct": 22.26,
+          "z_score": 2.51
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.8,
+          "var_30d_pct": 6.01,
+          "z_score": 2.44
+        },
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.39,
+          "var_30d_pct": 4.27,
+          "z_score": 2.31
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.15,
+          "var_30d_pct": 4.33,
+          "z_score": -2.23
+        },
+        {
+          "ticker": "ATI",
+          "nombre": "ATI Inc",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.88,
+          "var_30d_pct": -11.29,
+          "z_score": 1.68
+        },
+        {
+          "ticker": "E",
+          "nombre": "Eni SpA (ADR)",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Mozambique (Cabo Delgado)",
+          "var_1d_pct": -2.46,
+          "var_30d_pct": 10.67,
+          "z_score": -1.53
+        }
+      ]
+    },
     {
       "fecha": "2026-10-27",
       "actualizado_utc": "2026-10-27 01:18:37 UTC",
