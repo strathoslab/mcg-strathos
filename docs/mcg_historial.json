@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-28 01:03:08 UTC",
-    "dias_registrados": 73,
+    "actualizado_utc": "2026-10-29 01:39:06 UTC",
+    "dias_registrados": 74,
     "desde": "2026-07-15",
-    "hasta": "2026-10-28",
+    "hasta": "2026-10-29",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -30,8 +30,8 @@
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 14,
-      "ultima_fecha": "2026-10-28"
+      "veces": 15,
+      "ultima_fecha": "2026-10-29"
     },
     {
       "ticker": "ADM",
@@ -122,12 +122,28 @@
       "ultima_fecha": "2026-10-20"
     },
     {
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 10,
+      "ultima_fecha": "2026-10-29"
+    },
+    {
       "ticker": "CCJ",
       "nombre": "Cameco",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 10,
       "ultima_fecha": "2026-10-16"
+    },
+    {
+      "ticker": "CP",
+      "nombre": "Canadian Pacific Kansas City",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 10,
+      "ultima_fecha": "2026-10-29"
     },
     {
       "ticker": "FRO",
@@ -226,14 +242,6 @@
       "ultima_fecha": "2026-10-24"
     },
     {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 9,
-      "ultima_fecha": "2026-10-27"
-    },
-    {
       "ticker": "ATI",
       "nombre": "ATI Inc",
       "teatro": "Rusia–Ucrania",
@@ -256,14 +264,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 9,
       "ultima_fecha": "2026-10-21"
-    },
-    {
-      "ticker": "CP",
-      "nombre": "Canadian Pacific Kansas City",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 9,
-      "ultima_fecha": "2026-10-24"
     },
     {
       "ticker": "CVX",
@@ -451,6 +451,39 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-29",
+      "actualizado_utc": "2026-10-29 01:39:06 UTC",
+      "senales": [
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 12.27,
+          "var_30d_pct": 0.56,
+          "z_score": 3.06
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -3.11,
+          "var_30d_pct": -4.14,
+          "z_score": -2.22
+        },
+        {
+          "ticker": "CP",
+          "nombre": "Canadian Pacific Kansas City",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": -1.87,
+          "var_30d_pct": 3.38,
+          "z_score": -1.59
+        }
+      ]
+    },
     {
       "fecha": "2026-10-28",
       "actualizado_utc": "2026-10-28 01:03:08 UTC",
