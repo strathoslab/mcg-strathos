@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-10-30 01:44:42 UTC",
-    "dias_registrados": 75,
+    "actualizado_utc": "2026-10-31 01:27:44 UTC",
+    "dias_registrados": 76,
     "desde": "2026-07-15",
-    "hasta": "2026-10-30",
+    "hasta": "2026-10-31",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -66,12 +66,28 @@
       "ultima_fecha": "2026-10-16"
     },
     {
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 12,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
       "ticker": "ESLT",
       "nombre": "Elbit Systems",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 12,
       "ultima_fecha": "2026-10-28"
+    },
+    {
+      "ticker": "REMX",
+      "nombre": "VanEck Rare Earth ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 12,
+      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "ZS=F",
@@ -82,12 +98,20 @@
       "ultima_fecha": "2026-10-07"
     },
     {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 11,
-      "ultima_fecha": "2026-10-30"
+      "ultima_fecha": "2026-10-31"
+    },
+    {
+      "ticker": "CCJ",
+      "nombre": "Cameco",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 11,
+      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "EWW",
@@ -106,6 +130,22 @@
       "ultima_fecha": "2026-10-23"
     },
     {
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 11,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 11,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
       "ticker": "INSW",
       "nombre": "International Seaways",
       "teatro": "Complejo Israel–Irán",
@@ -122,36 +162,12 @@
       "ultima_fecha": "2026-10-23"
     },
     {
-      "ticker": "REMX",
-      "nombre": "VanEck Rare Earth ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 11,
-      "ultima_fecha": "2026-10-30"
-    },
-    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
       "conflicto": "Mozambique (Cabo Delgado)",
       "veces": 11,
       "ultima_fecha": "2026-10-20"
-    },
-    {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 10,
-      "ultima_fecha": "2026-10-30"
-    },
-    {
-      "ticker": "CCJ",
-      "nombre": "Cameco",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 10,
-      "ultima_fecha": "2026-10-16"
     },
     {
       "ticker": "CP",
@@ -162,6 +178,14 @@
       "ultima_fecha": "2026-10-29"
     },
     {
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 10,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
       "ticker": "FRO",
       "nombre": "Frontline plc",
       "teatro": "Complejo Israel–Irán",
@@ -170,28 +194,20 @@
       "ultima_fecha": "2026-10-17"
     },
     {
-      "ticker": "GC=F",
-      "nombre": "Futuros de Oro",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 10,
-      "ultima_fecha": "2026-10-23"
-    },
-    {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 10,
-      "ultima_fecha": "2026-10-23"
-    },
-    {
       "ticker": "JPY=X",
       "nombre": "Yen Japonés",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 10,
       "ultima_fecha": "2026-10-27"
+    },
+    {
+      "ticker": "LNG",
+      "nombre": "Cheniere Energy",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 10,
+      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "MATX",
@@ -216,6 +232,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 10,
       "ultima_fecha": "2026-10-28"
+    },
+    {
+      "ticker": "TSM",
+      "nombre": "TSMC",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 10,
+      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "WU",
@@ -266,20 +290,20 @@
       "ultima_fecha": "2026-10-21"
     },
     {
+      "ticker": "COPX",
+      "nombre": "Global X Copper Miners ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 9,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
       "ticker": "CVX",
       "nombre": "Chevron",
       "teatro": "Américas",
       "conflicto": "Venezuela - Guyana",
       "veces": 9,
       "ultima_fecha": "2026-10-27"
-    },
-    {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 9,
-      "ultima_fecha": "2026-10-24"
     },
     {
       "ticker": "GIL",
@@ -298,28 +322,28 @@
       "ultima_fecha": "2026-10-30"
     },
     {
-      "ticker": "LNG",
-      "nombre": "Cheniere Energy",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 9,
-      "ultima_fecha": "2026-10-30"
-    },
-    {
-      "ticker": "TSM",
-      "nombre": "TSMC",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 9,
-      "ultima_fecha": "2026-10-24"
-    },
-    {
-      "ticker": "COPX",
-      "nombre": "Global X Copper Miners ETF",
+      "ticker": "URA",
+      "nombre": "Global X Uranium ETF",
       "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
+      "conflicto": "Níger",
+      "veces": 9,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
+      "ticker": "ASML",
+      "nombre": "ASML Holding",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 8,
-      "ultima_fecha": "2026-10-24"
+      "ultima_fecha": "2026-10-31"
+    },
+    {
+      "ticker": "CF",
+      "nombre": "CF Industries",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 8,
+      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "E",
@@ -346,28 +370,12 @@
       "ultima_fecha": "2026-10-21"
     },
     {
-      "ticker": "URA",
-      "nombre": "Global X Uranium ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Níger",
-      "veces": 8,
-      "ultima_fecha": "2026-10-16"
-    },
-    {
-      "ticker": "ASML",
-      "nombre": "ASML Holding",
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
-      "veces": 7,
-      "ultima_fecha": "2026-10-24"
-    },
-    {
-      "ticker": "CF",
-      "nombre": "CF Industries",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 7,
-      "ultima_fecha": "2026-09-22"
+      "veces": 8,
+      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "EC",
@@ -384,14 +392,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 7,
       "ultima_fecha": "2026-10-28"
-    },
-    {
-      "ticker": "NVDA",
-      "nombre": "Nvidia",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 7,
-      "ultima_fecha": "2026-10-24"
     },
     {
       "ticker": "PANW",
@@ -426,6 +426,14 @@
       "ultima_fecha": "2026-10-23"
     },
     {
+      "ticker": "ZIM",
+      "nombre": "Zim Integrated Shipping",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 6,
+      "ultima_fecha": "2026-10-31"
+    },
+    {
       "ticker": "AGRO",
       "nombre": "Adecoagro",
       "teatro": "Rusia–Ucrania",
@@ -440,17 +448,150 @@
       "conflicto": "Disputas marítimas",
       "veces": 5,
       "ultima_fecha": "2026-10-27"
-    },
-    {
-      "ticker": "ZIM",
-      "nombre": "Zim Integrated Shipping",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 5,
-      "ultima_fecha": "2026-09-08"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-10-31",
+      "actualizado_utc": "2026-10-31 01:27:44 UTC",
+      "senales": [
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -4.99,
+          "var_30d_pct": -1.0,
+          "z_score": -3.12
+        },
+        {
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -3.63,
+          "var_30d_pct": -7.55,
+          "z_score": -2.99
+        },
+        {
+          "ticker": "CCJ",
+          "nombre": "Cameco",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -7.88,
+          "var_30d_pct": -10.25,
+          "z_score": -2.73
+        },
+        {
+          "ticker": "TSM",
+          "nombre": "TSMC",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.95,
+          "var_30d_pct": -11.56,
+          "z_score": -2.65
+        },
+        {
+          "ticker": "ASML",
+          "nombre": "ASML Holding",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -6.55,
+          "var_30d_pct": -13.3,
+          "z_score": -2.61
+        },
+        {
+          "ticker": "CF",
+          "nombre": "CF Industries",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 4.41,
+          "var_30d_pct": 7.65,
+          "z_score": 2.51
+        },
+        {
+          "ticker": "REMX",
+          "nombre": "VanEck Rare Earth ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -5.12,
+          "var_30d_pct": -20.59,
+          "z_score": -2.39
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.6,
+          "var_30d_pct": -10.35,
+          "z_score": -2.33
+        },
+        {
+          "ticker": "NVDA",
+          "nombre": "Nvidia",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -4.22,
+          "var_30d_pct": -11.36,
+          "z_score": -2.28
+        },
+        {
+          "ticker": "COPX",
+          "nombre": "Global X Copper Miners ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -5.19,
+          "var_30d_pct": -13.72,
+          "z_score": -2.2
+        },
+        {
+          "ticker": "URA",
+          "nombre": "Global X Uranium ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Níger",
+          "var_1d_pct": -5.57,
+          "var_30d_pct": -14.8,
+          "z_score": -2.14
+        },
+        {
+          "ticker": "ZIM",
+          "nombre": "Zim Integrated Shipping",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.94,
+          "var_30d_pct": -4.61,
+          "z_score": -1.89
+        },
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": -3.08,
+          "var_30d_pct": -4.49,
+          "z_score": -1.82
+        },
+        {
+          "ticker": "LNG",
+          "nombre": "Cheniere Energy",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.57,
+          "var_30d_pct": 21.26,
+          "z_score": 1.74
+        },
+        {
+          "ticker": "ATI",
+          "nombre": "ATI Inc",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -5.38,
+          "var_30d_pct": -13.37,
+          "z_score": -1.74
+        }
+      ]
+    },
     {
       "fecha": "2026-10-30",
       "actualizado_utc": "2026-10-30 01:44:42 UTC",
