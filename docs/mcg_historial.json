@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-07 01:43:33 UTC",
-    "dias_registrados": 81,
+    "actualizado_utc": "2026-11-10 03:59:53 UTC",
+    "dias_registrados": 82,
     "desde": "2026-07-15",
-    "hasta": "2026-11-07",
+    "hasta": "2026-11-10",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -22,32 +22,40 @@
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 26,
-      "ultima_fecha": "2026-10-09"
+      "veces": 27,
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "BZ=F",
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 15,
-      "ultima_fecha": "2026-11-05"
+      "veces": 16,
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "ESLT",
       "nombre": "Elbit Systems",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 15,
-      "ultima_fecha": "2026-11-06"
+      "veces": 16,
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "NG=F",
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
+      "veces": 16,
+      "ultima_fecha": "2026-11-10"
+    },
+    {
+      "ticker": "MP",
+      "nombre": "MP Materials",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 15,
-      "ultima_fecha": "2026-10-29"
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "ADM",
@@ -82,14 +90,6 @@
       "ultima_fecha": "2026-11-07"
     },
     {
-      "ticker": "MP",
-      "nombre": "MP Materials",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 14,
-      "ultima_fecha": "2026-11-07"
-    },
-    {
       "ticker": "EWW",
       "nombre": "iShares MSCI Mexico ETF",
       "teatro": "Américas",
@@ -106,6 +106,14 @@
       "ultima_fecha": "2026-11-06"
     },
     {
+      "ticker": "REMX",
+      "nombre": "VanEck Rare Earth ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 13,
+      "ultima_fecha": "2026-11-10"
+    },
+    {
       "ticker": "TTE",
       "nombre": "TotalEnergies",
       "teatro": "África de Recursos Críticos",
@@ -120,6 +128,22 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 13,
       "ultima_fecha": "2026-11-06"
+    },
+    {
+      "ticker": "CCJ",
+      "nombre": "Cameco",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 12,
+      "ultima_fecha": "2026-11-10"
+    },
+    {
+      "ticker": "CL=F",
+      "nombre": "Petróleo WTI",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 12,
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "CP",
@@ -162,20 +186,20 @@
       "ultima_fecha": "2026-11-05"
     },
     {
+      "ticker": "GLNCY",
+      "nombre": "Glencore ADR",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 12,
+      "ultima_fecha": "2026-11-10"
+    },
+    {
       "ticker": "LUG.TO",
       "nombre": "Lundin Gold",
       "teatro": "Américas",
       "conflicto": "Ecuador",
       "veces": 12,
       "ultima_fecha": "2026-11-05"
-    },
-    {
-      "ticker": "REMX",
-      "nombre": "VanEck Rare Earth ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 12,
-      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "ZS=F",
@@ -186,16 +210,16 @@
       "ultima_fecha": "2026-10-07"
     },
     {
-      "ticker": "ATI",
-      "nombre": "ATI Inc",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
+      "ticker": "AA",
+      "nombre": "Alcoa Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 11,
-      "ultima_fecha": "2026-10-31"
+      "ultima_fecha": "2026-11-10"
     },
     {
-      "ticker": "CCJ",
-      "nombre": "Cameco",
+      "ticker": "ATI",
+      "nombre": "ATI Inc",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 11,
@@ -210,20 +234,12 @@
       "ultima_fecha": "2026-11-04"
     },
     {
-      "ticker": "CL=F",
-      "nombre": "Petróleo WTI",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 11,
-      "ultima_fecha": "2026-11-05"
-    },
-    {
-      "ticker": "GLNCY",
-      "nombre": "Glencore ADR",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 11,
-      "ultima_fecha": "2026-10-31"
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "JPY=X",
@@ -242,12 +258,28 @@
       "ultima_fecha": "2026-11-06"
     },
     {
+      "ticker": "RTX",
+      "nombre": "RTX Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 11,
+      "ultima_fecha": "2026-11-10"
+    },
+    {
       "ticker": "TSM",
       "nombre": "TSMC",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 11,
       "ultima_fecha": "2026-11-07"
+    },
+    {
+      "ticker": "URA",
+      "nombre": "Global X Uranium ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Níger",
+      "veces": 11,
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "WU",
@@ -258,12 +290,12 @@
       "ultima_fecha": "2026-11-06"
     },
     {
-      "ticker": "AA",
-      "nombre": "Alcoa Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "ASML",
+      "nombre": "ASML Holding",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
       "veces": 10,
-      "ultima_fecha": "2026-11-07"
+      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "CF",
@@ -274,6 +306,14 @@
       "ultima_fecha": "2026-11-06"
     },
     {
+      "ticker": "COPX",
+      "nombre": "Global X Copper Miners ETF",
+      "teatro": "África de Recursos Críticos",
+      "conflicto": "Rep. Dem. del Congo",
+      "veces": 10,
+      "ultima_fecha": "2026-11-10"
+    },
+    {
       "ticker": "E",
       "nombre": "Eni SpA (ADR)",
       "teatro": "África de Recursos Críticos",
@@ -282,36 +322,12 @@
       "ultima_fecha": "2026-11-04"
     },
     {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 10,
-      "ultima_fecha": "2026-10-31"
-    },
-    {
       "ticker": "NOC",
       "nombre": "Northrop Grumman",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 10,
       "ultima_fecha": "2026-10-22"
-    },
-    {
-      "ticker": "RTX",
-      "nombre": "RTX Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 10,
-      "ultima_fecha": "2026-10-28"
-    },
-    {
-      "ticker": "URA",
-      "nombre": "Global X Uranium ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Níger",
-      "veces": 10,
-      "ultima_fecha": "2026-11-07"
     },
     {
       "ticker": "ZW=F",
@@ -328,22 +344,6 @@
       "conflicto": "China - Taiwán",
       "veces": 9,
       "ultima_fecha": "2026-11-06"
-    },
-    {
-      "ticker": "ASML",
-      "nombre": "ASML Holding",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 9,
-      "ultima_fecha": "2026-11-07"
-    },
-    {
-      "ticker": "COPX",
-      "nombre": "Global X Copper Miners ETF",
-      "teatro": "África de Recursos Críticos",
-      "conflicto": "Rep. Dem. del Congo",
-      "veces": 9,
-      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "EC",
@@ -451,6 +451,147 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-10",
+      "actualizado_utc": "2026-11-10 03:59:53 UTC",
+      "senales": [
+        {
+          "ticker": "GLNCY",
+          "nombre": "Glencore ADR",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": 5.49,
+          "var_30d_pct": -10.59,
+          "z_score": 2.82
+        },
+        {
+          "ticker": "AA",
+          "nombre": "Alcoa Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.77,
+          "var_30d_pct": -0.64,
+          "z_score": 2.34
+        },
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 6.77,
+          "var_30d_pct": -0.59,
+          "z_score": 2.27
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 7.18,
+          "var_30d_pct": -16.32,
+          "z_score": 2.26
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -4.75,
+          "var_30d_pct": -7.06,
+          "z_score": -2.26
+        },
+        {
+          "ticker": "URA",
+          "nombre": "Global X Uranium ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Níger",
+          "var_1d_pct": 6.18,
+          "var_30d_pct": -11.72,
+          "z_score": 2.09
+        },
+        {
+          "ticker": "BZ=F",
+          "nombre": "Petróleo Brent",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -7.0,
+          "var_30d_pct": -12.68,
+          "z_score": -2.04
+        },
+        {
+          "ticker": "RTX",
+          "nombre": "RTX Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.58,
+          "var_30d_pct": 5.56,
+          "z_score": 2.02
+        },
+        {
+          "ticker": "COPX",
+          "nombre": "Global X Copper Miners ETF",
+          "teatro": "África de Recursos Críticos",
+          "conflicto": "Rep. Dem. del Congo",
+          "var_1d_pct": 5.61,
+          "var_30d_pct": -12.24,
+          "z_score": 1.98
+        },
+        {
+          "ticker": "REMX",
+          "nombre": "VanEck Rare Earth ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 4.51,
+          "var_30d_pct": -11.89,
+          "z_score": 1.86
+        },
+        {
+          "ticker": "ASML",
+          "nombre": "ASML Holding",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 6.21,
+          "var_30d_pct": -14.89,
+          "z_score": 1.82
+        },
+        {
+          "ticker": "CL=F",
+          "nombre": "Petróleo WTI",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -5.68,
+          "var_30d_pct": -6.73,
+          "z_score": -1.77
+        },
+        {
+          "ticker": "CCJ",
+          "nombre": "Cameco",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.71,
+          "var_30d_pct": -14.41,
+          "z_score": 1.74
+        },
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 6.61,
+          "var_30d_pct": -18.18,
+          "z_score": 1.71
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.76,
+          "var_30d_pct": 10.26,
+          "z_score": 1.64
+        }
+      ]
+    },
     {
       "fecha": "2026-11-07",
       "actualizado_utc": "2026-11-07 01:43:33 UTC",
