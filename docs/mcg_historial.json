@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-10 03:59:53 UTC",
-    "dias_registrados": 82,
+    "actualizado_utc": "2026-11-11 01:46:08 UTC",
+    "dias_registrados": 83,
     "desde": "2026-07-15",
-    "hasta": "2026-11-10",
+    "hasta": "2026-11-11",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 44,
-      "ultima_fecha": "2026-10-10"
+      "veces": 45,
+      "ultima_fecha": "2026-11-11"
     },
     {
       "ticker": "KC=F",
@@ -42,6 +42,14 @@
       "ultima_fecha": "2026-11-10"
     },
     {
+      "ticker": "MP",
+      "nombre": "MP Materials",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 16,
+      "ultima_fecha": "2026-11-11"
+    },
+    {
       "ticker": "NG=F",
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
@@ -50,12 +58,12 @@
       "ultima_fecha": "2026-11-10"
     },
     {
-      "ticker": "MP",
-      "nombre": "MP Materials",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 15,
-      "ultima_fecha": "2026-11-10"
+      "ultima_fecha": "2026-11-11"
     },
     {
       "ticker": "ADM",
@@ -64,14 +72,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 14,
       "ultima_fecha": "2026-11-05"
-    },
-    {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 14,
-      "ultima_fecha": "2026-11-04"
     },
     {
       "ticker": "EMB",
@@ -128,6 +128,22 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 13,
       "ultima_fecha": "2026-11-06"
+    },
+    {
+      "ticker": "ZS=F",
+      "nombre": "Futuros de Soja",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 13,
+      "ultima_fecha": "2026-11-11"
+    },
+    {
+      "ticker": "AA",
+      "nombre": "Alcoa Corp",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 12,
+      "ultima_fecha": "2026-11-11"
     },
     {
       "ticker": "CCJ",
@@ -194,28 +210,20 @@
       "ultima_fecha": "2026-11-10"
     },
     {
+      "ticker": "JPY=X",
+      "nombre": "Yen Japonés",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 12,
+      "ultima_fecha": "2026-11-11"
+    },
+    {
       "ticker": "LUG.TO",
       "nombre": "Lundin Gold",
       "teatro": "Américas",
       "conflicto": "Ecuador",
       "veces": 12,
       "ultima_fecha": "2026-11-05"
-    },
-    {
-      "ticker": "ZS=F",
-      "nombre": "Futuros de Soja",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 12,
-      "ultima_fecha": "2026-10-07"
-    },
-    {
-      "ticker": "AA",
-      "nombre": "Alcoa Corp",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 11,
-      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "ATI",
@@ -240,14 +248,6 @@
       "conflicto": "China - Taiwán",
       "veces": 11,
       "ultima_fecha": "2026-11-10"
-    },
-    {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 11,
-      "ultima_fecha": "2026-11-07"
     },
     {
       "ticker": "MATX",
@@ -386,6 +386,14 @@
       "ultima_fecha": "2026-11-06"
     },
     {
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 9,
+      "ultima_fecha": "2026-11-11"
+    },
+    {
       "ticker": "PA=F",
       "nombre": "Futuros de Paladio",
       "teatro": "Rusia–Ucrania",
@@ -400,14 +408,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 8,
       "ultima_fecha": "2026-11-06"
-    },
-    {
-      "ticker": "NVDA",
-      "nombre": "Nvidia",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 8,
-      "ultima_fecha": "2026-10-31"
     },
     {
       "ticker": "PANW",
@@ -438,8 +438,8 @@
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
       "conflicto": "Disputas marítimas",
-      "veces": 6,
-      "ultima_fecha": "2026-11-06"
+      "veces": 7,
+      "ultima_fecha": "2026-11-11"
     },
     {
       "ticker": "AGRO",
@@ -451,6 +451,84 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-11",
+      "actualizado_utc": "2026-11-11 01:46:08 UTC",
+      "senales": [
+        {
+          "ticker": "ZS=F",
+          "nombre": "Futuros de Soja",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 4.0,
+          "var_30d_pct": -4.52,
+          "z_score": 3.93
+        },
+        {
+          "ticker": "AA",
+          "nombre": "Alcoa Corp",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.77,
+          "var_30d_pct": -0.64,
+          "z_score": 2.34
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -3.15,
+          "var_30d_pct": -0.18,
+          "z_score": -2.2
+        },
+        {
+          "ticker": "NVDA",
+          "nombre": "Nvidia",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": -5.47,
+          "var_30d_pct": -25.38,
+          "z_score": -1.98
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 2.45,
+          "var_30d_pct": -6.83,
+          "z_score": 1.83
+        },
+        {
+          "ticker": "JPY=X",
+          "nombre": "Yen Japonés",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 0.59,
+          "var_30d_pct": 0.25,
+          "z_score": 1.81
+        },
+        {
+          "ticker": "MP",
+          "nombre": "MP Materials",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 6.61,
+          "var_30d_pct": -18.18,
+          "z_score": 1.71
+        },
+        {
+          "ticker": "AMKBY",
+          "nombre": "A.P. Møller-Mærsk (ADR)",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -3.15,
+          "var_30d_pct": -21.75,
+          "z_score": -1.53
+        }
+      ]
+    },
     {
       "fecha": "2026-11-10",
       "actualizado_utc": "2026-11-10 03:59:53 UTC",
