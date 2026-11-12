@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-11 01:46:08 UTC",
-    "dias_registrados": 83,
+    "actualizado_utc": "2026-11-12 02:45:47 UTC",
+    "dias_registrados": 84,
     "desde": "2026-07-15",
-    "hasta": "2026-11-11",
+    "hasta": "2026-11-12",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -98,6 +98,14 @@
       "ultima_fecha": "2026-11-04"
     },
     {
+      "ticker": "JPY=X",
+      "nombre": "Yen Japonés",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 13,
+      "ultima_fecha": "2026-11-12"
+    },
+    {
       "ticker": "LNG",
       "nombre": "Cheniere Energy",
       "teatro": "Rusia–Ucrania",
@@ -178,6 +186,14 @@
       "ultima_fecha": "2026-11-06"
     },
     {
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 12,
+      "ultima_fecha": "2026-11-12"
+    },
+    {
       "ticker": "FRO",
       "nombre": "Frontline plc",
       "teatro": "Complejo Israel–Irán",
@@ -210,14 +226,6 @@
       "ultima_fecha": "2026-11-10"
     },
     {
-      "ticker": "JPY=X",
-      "nombre": "Yen Japonés",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 12,
-      "ultima_fecha": "2026-11-11"
-    },
-    {
       "ticker": "LUG.TO",
       "nombre": "Lundin Gold",
       "teatro": "Américas",
@@ -240,14 +248,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 11,
       "ultima_fecha": "2026-11-04"
-    },
-    {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 11,
-      "ultima_fecha": "2026-11-10"
     },
     {
       "ticker": "MATX",
@@ -402,6 +402,14 @@
       "ultima_fecha": "2026-11-05"
     },
     {
+      "ticker": "ZIM",
+      "nombre": "Zim Integrated Shipping",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 9,
+      "ultima_fecha": "2026-11-12"
+    },
+    {
       "ticker": "LMT",
       "nombre": "Lockheed Martin",
       "teatro": "Rusia–Ucrania",
@@ -426,14 +434,6 @@
       "ultima_fecha": "2026-11-07"
     },
     {
-      "ticker": "ZIM",
-      "nombre": "Zim Integrated Shipping",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 8,
-      "ultima_fecha": "2026-11-07"
-    },
-    {
       "ticker": "AMKBY",
       "nombre": "A.P. Møller-Mærsk (ADR)",
       "teatro": "Indo-Pacífico",
@@ -451,6 +451,39 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-12",
+      "actualizado_utc": "2026-11-12 02:45:47 UTC",
+      "senales": [
+        {
+          "ticker": "JPY=X",
+          "nombre": "Yen Japonés",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 0.67,
+          "var_30d_pct": 0.91,
+          "z_score": 1.98
+        },
+        {
+          "ticker": "ZIM",
+          "nombre": "Zim Integrated Shipping",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.24,
+          "var_30d_pct": -4.67,
+          "z_score": 1.73
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 5.82,
+          "var_30d_pct": -11.7,
+          "z_score": 1.72
+        }
+      ]
+    },
     {
       "fecha": "2026-11-11",
       "actualizado_utc": "2026-11-11 01:46:08 UTC",
