@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-12 02:45:47 UTC",
-    "dias_registrados": 84,
+    "actualizado_utc": "2026-11-13 02:29:05 UTC",
+    "dias_registrados": 85,
     "desde": "2026-07-15",
-    "hasta": "2026-11-12",
+    "hasta": "2026-11-13",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -24,6 +24,14 @@
       "conflicto": "Colombia",
       "veces": 27,
       "ultima_fecha": "2026-11-10"
+    },
+    {
+      "ticker": "ALI=F",
+      "nombre": "Futuros de Aluminio",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 16,
+      "ultima_fecha": "2026-11-13"
     },
     {
       "ticker": "BZ=F",
@@ -58,14 +66,6 @@
       "ultima_fecha": "2026-11-10"
     },
     {
-      "ticker": "ALI=F",
-      "nombre": "Futuros de Aluminio",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 15,
-      "ultima_fecha": "2026-11-11"
-    },
-    {
       "ticker": "ADM",
       "nombre": "Archer-Daniels-Midland",
       "teatro": "Rusia–Ucrania",
@@ -90,12 +90,28 @@
       "ultima_fecha": "2026-11-07"
     },
     {
+      "ticker": "EWT",
+      "nombre": "iShares MSCI Taiwan ETF",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "China - Taiwán",
+      "veces": 13,
+      "ultima_fecha": "2026-11-13"
+    },
+    {
       "ticker": "EWW",
       "nombre": "iShares MSCI Mexico ETF",
       "teatro": "Américas",
       "conflicto": "México",
       "veces": 13,
       "ultima_fecha": "2026-11-04"
+    },
+    {
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 13,
+      "ultima_fecha": "2026-11-13"
     },
     {
       "ticker": "JPY=X",
@@ -186,14 +202,6 @@
       "ultima_fecha": "2026-11-06"
     },
     {
-      "ticker": "EWT",
-      "nombre": "iShares MSCI Taiwan ETF",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "China - Taiwán",
-      "veces": 12,
-      "ultima_fecha": "2026-11-12"
-    },
-    {
       "ticker": "FRO",
       "nombre": "Frontline plc",
       "teatro": "Complejo Israel–Irán",
@@ -208,14 +216,6 @@
       "conflicto": "China - Taiwán",
       "veces": 12,
       "ultima_fecha": "2026-11-06"
-    },
-    {
-      "ticker": "GC=F",
-      "nombre": "Futuros de Oro",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 12,
-      "ultima_fecha": "2026-11-05"
     },
     {
       "ticker": "GLNCY",
@@ -330,6 +330,14 @@
       "ultima_fecha": "2026-10-22"
     },
     {
+      "ticker": "ZIM",
+      "nombre": "Zim Integrated Shipping",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 10,
+      "ultima_fecha": "2026-11-13"
+    },
+    {
       "ticker": "ZW=F",
       "nombre": "Futuros de Trigo",
       "teatro": "Rusia–Ucrania",
@@ -402,12 +410,12 @@
       "ultima_fecha": "2026-11-05"
     },
     {
-      "ticker": "ZIM",
-      "nombre": "Zim Integrated Shipping",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "RHM.DE",
+      "nombre": "Rheinmetall",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
       "veces": 9,
-      "ultima_fecha": "2026-11-12"
+      "ultima_fecha": "2026-11-13"
     },
     {
       "ticker": "LMT",
@@ -422,14 +430,6 @@
       "nombre": "Palo Alto Networks",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 8,
-      "ultima_fecha": "2026-11-07"
-    },
-    {
-      "ticker": "RHM.DE",
-      "nombre": "Rheinmetall",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
       "veces": 8,
       "ultima_fecha": "2026-11-07"
     },
@@ -451,6 +451,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-13",
+      "actualizado_utc": "2026-11-13 02:29:05 UTC",
+      "senales": [
+        {
+          "ticker": "ZIM",
+          "nombre": "Zim Integrated Shipping",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.24,
+          "var_30d_pct": -4.67,
+          "z_score": 1.73
+        },
+        {
+          "ticker": "EWT",
+          "nombre": "iShares MSCI Taiwan ETF",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "China - Taiwán",
+          "var_1d_pct": 5.82,
+          "var_30d_pct": -11.7,
+          "z_score": 1.72
+        },
+        {
+          "ticker": "RHM.DE",
+          "nombre": "Rheinmetall",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -6.94,
+          "var_30d_pct": -16.71,
+          "z_score": -1.71
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.27,
+          "var_30d_pct": 2.22,
+          "z_score": -1.67
+        },
+        {
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.23,
+          "var_30d_pct": -4.79,
+          "z_score": -1.6
+        }
+      ]
+    },
     {
       "fecha": "2026-11-12",
       "actualizado_utc": "2026-11-12 02:45:47 UTC",
