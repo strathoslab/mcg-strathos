@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-13 02:29:05 UTC",
-    "dias_registrados": 85,
+    "actualizado_utc": "2026-11-14 02:04:24 UTC",
+    "dias_registrados": 86,
     "desde": "2026-07-15",
-    "hasta": "2026-11-13",
+    "hasta": "2026-11-14",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -446,11 +446,26 @@
       "nombre": "Adecoagro",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 5,
-      "ultima_fecha": "2026-10-21"
+      "veces": 6,
+      "ultima_fecha": "2026-11-14"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-14",
+      "actualizado_utc": "2026-11-14 02:04:23 UTC",
+      "senales": [
+        {
+          "ticker": "AGRO",
+          "nombre": "Adecoagro",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 7.56,
+          "var_30d_pct": -8.15,
+          "z_score": 2.66
+        }
+      ]
+    },
     {
       "fecha": "2026-11-13",
       "actualizado_utc": "2026-11-13 02:29:05 UTC",
