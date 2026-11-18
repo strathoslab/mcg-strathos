@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-17 04:22:37 UTC",
-    "dias_registrados": 87,
+    "actualizado_utc": "2026-11-18 03:27:36 UTC",
+    "dias_registrados": 88,
     "desde": "2026-07-15",
-    "hasta": "2026-11-17",
+    "hasta": "2026-11-18",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -30,8 +30,16 @@
       "nombre": "Futuros de Aluminio",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 18,
+      "ultima_fecha": "2026-11-18"
+    },
+    {
+      "ticker": "ESLT",
+      "nombre": "Elbit Systems",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 17,
-      "ultima_fecha": "2026-11-17"
+      "ultima_fecha": "2026-11-18"
     },
     {
       "ticker": "MP",
@@ -46,14 +54,6 @@
       "nombre": "Petróleo Brent",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 16,
-      "ultima_fecha": "2026-11-10"
-    },
-    {
-      "ticker": "ESLT",
-      "nombre": "Elbit Systems",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
       "veces": 16,
       "ultima_fecha": "2026-11-10"
     },
@@ -162,6 +162,14 @@
       "ultima_fecha": "2026-11-04"
     },
     {
+      "ticker": "WU",
+      "nombre": "Western Union",
+      "teatro": "Américas",
+      "conflicto": "Haití",
+      "veces": 13,
+      "ultima_fecha": "2026-11-18"
+    },
+    {
       "ticker": "XOM",
       "nombre": "ExxonMobil",
       "teatro": "Américas",
@@ -242,14 +250,6 @@
       "ultima_fecha": "2026-11-17"
     },
     {
-      "ticker": "WU",
-      "nombre": "Western Union",
-      "teatro": "Américas",
-      "conflicto": "Haití",
-      "veces": 12,
-      "ultima_fecha": "2026-11-17"
-    },
-    {
       "ticker": "ASML",
       "nombre": "ASML Holding",
       "teatro": "Indo-Pacífico",
@@ -314,6 +314,14 @@
       "ultima_fecha": "2026-11-10"
     },
     {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 11,
+      "ultima_fecha": "2026-11-18"
+    },
+    {
       "ticker": "E",
       "nombre": "Eni SpA (ADR)",
       "teatro": "África de Recursos Críticos",
@@ -352,14 +360,6 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 10,
       "ultima_fecha": "2026-11-13"
-    },
-    {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 10,
-      "ultima_fecha": "2026-10-22"
     },
     {
       "ticker": "AAPL",
@@ -451,6 +451,48 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-18",
+      "actualizado_utc": "2026-11-18 03:27:36 UTC",
+      "senales": [
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -3.88,
+          "var_30d_pct": -4.61,
+          "z_score": -2.6
+        },
+        {
+          "ticker": "ZW=F",
+          "nombre": "Futuros de Trigo",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.32,
+          "var_30d_pct": -7.44,
+          "z_score": 2.56
+        },
+        {
+          "ticker": "WU",
+          "nombre": "Western Union",
+          "teatro": "Américas",
+          "conflicto": "Haití",
+          "var_1d_pct": -5.12,
+          "var_30d_pct": -0.65,
+          "z_score": -1.9
+        },
+        {
+          "ticker": "ESLT",
+          "nombre": "Elbit Systems",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 5.85,
+          "var_30d_pct": -5.13,
+          "z_score": 1.58
+        }
+      ]
+    },
     {
       "fecha": "2026-11-17",
       "actualizado_utc": "2026-11-17 04:22:37 UTC",
