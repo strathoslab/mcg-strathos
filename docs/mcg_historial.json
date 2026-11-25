@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-24 05:47:20 UTC",
-    "dias_registrados": 92,
+    "actualizado_utc": "2026-11-25 04:49:32 UTC",
+    "dias_registrados": 93,
     "desde": "2026-07-15",
-    "hasta": "2026-11-24",
+    "hasta": "2026-11-25",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,24 +14,32 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 48,
-      "ultima_fecha": "2026-11-24"
+      "veces": 49,
+      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "KC=F",
       "nombre": "Futuros de Café (Arábica)",
       "teatro": "Américas",
       "conflicto": "Colombia",
-      "veces": 29,
-      "ultima_fecha": "2026-11-21"
+      "veces": 30,
+      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "ALI=F",
       "nombre": "Futuros de Aluminio",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 20,
-      "ultima_fecha": "2026-11-20"
+      "veces": 21,
+      "ultima_fecha": "2026-11-25"
+    },
+    {
+      "ticker": "NG=F",
+      "nombre": "Gas Natural",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 19,
+      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "MP",
@@ -42,20 +50,20 @@
       "ultima_fecha": "2026-11-21"
     },
     {
-      "ticker": "NG=F",
-      "nombre": "Gas Natural",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 18,
-      "ultima_fecha": "2026-11-24"
-    },
-    {
       "ticker": "ESLT",
       "nombre": "Elbit Systems",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 17,
       "ultima_fecha": "2026-11-18"
+    },
+    {
+      "ticker": "ADM",
+      "nombre": "Archer-Daniels-Midland",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 16,
+      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "BZ=F",
@@ -88,14 +96,6 @@
       "conflicto": "China - Taiwán",
       "veces": 16,
       "ultima_fecha": "2026-11-24"
-    },
-    {
-      "ticker": "ADM",
-      "nombre": "Archer-Daniels-Midland",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 15,
-      "ultima_fecha": "2026-11-17"
     },
     {
       "ticker": "EMB",
@@ -202,6 +202,14 @@
       "ultima_fecha": "2026-11-24"
     },
     {
+      "ticker": "CP",
+      "nombre": "Canadian Pacific Kansas City",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 13,
+      "ultima_fecha": "2026-11-25"
+    },
+    {
       "ticker": "CVX",
       "nombre": "Chevron",
       "teatro": "Américas",
@@ -258,14 +266,6 @@
       "ultima_fecha": "2026-11-10"
     },
     {
-      "ticker": "CP",
-      "nombre": "Canadian Pacific Kansas City",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 12,
-      "ultima_fecha": "2026-11-06"
-    },
-    {
       "ticker": "FRO",
       "nombre": "Frontline plc",
       "teatro": "Complejo Israel–Irán",
@@ -288,6 +288,14 @@
       "conflicto": "Rep. Dem. del Congo",
       "veces": 12,
       "ultima_fecha": "2026-11-24"
+    },
+    {
+      "ticker": "MATX",
+      "nombre": "Matson Inc",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 12,
+      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "NTR",
@@ -338,20 +346,20 @@
       "ultima_fecha": "2026-11-20"
     },
     {
-      "ticker": "MATX",
-      "nombre": "Matson Inc",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 11,
-      "ultima_fecha": "2026-11-06"
-    },
-    {
       "ticker": "NVDA",
       "nombre": "Nvidia",
       "teatro": "Indo-Pacífico",
       "conflicto": "China - Taiwán",
       "veces": 11,
       "ultima_fecha": "2026-11-24"
+    },
+    {
+      "ticker": "PA=F",
+      "nombre": "Futuros de Paladio",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 11,
+      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "RTX",
@@ -368,14 +376,6 @@
       "conflicto": "China - Taiwán",
       "veces": 10,
       "ultima_fecha": "2026-10-22"
-    },
-    {
-      "ticker": "PA=F",
-      "nombre": "Futuros de Paladio",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 10,
-      "ultima_fecha": "2026-11-20"
     },
     {
       "ticker": "PANW",
@@ -434,23 +434,110 @@
       "ultima_fecha": "2026-11-19"
     },
     {
+      "ticker": "AMKBY",
+      "nombre": "A.P. Møller-Mærsk (ADR)",
+      "teatro": "Indo-Pacífico",
+      "conflicto": "Disputas marítimas",
+      "veces": 8,
+      "ultima_fecha": "2026-11-25"
+    },
+    {
       "ticker": "LMT",
       "nombre": "Lockheed Martin",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
       "veces": 8,
       "ultima_fecha": "2026-11-06"
-    },
-    {
-      "ticker": "AMKBY",
-      "nombre": "A.P. Møller-Mærsk (ADR)",
-      "teatro": "Indo-Pacífico",
-      "conflicto": "Disputas marítimas",
-      "veces": 7,
-      "ultima_fecha": "2026-11-11"
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-25",
+      "actualizado_utc": "2026-11-25 04:49:32 UTC",
+      "senales": [
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 16.83,
+          "var_30d_pct": 42.97,
+          "z_score": 3.53
+        },
+        {
+          "ticker": "MATX",
+          "nombre": "Matson Inc",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -6.59,
+          "var_30d_pct": -16.53,
+          "z_score": -3.34
+        },
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 3.57,
+          "var_30d_pct": -1.15,
+          "z_score": 3.08
+        },
+        {
+          "ticker": "AMKBY",
+          "nombre": "A.P. Møller-Mærsk (ADR)",
+          "teatro": "Indo-Pacífico",
+          "conflicto": "Disputas marítimas",
+          "var_1d_pct": -6.19,
+          "var_30d_pct": -22.21,
+          "z_score": -2.94
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -5.14,
+          "var_30d_pct": -14.7,
+          "z_score": -2.79
+        },
+        {
+          "ticker": "KC=F",
+          "nombre": "Futuros de Café (Arábica)",
+          "teatro": "Américas",
+          "conflicto": "Colombia",
+          "var_1d_pct": -5.08,
+          "var_30d_pct": -13.47,
+          "z_score": -2.4
+        },
+        {
+          "ticker": "ADM",
+          "nombre": "Archer-Daniels-Midland",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -3.81,
+          "var_30d_pct": -17.24,
+          "z_score": -2.12
+        },
+        {
+          "ticker": "PA=F",
+          "nombre": "Futuros de Paladio",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": -4.99,
+          "var_30d_pct": -18.84,
+          "z_score": -1.83
+        },
+        {
+          "ticker": "CP",
+          "nombre": "Canadian Pacific Kansas City",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": 2.42,
+          "var_30d_pct": 3.34,
+          "z_score": 1.67
+        }
+      ]
+    },
     {
       "fecha": "2026-11-24",
       "actualizado_utc": "2026-11-24 05:47:20 UTC",
