@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-25 04:49:32 UTC",
-    "dias_registrados": 93,
+    "actualizado_utc": "2026-11-26 04:01:46 UTC",
+    "dias_registrados": 94,
     "desde": "2026-07-15",
-    "hasta": "2026-11-25",
+    "hasta": "2026-11-26",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -14,8 +14,8 @@
       "nombre": "Futuros de Maíz",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 49,
-      "ultima_fecha": "2026-11-25"
+      "veces": 50,
+      "ultima_fecha": "2026-11-26"
     },
     {
       "ticker": "KC=F",
@@ -30,16 +30,16 @@
       "nombre": "Futuros de Aluminio",
       "teatro": "Complejo Israel–Irán",
       "conflicto": "Irán–Israel–EE.UU.",
-      "veces": 21,
-      "ultima_fecha": "2026-11-25"
+      "veces": 22,
+      "ultima_fecha": "2026-11-26"
     },
     {
       "ticker": "NG=F",
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 19,
-      "ultima_fecha": "2026-11-25"
+      "veces": 20,
+      "ultima_fecha": "2026-11-26"
     },
     {
       "ticker": "MP",
@@ -106,12 +106,28 @@
       "ultima_fecha": "2026-11-24"
     },
     {
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
+      "teatro": "Américas",
+      "conflicto": "México",
+      "veces": 15,
+      "ultima_fecha": "2026-11-26"
+    },
+    {
       "ticker": "GLNCY",
       "nombre": "Glencore ADR",
       "teatro": "África de Recursos Críticos",
       "conflicto": "Rep. Dem. del Congo",
       "veces": 15,
       "ultima_fecha": "2026-11-24"
+    },
+    {
+      "ticker": "ZW=F",
+      "nombre": "Futuros de Trigo",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 15,
+      "ultima_fecha": "2026-11-26"
     },
     {
       "ticker": "AA",
@@ -128,14 +144,6 @@
       "conflicto": "Rusia - Ucrania",
       "veces": 14,
       "ultima_fecha": "2026-11-21"
-    },
-    {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 14,
-      "ultima_fecha": "2026-11-19"
     },
     {
       "ticker": "INSW",
@@ -176,14 +184,6 @@
       "conflicto": "Venezuela - Guyana",
       "veces": 14,
       "ultima_fecha": "2026-11-19"
-    },
-    {
-      "ticker": "ZW=F",
-      "nombre": "Futuros de Trigo",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 14,
-      "ultima_fecha": "2026-11-24"
     },
     {
       "ticker": "ASML",
@@ -451,6 +451,57 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-26",
+      "actualizado_utc": "2026-11-26 04:01:46 UTC",
+      "senales": [
+        {
+          "ticker": "ZC=F",
+          "nombre": "Futuros de Maíz",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 5.13,
+          "var_30d_pct": 1.67,
+          "z_score": 3.79
+        },
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 10.83,
+          "var_30d_pct": 36.56,
+          "z_score": 2.6
+        },
+        {
+          "ticker": "ZW=F",
+          "nombre": "Futuros de Trigo",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 2.94,
+          "var_30d_pct": -3.89,
+          "z_score": 2.02
+        },
+        {
+          "ticker": "ALI=F",
+          "nombre": "Futuros de Aluminio",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": -2.98,
+          "var_30d_pct": -15.17,
+          "z_score": -1.77
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": 2.02,
+          "var_30d_pct": -2.21,
+          "z_score": 1.59
+        }
+      ]
+    },
     {
       "fecha": "2026-11-25",
       "actualizado_utc": "2026-11-25 04:49:32 UTC",
