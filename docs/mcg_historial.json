@@ -2,10 +2,10 @@
   "meta": {
     "producto": "Monitor de Conflictos Geopolíticos (MCG) — historial de señales",
     "organizacion": "Strathos Lab",
-    "actualizado_utc": "2026-11-26 04:01:46 UTC",
-    "dias_registrados": 94,
+    "actualizado_utc": "2026-11-27 03:59:34 UTC",
+    "dias_registrados": 95,
     "desde": "2026-07-15",
-    "hasta": "2026-11-26",
+    "hasta": "2026-11-27",
     "encuadre": "Registro histórico de movimientos fuera de rango. La recurrencia indica persistencia de tensión en un activo, no causalidad respecto del conflicto."
   },
   "recurrentes": [
@@ -38,8 +38,8 @@
       "nombre": "Gas Natural",
       "teatro": "Rusia–Ucrania",
       "conflicto": "Rusia - Ucrania",
-      "veces": 20,
-      "ultima_fecha": "2026-11-26"
+      "veces": 21,
+      "ultima_fecha": "2026-11-27"
     },
     {
       "ticker": "MP",
@@ -56,6 +56,14 @@
       "conflicto": "Irán–Israel–EE.UU.",
       "veces": 17,
       "ultima_fecha": "2026-11-18"
+    },
+    {
+      "ticker": "GC=F",
+      "nombre": "Futuros de Oro",
+      "teatro": "Complejo Israel–Irán",
+      "conflicto": "Irán–Israel–EE.UU.",
+      "veces": 17,
+      "ultima_fecha": "2026-11-27"
     },
     {
       "ticker": "ADM",
@@ -82,12 +90,12 @@
       "ultima_fecha": "2026-11-24"
     },
     {
-      "ticker": "GC=F",
-      "nombre": "Futuros de Oro",
-      "teatro": "Complejo Israel–Irán",
-      "conflicto": "Irán–Israel–EE.UU.",
+      "ticker": "EWW",
+      "nombre": "iShares MSCI Mexico ETF",
+      "teatro": "Américas",
+      "conflicto": "México",
       "veces": 16,
-      "ultima_fecha": "2026-11-21"
+      "ultima_fecha": "2026-11-27"
     },
     {
       "ticker": "REMX",
@@ -104,14 +112,6 @@
       "conflicto": "Ecuador",
       "veces": 15,
       "ultima_fecha": "2026-11-24"
-    },
-    {
-      "ticker": "EWW",
-      "nombre": "iShares MSCI Mexico ETF",
-      "teatro": "Américas",
-      "conflicto": "México",
-      "veces": 15,
-      "ultima_fecha": "2026-11-26"
     },
     {
       "ticker": "GLNCY",
@@ -306,6 +306,14 @@
       "ultima_fecha": "2026-11-20"
     },
     {
+      "ticker": "PA=F",
+      "nombre": "Futuros de Paladio",
+      "teatro": "Rusia–Ucrania",
+      "conflicto": "Rusia - Ucrania",
+      "veces": 12,
+      "ultima_fecha": "2026-11-27"
+    },
+    {
       "ticker": "URA",
       "nombre": "Global X Uranium ETF",
       "teatro": "África de Recursos Críticos",
@@ -352,14 +360,6 @@
       "conflicto": "China - Taiwán",
       "veces": 11,
       "ultima_fecha": "2026-11-24"
-    },
-    {
-      "ticker": "PA=F",
-      "nombre": "Futuros de Paladio",
-      "teatro": "Rusia–Ucrania",
-      "conflicto": "Rusia - Ucrania",
-      "veces": 11,
-      "ultima_fecha": "2026-11-25"
     },
     {
       "ticker": "RTX",
@@ -451,6 +451,48 @@
     }
   ],
   "dias": [
+    {
+      "fecha": "2026-11-27",
+      "actualizado_utc": "2026-11-27 03:59:34 UTC",
+      "senales": [
+        {
+          "ticker": "PA=F",
+          "nombre": "Futuros de Paladio",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 8.89,
+          "var_30d_pct": -10.34,
+          "z_score": 2.82
+        },
+        {
+          "ticker": "NG=F",
+          "nombre": "Gas Natural",
+          "teatro": "Rusia–Ucrania",
+          "conflicto": "Rusia - Ucrania",
+          "var_1d_pct": 10.16,
+          "var_30d_pct": 27.83,
+          "z_score": 2.46
+        },
+        {
+          "ticker": "GC=F",
+          "nombre": "Futuros de Oro",
+          "teatro": "Complejo Israel–Irán",
+          "conflicto": "Irán–Israel–EE.UU.",
+          "var_1d_pct": 3.49,
+          "var_30d_pct": -9.69,
+          "z_score": 1.76
+        },
+        {
+          "ticker": "EWW",
+          "nombre": "iShares MSCI Mexico ETF",
+          "teatro": "Américas",
+          "conflicto": "México",
+          "var_1d_pct": 2.02,
+          "var_30d_pct": -2.21,
+          "z_score": 1.59
+        }
+      ]
+    },
     {
       "fecha": "2026-11-26",
       "actualizado_utc": "2026-11-26 04:01:46 UTC",
